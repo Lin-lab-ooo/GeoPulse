@@ -30,6 +30,8 @@ npm start
 
 ## 整图性能报告与曲线
 
+[按主题阅读新版性能图](reports/whole-map-2026-10-15-design/README.md)：每张图单独展示一个主题，保留实测散点、中位数与范围；加载、更新、CPU、GPU 和百度验证分别组织。下载仓库后可打开其中的 `index.html`，一次浏览一张图。本次只是图表重排，原始数据和报告保留。
+
 [2026-10-14 整图报告](reports/whole-map-2026-10-14/README.md)比较真实城市底图上的流式加载、地图交互和位置更新，分别记录 CPU、GPU 与浏览器呈现反馈。下表为本机 10 万合成点、相同批量策略、各三次重复的中位数；MapLibre 使用原生更新合并。各库的完成条件和重复范围在报告中单列。
 
 | 指标 | GeoPulse | deck.gl | MapLibre |
@@ -39,9 +41,9 @@ npm start
 
 准备时间包含底图资源与业务链路，排除运行前已加载的 JS 包。优势集中在这些场景的数据接入和位置更新；整图稳态 GPU 绘制没有 GeoPulse 领先证据，不能把加载收益换算为 FPS 提升。与 deck.gl 的准备时间重复范围存在重叠，不据中位数小差异宣称普遍优势。
 
-![整图和业务准备时间：相同批次、合理原生提交路径](reports/whole-map-2026-10-14/figures/matched/matched-optimized-overview.png)
+![整图与业务准备完成：三次实测、中位数与范围](reports/whole-map-2026-10-15-design/figures/matched/whole-map-ready.png)
 
-![整图 GPU 曲线：CPU/GPU/呈现分别统计](reports/whole-map-2026-10-14/figures/primary/camera-whole-map-gpu.png)
+[单独查看两点更新图](reports/whole-map-2026-10-15-design/charts/updates/two-point-update-wall.md) · [单独查看整图 CPU](reports/whole-map-2026-10-15-design/charts/matched/camera-whole-map-cpu.md) · [单独查看整图 GPU](reports/whole-map-2026-10-15-design/charts/matched/camera-whole-map-gpu.md)。
 
 百度生产路径另测真实上海底图上的 10 万合成点、线、矩形（12 万顶点）。底图准备后的业务加载中位数由 454.3 ms 降到 254.3 ms；SDK 连接和底图网络准备时间另记。这是固定批次与 hybrid 的本机对照，不能当作整张地图冷启动或帧率提升。
 
@@ -59,6 +61,8 @@ npm test
 
 图表源码和从公开聚合数据重画的命令见[图表复现](tools/whole-map-report-analysis/README.md)，不需要地图 AK。
 
+新版独立图与画廊的生成命令见[新版图表复现](tools/whole-map-report-design/README.md)。
+
 需要验证真实取流、Worker、完整图元上传、像素、更新、取消和导出时，按[可选浏览器复现](docs/BROWSER-REPRODUCTION.md)运行独立链路工具。它不包含在默认CI中，研究组合也没有改写生产默认。
 
 一个依赖约69.23MiB历史JSON的归档证据审计测试被单列为 `npm run test:archive`。历史报告原件没有复制到公开仓库；缺少输入时该命令明确退出2，不静默跳过。详情见[归档测试](docs/ARCHIVE-TESTS.md)。GitHub Actions只运行核心Node测试，不能替代原生WebGL、真实SDK或性能测试。
@@ -73,4 +77,4 @@ npm test
 
 自有源码采用[MIT](LICENSE)。SKAB数据及其重排文件有单独GPL-3.0文本和作者说明，不受项目MIT声明替代。见[第三方材料](THIRD_PARTY_NOTICES.md)与[模型实验](ml/README.md)。百度SDK在线加载，用户自行配置服务账号。
 
-GitHub：[Lin-lab-ooo/GeoPulse](https://github.com/Lin-lab-ooo/GeoPulse)。本次整图报告更新发布到 GitHub；历史创建时点清单保留原始状态，不作为当前发布状态。
+GitHub：[Lin-lab-ooo/GeoPulse](https://github.com/Lin-lab-ooo/GeoPulse) · Gitee：[lin-lab/GeoPulse](https://gitee.com/lin-lab/GeoPulse)。两边使用同一条发布历史；历史创建时点清单保留原始状态，不作为当前发布状态。

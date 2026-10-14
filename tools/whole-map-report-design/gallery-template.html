@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoPulse · 整图性能图表</title>
+<style>
+:root{font-family:"Microsoft YaHei",system-ui,sans-serif;color:#172b42;background:#f3f6fa;color-scheme:light}
+*{box-sizing:border-box}body{margin:0}button,select{font:inherit}button,a,select{touch-action:manipulation}a{color:#087b76;text-decoration:none}a:hover{text-decoration:underline}
+header{padding:22px max(24px,calc((100vw - 1480px)/2));background:#12283f;color:white;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.brand{font-size:20px;font-weight:700;letter-spacing:.05em}.brand span{font-weight:400;color:#c8d6e5;font-size:14px;letter-spacing:0;margin-left:18px}.edition{font-size:12px;color:#c8d6e5}
+main{max-width:1480px;margin:30px auto;padding:0 24px}h1{font-size:27px;margin:0 0 8px}.intro{color:#617186;line-height:1.8;margin:0 0 26px;max-width:1000px}
+.layout{display:grid;grid-template-columns:290px 1fr;gap:24px}.sidebar,.viewer{background:white;border:1px solid #e1e7ef;border-radius:12px;overflow:hidden}.sidebar{padding:18px;align-self:start}.sidebar label{display:block;color:#64758a;font-size:12px;margin:0 0 8px}select{width:100%;padding:10px 8px;background:#f7f9fc;border:1px solid #dce3ec;border-radius:6px;color:#243b52;margin-bottom:16px}
+.list{display:grid;gap:4px;max-height:68vh;overflow:auto}.chart-item{background:none;border:0;border-left:3px solid transparent;text-align:left;padding:12px 9px;color:#4e6075;line-height:1.5;cursor:pointer;border-radius:4px}.chart-item:hover{background:#f4f8fa}.chart-item[aria-current=true]{border-left-color:#0d8c85;background:#edf7f5;color:#087b76;font-weight:700}
+.toolbar{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e7ecf2;padding:16px 22px;gap:10px}.counter{font-size:12px;color:#64758a}.controls{display:flex;gap:8px}.controls button{background:white;border:1px solid #dce3ec;color:#243b52;padding:7px 13px;border-radius:6px;cursor:pointer}.controls button:disabled{opacity:.35;cursor:default}
+.figure{padding:12px 10px 0}.figure img{display:block;width:100%;height:auto}.details{padding:18px 24px 22px;border-top:1px solid #e7ecf2}.downloads{display:flex;gap:20px;flex-wrap:wrap;font-size:13px}.notes{font-size:12px;line-height:1.8;color:#64758a;margin-top:15px}.notes p{margin:7px 0}footer{padding:24px 0;font-size:12px;color:#738298;line-height:1.8}
+@media(max-width:950px){.layout{grid-template-columns:1fr}.sidebar{padding:14px}.list{max-height:180px;grid-template-columns:repeat(2,1fr)}.brand span{display:none}header{padding:20px 24px}.figure{padding:0}.controls button{padding:7px 10px}}@media(max-width:550px){main{padding:0 12px;margin:22px auto}h1{font-size:22px}.toolbar{padding:12px}.list{grid-template-columns:1fr}.edition{max-width:120px;text-align:right}.details{padding:14px}}
+</style>
+<header><div class="brand">GeoPulse <span>整图性能实验</span></div><div class="edition">2026-10-15 · 图表展示版</div></header>
+<main>
+<h1>一次，只看一张图。</h1>
+<p class="intro">按场景选择图表，单独阅读加载、更新和渲染成本。圆点保留各次实测，空心标记与横线分别表示重复中位数和最小–最大范围。全部数字来自已发布的 2026-10-14 实测；本版只调整图表布局，没有新增性能测试。</p>
+<div class="layout">
+<aside class="sidebar"><label for="family">实验类别</label><select id="family"><option value="matched">共同策略与完成条件</option><option value="updates">已加载地图的位置更新</option><option value="baidu">百度生产场景</option><option value="primary">默认策略与阶段归档</option></select><nav class="list" id="list" aria-label="单图目录"></nav></aside>
+<section class="viewer" aria-label="当前图表"><div class="toolbar"><span class="counter" id="counter"></span><div class="controls"><button id="previous" aria-label="上一张图">← 上一张</button><button id="next" aria-label="下一张图">下一张 →</button></div></div><div class="figure"><img id="plot" alt="" /></div><div class="details"><div class="downloads"><a id="png" download>下载 PNG</a><a id="svg" download>下载 SVG</a><a id="page">单图说明</a><a href="../whole-map-2026-10-14/README.md">实测报告与来源</a></div><div class="notes" id="notes"></div></div></section>
+</div>
+<footer>完成条件不同的实验分别展示；CPU、GPU 和墙钟等待不能相加。浏览器呈现反馈不等于物理显示帧率。三次重复的范围不是置信区间。<br><a href="README.md">Markdown 图表目录</a> · <a href="verification.json">数值与来源核验</a></footer>
+</main>
+<script>
+const charts=__CHARTS__;
+let active=0,filtered=[];
+const select=document.querySelector('#family'),list=document.querySelector('#list'),plot=document.querySelector('#plot');
+function show(index){
+ active=index;const chart=filtered[index];if(!chart)return;
+ const png=chart.files.find(f=>f.file.endsWith('.png')).file,svg=chart.files.find(f=>f.file.endsWith('.svg')).file;
+ plot.src=png;plot.alt=chart.title;
+ document.querySelector('#png').href=png;document.querySelector('#svg').href=svg;document.querySelector('#page').href=chart.page;
+ document.querySelector('#counter').textContent=`${index+1} / ${filtered.length} · ${chart.title}`;
+ const notes=document.querySelector('#notes');notes.replaceChildren();chart.notes.forEach(text=>{const p=document.createElement('p');p.textContent=text;notes.append(p)});
+ list.querySelectorAll('button').forEach((button,i)=>button.setAttribute('aria-current',String(i===index)));
+ document.querySelector('#previous').disabled=index===0;document.querySelector('#next').disabled=index===filtered.length-1;
+}
+function filter(){filtered=charts.filter(c=>c.family===select.value);list.replaceChildren();filtered.forEach((chart,index)=>{const button=document.createElement('button');button.className='chart-item';button.textContent=chart.title;button.addEventListener('click',()=>show(index));list.append(button)});show(0)}
+select.addEventListener('change',filter);document.querySelector('#previous').addEventListener('click',()=>show(active-1));document.querySelector('#next').addEventListener('click',()=>show(active+1));
+document.addEventListener('keydown',event=>{if(event.target.tagName==='SELECT')return;if(event.key==='ArrowRight'&&active<filtered.length-1)show(active+1);if(event.key==='ArrowLeft'&&active>0)show(active-1)});filter();
+</script>
+</html>

@@ -27,3 +27,7 @@ Thumbs.db
 # Reviewed whole-map report, figures and sanitized measurement extracts.
 !reports/whole-map-2026-10-14/
 !reports/whole-map-2026-10-14/**
+
+# Measured chart redesign; immutable source report stays in its dated directory.
+!reports/whole-map-2026-10-15-design/
+!reports/whole-map-2026-10-15-design/**
