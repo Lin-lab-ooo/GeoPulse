@@ -1,0 +1,25 @@
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+*.7z
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+reports/*
+!reports/.gitkeep
+!reports/chain-combinations-public-summary-2.6.json
+.DS_Store
+Thumbs.db
+.codex/
+.agents/
+
+# Reviewed local sandbox screenshot; all other generated images remain ignored.
+!docs/assets/workspace.png

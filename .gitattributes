@@ -1,0 +1,2 @@
+# Preserve exact runtime/data bytes across checkouts. Hash-bound fixtures must not be rewritten.
+* -text

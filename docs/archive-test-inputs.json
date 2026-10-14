@@ -1,0 +1,39 @@
+{
+  "schema": "geopulse/archive-test-inputs-2.6",
+  "files": [
+    {
+      "path": "reports/baidu-loading-2.6-formal-final-raw-evidence.json",
+      "bytes": 34588643
+    },
+    {
+      "path": "reports/baidu-loading-2.6-formal-final.json",
+      "bytes": 222576
+    },
+    {
+      "path": "reports/verified-browser-1791915669010-a4eef363-20f0-4b39-9c6d-e65bec617e5c.json",
+      "bytes": 34583578
+    },
+    {
+      "path": "reports/ui-functional-2.6-final5.json",
+      "bytes": 25544
+    },
+    {
+      "path": "reports/verified-browser-1791913298664-6cc71796-81d2-41f9-b9bd-51e529464bd0.json",
+      "bytes": 77517
+    },
+    {
+      "path": "reports/verified-browser-1791913298849-6754ed86-6534-4a56-963a-fe55de743456.json",
+      "bytes": 1531188
+    },
+    {
+      "path": "reports/verified-browser-1791913298950-f7781422-1f71-469f-b5fa-be0092e99cef.json",
+      "bytes": 1531297
+    },
+    {
+      "path": "reports/verified-browser-1791913298977-b6c216c0-ba95-4dfa-bdbb-c3d6d713b887.json",
+      "bytes": 36675
+    }
+  ],
+  "totalBytes": 72597018,
+  "source": "Original unmodified historical reports; not included in this public checkout."
+}

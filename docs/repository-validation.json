@@ -1,0 +1,40 @@
+{
+  "schema": "geopulse/public-repository-verification-2.6",
+  "verifiedAt": "2026-10-14T06:20:25.690Z",
+  "published": false,
+  "intendedRepository": "Lin-lab-ooo/GeoPulse",
+  "mirror": "Gitee",
+  "runtime": "468a4b02d775e3056526a06da4ed787b232738e3adf57c6b9a3272e6a8624a5a",
+  "algorithmSource": "7f31f24b6beae2fe2b52960898edfef18d1c3ababb9c3846a8c77f51077e23cc",
+  "testedOriginalRuntime": "fcc172a190aab5292ab81e39c2e2af9121fd10c3ff63fcc8e98cababab46bfbe",
+  "runtimeDifferences": [
+    "package.json",
+    "public/ai/NOTICE.txt"
+  ],
+  "explanation": "Package test scripts split archive evidence from core tests; NOTICE corrects a relative provenance path. All server and application algorithm bytes match the measured source.",
+  "coreTests": {
+    "passed": 594,
+    "failed": 0,
+    "skipped": 0,
+    "files": 70,
+    "logSHA256": "e5347fccd88a3c51910c66a61adb5331a23bcb3465c18c5429630d9675a8a898",
+    "node": "v24.19.0"
+  },
+  "coldStart": {
+    "passed": 11,
+    "failed": 0,
+    "rawReceiptSHA256": "e735b4e7c0858fb57192e28558cc9db659a29595173370a6e3cc4354d022e244",
+    "scope": "100000 gzip records, original UI/Worker/HTTP, layer/camera/mobile/export. Before NOTICE-only correction."
+  },
+  "newChain": {
+    "qualityAssertions": 246,
+    "fullRGBAComparisons": 72,
+    "performanceRuns": 54,
+    "localSearchRequests": 0
+  },
+  "limitations": [
+    "SDK forced context-loss reload remains unresolved",
+    "Core Node tests and public cold-start do not rerun every historical benchmark",
+    "UI screenshot is headless local sandbox, not physical presentation FPS"
+  ]
+}

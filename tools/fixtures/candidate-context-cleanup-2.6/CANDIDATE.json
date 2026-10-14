@@ -1,0 +1,64 @@
+{
+  "schema": "geo-pulse/context-cleanup-candidate-2.6",
+  "status": "NOT_APPLIED_NOT_TESTED",
+  "productionModified": false,
+  "baseRendererPath": "public/js/renderer.js",
+  "baseRendererSHA256": "0d2b14d8c8787662e7527b07e23157bed91859e0b81ad526234598408b455219",
+  "candidateSHA256": "69d6fe8f39008220e5f53b4fcc983cd29d15e41c765877fec8d55201187fb59b",
+  "patchSHA256": "65acd6315c50b57419c518888f7f2ff9e14240e40200159aa9913ecaf8559857",
+  "baseJSBindings": {
+    "public/js/data.js": "0ed171c44e9d2eb17a61ba0dd41455b83f1dc535940fc5faf8ff41d5e5a14b59",
+    "public/js/stream-worker.js": "da2ee18942dd03a0a92784ac6c1ef8c0c831f009420fefdd257710bf69ed7327",
+    "public/js/renderer.js": "0d2b14d8c8787662e7527b07e23157bed91859e0b81ad526234598408b455219",
+    "public/js/scheduler.js": "6f42c06cb085e19c9ecb6d4492e89cd136f7d227180b2f5a9730999b4fbf4226",
+    "public/js/app.js": "c8fc380477c2a25bf4253bd8debda7f0d010bf5fcd5e50105f828e6fd27c960a",
+    "public/js/neural-model.js": "f8d0da26d22bb17799d313d3ecd128831ad77f2c3f440060ffaf60a2abb35344",
+    "public/js/neural-worker.js": "79f91d993652d6832a9f717d6ca0bd6639a81519f22cc9904dbde4a22ae1bb29",
+    "public/js/neural-panel.js": "352f81202e214f36f312157a814f2b6a26303e8015e799b52a3c0aae45f2b04c",
+    "public/js/lod-experiment.js": "b67819eb94d55ecb9251750e7eef816c8e09821c240f1877854f780275b0f6ab",
+    "public/js/dirty-ranges.js": "6a8597591b03bb2b8546d4fe17773643f96ced66efaa3f42166140d539847a43",
+    "public/js/spatial-index.js": "94e7947124cc1426d7a6c812a03ade0e77c789b0ec5dcff8e50582965dc8ba43",
+    "public/js/optimization-fixtures.js": "defdbfa448f44ffec5f6d62d30463f194b3505c694c1436166d6cd6865266b6f",
+    "public/js/optimization-experiment.js": "e34d655a2d734aab49586c39b7bd1af6a02d4d0587ad84a4fccbbe6782b45877",
+    "public/js/map-frame-experiment.js": "31e8e392a539baa8dec72583d0b49785d438b40b8f58340d9f2e6bac19cdbc63",
+    "public/js/baidu-poi.js": "92da8db7879e349df6c233fd4795793f9ac669fe895a32675eceff7f8923c4ed",
+    "public/js/baidu-poi-cache.js": "0a777d8c8cc7da3322069b4b79181cb9a2a75b801afd77e40efdef99f741c830",
+    "public/js/baidu-poi-rate-limit.js": "6a5832b5b281cf7b4b31eb86c81dbac67b22c2466fa4066026c61167bce5d095",
+    "public/js/coarse-spatial-index.js": "5d01626be3ecd442512b9b6a311715266ffb693cd0571966a2f80c10031c3a64",
+    "public/js/loading-experiment.js": "8ddc21a222d06461aef2b4fb151c5170adc70dc097d033fcc6118c4d3764390d",
+    "public/js/demand-experiment.js": "d11af04a2f984080b4d6e9e928b83341dcc2e3521d9c77d5e5511b35dc512512",
+    "public/js/projected-bounds.js": "4e4b25c5a37af05726ebae4fe8e85d7bbb69274fea48015357641ab1ec8a0409",
+    "public/js/spatial-query-worker.js": "714f6721097d75ce61289cdee69a46d6c57c045d2be4edaf3b22de39cc105489",
+    "public/js/spatial-query-client.js": "7eca978035cb410d1dc2f28c5e0d7184aa995e362ba5772d814d4872b07d693f",
+    "public/js/update-queue.js": "7529c792bd040ec5d1fc26515cf817c360e6e05c5d1b4fd134bf04500e83427e",
+    "public/js/feature-overlay.js": "c2c21c6518081bdfe3a54690b9aed3392d6ec296d5d370d08ed795c0975269f2",
+    "public/js/loading-staging.js": "752fecfa4bdca84ac55bf1bfb001e12a61829a0bbcd4a7de25ca5b953fe0c9bc",
+    "public/js/version.js": "4cd45d23e2356f7151082419fa7dbf2914a712ba17704dc9a2ade6b323a6348d",
+    "public/js/transport.js": "45b6ca482a634c7c2bcff187f7f793b7d5a58b1c8e991213be696dfc82faa9e3",
+    "public/js/upload-cost-policy.js": "6d32f523621dc6d362b49fa8e674ffb7cffb47c09f372006248ee3fa8c3c5d3e",
+    "public/js/spatial-work-policy.js": "862ab070f157fd4b3393eda642993f2f207fc742cc5040d3d052d4a62a02c623",
+    "public/js/upload-density-policy.js": "007caee82b87c36dcf3eb0d228cd1cb25e9cf1f4b2b9bb9847720062d8fdc087",
+    "public/js/color-dirty-state.js": "2082983e281d72d8263dd5aa89aca9d23671e96d636090997d219509e3a6d023",
+    "public/js/live-bounds-index.js": "e773fce9074bab1775289f38076b6360b411b26c6bd286354e7b4da18931a713",
+    "public/js/pick-spatial.js": "69f2f6b218d422e49bb6740d6cbe01a4e1bfdb9dcacd2a36719c716a392c7fb6",
+    "public/js/workspace-ui.js": "a891f171aadc44c4c9f097d1c40b0ab22ded6f6bfe7d960940af78de2450005a",
+    "public/js/run-outcome.js": "663b4f8de242c51848f2ee0324f59ab8870e84cbd8961aa86d426cae0cc28247",
+    "public/js/report-export.js": "fc7f975d6d57e12e52cc7a806587102f410fbc20a8b7e2c102a1bc802c5ea1d4"
+  },
+  "limitations": [
+    "Static candidate only. No regression or native test has run.",
+    "Review patch against current renderer and require exact base SHA before application.",
+    "Changing renderer invalidates whole-runtime identity; release evidence must be generated for the applied source."
+  ],
+  "variants": {
+    "renderer-fallback.candidate.js": {
+      "sha256": "2a57043dbd9685a65841b0a8eb2f905e0f156433efe875678cebf6166b8037df",
+      "status": "NOT_APPLIED_NOT_TESTED"
+    },
+    "renderer-combined.candidate.js": {
+      "sha256": "f3b751f53ec78acfe79337e3cf19abb2b7c1054f1b94f06270b766824515d1bc",
+      "status": "NOT_APPLIED_NOT_TESTED"
+    }
+  },
+  "fallbackPatchSHA256": "5e48de4063a7a827ace420ffe8b018b06b95a76335fe17ab96813789d17e8469"
+}

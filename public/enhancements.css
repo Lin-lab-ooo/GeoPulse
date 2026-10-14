@@ -1,0 +1,88 @@
+.hidden { display: none !important; }
+.anomaly-item > .alert-dot { width: 5px; height: 5px; border-radius: 50%; background: #d56a7d; flex: none; }
+.anomaly-item > div { display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1; }
+.anomaly-item strong, .anomaly-item small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.anomaly-item > b { font-size: 12px; font-weight: 500; color: #b38b55; white-space: nowrap; }
+.empty-insight { padding: 28px 10px; text-align: center; color: #91a8b5; font-size: 12px; border: 1px dashed #d9e4e9; border-radius: 5px; }
+.neural-panel { margin: 0; padding: 25px 24px; }
+.neural-heading, .neural-actions, .neural-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.neural-heading h2 { font-size: 22px; font-weight: 500; margin-top: 4px; }
+.neural-intro { font-size: 12px; color: var(--muted); margin: 16px 0; line-height: 1.9; max-width: 780px; }
+.neural-actions { justify-content: flex-start; flex-wrap: wrap; margin-bottom: 11px; }
+.neural-actions .primary-button { font-size: 12px; padding: 10px 14px; }
+.neural-metrics { display: grid; grid-template-columns: 1fr 1fr 1.3fr; gap: 0; margin: 22px 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; background: #f8fafb; }
+.neural-metrics > div { padding: 15px; min-width: 0; }
+.neural-metrics > div + div { border-left: 1px solid var(--border); }
+.neural-metrics span { display: block; font-size: 12px; color: var(--muted); }
+.neural-metrics strong { display: block; font: 16px var(--mono); color: #486e83; margin-top: 8px; overflow-wrap: anywhere; }
+.neural-channels { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 10px; }
+.neural-channel { padding: 12px; background: #f3f7f9; border: 1px solid #e3ebef; border-radius: 5px; }
+.neural-channel span, .neural-channel small { display: block; color: #8ca5b3; font-size: 12px; }
+.neural-channel strong { display: block; color: #5c7e90; font: 13px var(--mono); margin: 6px 0; }
+.neural-footer { margin-top: 17px; color: #879eac; font-size: 12px; }
+.neural-footer a { color: var(--green); }
+#neural-status[data-state=anomaly] { color: var(--red) !important; background: #fff0f3; }
+#neural-status[data-state=normal] { color: var(--green) !important; background: #ecf6f7; }
+.neural-comparison { overflow-x: auto; }
+.neural-comparison table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 12px; }
+.neural-comparison th, .neural-comparison td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); }
+.neural-comparison th { background: #f5f8fa; color: var(--muted); font-weight: 400; }
+.neural-comparison td { color: #648599; }
+.neural-comparison caption { text-align: left; color: var(--muted); font-size: 12px; margin-bottom: 9px; }
+.lod-experiment { margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--border); }
+.lod-experiment h3 { font-size: 15px; font-weight: 500; color: #53788c; margin-bottom: 10px; }
+.lod-experiment > button { margin-top: 12px; }
+@media (max-width: 850px) {
+  .neural-panel { padding: 20px 16px; }
+  .neural-heading h2 { font-size: 19px; }
+  .neural-channels { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 600px) {
+  .neural-metrics { grid-template-columns: 1fr 1fr; }
+  .neural-metrics > div:last-child { grid-column: 1/-1; border-left: 0; border-top: 1px solid var(--border); }
+  .neural-heading { align-items: start; }
+  .neural-heading h2 { font-size: 18px; }
+  .neural-footer { align-items: start; font-size: 12px; }
+}
+
+/* Sensor and experiment surfaces follow the GIS workspace density. */
+.neural-panel { padding:22px; flex:1; min-height:0; overflow:auto; scrollbar-width:thin; }
+.neural-heading { align-items:flex-start; }
+.neural-heading h2 { font-size:22px; font-weight:650; color:#254961; }
+.neural-intro { font-size:13px; line-height:1.75; color:#607b8f; margin:14px 0; }
+.neural-actions .primary-button { font-size:13px; padding:8px 13px; }
+.neural-metrics { margin:18px 0; border-radius:5px; background:#f3f8fb; }
+.neural-metrics > div { padding:14px; }
+.neural-metrics span { font-size:12px; color:#577b92; }
+.neural-metrics strong { font-size:18px; color:#2d6485; margin-top:7px; }
+.neural-channels { gap:10px; }
+.neural-channel { background:#f6f9fc; border-color:#d7e5ef; border-radius:4px; padding:13px; }
+.neural-channel span, .neural-channel small { font-size:12px; color:#63859c; overflow-wrap:anywhere; }
+.neural-channel strong { color:#3b7292; font-size:15px; margin:7px 0; }
+.neural-footer { font-size:12px; color:#63859d; }
+.neural-comparison table { font-size:12px; }
+.neural-comparison th { background:#edf3f7; color:#466c84; font-weight:600; }
+.neural-comparison td { color:#3e6e8b; }
+.neural-comparison caption { font-size:12px; color:#5c8099; }
+.lod-experiment h3 { font-size:16px; font-weight:600; color:#3c7191; }
+.anomaly-item > b { font-size:12px; color:#a47827; }
+.empty-insight { color:#6f92a8; font-size:13px; }
+@media (max-width:1180px) {
+  .neural-channels { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (max-width:980px) {
+  .neural-panel { padding:18px; }
+  .neural-heading h2 { font-size:20px; }
+}
+@media (max-width:760px) {
+  .neural-panel { overflow:visible; padding:18px; }
+  .neural-heading h2 { font-size:20px; }
+}
+@media (max-width:480px) {
+  .neural-heading { flex-wrap:wrap; gap:8px; }
+  .neural-metrics { grid-template-columns:1fr 1fr; }
+  .neural-metrics > div:last-child { grid-column:1/-1; }
+  .neural-channel { padding:11px; }
+  .neural-channel strong { font-size:14px; }
+  .neural-footer { font-size:12px; }
+}

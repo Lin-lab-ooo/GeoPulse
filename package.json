@@ -1,0 +1,15 @@
+{
+  "name": "geo-pulse",
+  "version": "2.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Progressive campus-scale spatial visualization with native NDJSON streaming",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tools/run-repository-tests.mjs",
+    "test:archive": "node tools/run-repository-tests.mjs --archive"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
