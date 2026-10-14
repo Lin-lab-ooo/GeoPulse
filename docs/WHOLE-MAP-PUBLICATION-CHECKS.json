@@ -1,0 +1,40 @@
+{
+  "schema": "geopulse/whole-map-publication-checks-1.0",
+  "report": "reports/whole-map-2026-10-14/README.md",
+  "coreTests": {
+    "command": "node tools/run-repository-tests.mjs",
+    "exitCode": 0,
+    "tests": 594,
+    "passed": 594,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 4778.1256,
+    "localLogSha256": "992c8ad643dd74db7c8dfc6a73b4eca0cbc46175fb9da856b9e87f7a64b06791",
+    "scope": "The public repository core suite; no browser, GPU or SDK benchmark is implied by this test count. The local console log is not included because it contains machine paths."
+  },
+  "measurementEvidence": {
+    "trials": 54,
+    "independentNumericChecks": 3483,
+    "verification": "reports/whole-map-2026-10-14/measurements/verification.json",
+    "sourceAndDerivativeManifest": "reports/whole-map-2026-10-14/measurements/manifest.json"
+  },
+  "reportManifest": {
+    "path": "reports/whole-map-2026-10-14/manifest.report-files.json",
+    "sha256": "df3861c77735bca8e8254b88fe1d3b8ec17a7c11cf3e3fb9714ac52fc80b2c75",
+    "scope": "The report, figures and aggregates. The separate measurements manifest covers the sanitized evidence package."
+  },
+  "rendererIdentity": {
+    "path": "public/js/renderer.js",
+    "publishedSha256": "653a8334c5a8e741eccc6f98297f7d2ba35d7a7e0bad9e6ad8c6594bc42b5614",
+    "finalBaiduMeasuredSha256": "653a8334c5a8e741eccc6f98297f7d2ba35d7a7e0bad9e6ad8c6594bc42b5614",
+    "commonMapMeasuredSha256": "f3b751f53ec78acfe79337e3cf19abb2b7c1054f1b94f06270b766824515d1bc",
+    "difference": "The published renderer removes optional Baidu dark-theme/custom-style initialization. The common-map renderer identity is preserved, not relabeled as the new full-file hash."
+  },
+  "limitations": [
+    "This publication does not rerun or replace the recorded performance trials.",
+    "Physical display FPS remains unavailable; browser presentation feedback and rAF telemetry are distinct.",
+    "The initial Baidu scene gate recorded 10 tile requests, 8 successful and 2 failed; the final cumulative network snapshot recorded 18 requests, 16 successful and 2 failed."
+  ]
+}

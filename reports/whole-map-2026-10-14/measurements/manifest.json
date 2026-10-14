@@ -1,0 +1,1284 @@
+{
+  "schema": "geopulse/public-whole-map-evidence-1.0",
+  "coverage": {
+    "publishedTrialCount": 54,
+    "expectedTrialCount": 54,
+    "groups": {
+      "formal-realmap1": 27,
+      "matched-policy1": 9,
+      "minimal-policy1": 9,
+      "native-coalesced1": 3,
+      "baidu-production-complete1": 6
+    },
+    "allRequestedTrialsPublished": true,
+    "excluded": "Earlier Baidu standard/diagnostic/smoke/preflight runs; no complete CDP/HAR or SDK/tile source bytes"
+  },
+  "extractor": {
+    "name": "whole-map-public-evidence.py",
+    "sha256": "7278db7399d92dd5a1ccce78d55d488db4a232beda074714fa8f8a85ff5b4243",
+    "bytes": 28002,
+    "expectedShaVerified": false
+  },
+  "tableEncoding": "Categorical integer values index per-column dictionaries; constants apply to every row; null and numeric values preserved losslessly",
+  "allowlist": {
+    "tables": {
+      "frame": [
+        "frameId",
+        "window",
+        "contextId",
+        "nativeRafTimestampMs",
+        "startEpochMs",
+        "endEpochMs",
+        "cpuMs",
+        "renderCpuMs",
+        "gpuMs",
+        "gpuStatus",
+        "gpuUnavailableReason",
+        "intervalMs",
+        "instrumentationSetupCpuMs",
+        "gpuAvailableEpochMs"
+      ],
+      "upload": [
+        "calls",
+        "cpuMs",
+        "bufferCalls",
+        "textureCalls",
+        "uploadBytes",
+        "allocationBytes",
+        "unknownByteCalls",
+        "baseCalls",
+        "businessCalls",
+        "unattributedCalls"
+      ],
+      "span": [
+        "spanId",
+        "parentSpanId",
+        "frameId",
+        "window",
+        "phase",
+        "kind",
+        "thread",
+        "startEpochMs",
+        "endEpochMs",
+        "durationMs",
+        "status",
+        "scope",
+        "partial",
+        "layerId",
+        "layerType",
+        "renderPass",
+        "sourceId"
+      ],
+      "workerSpan": [
+        "type",
+        "phase",
+        "startedEpochMs",
+        "endEpochMs",
+        "durationMs",
+        "scope",
+        "batchId"
+      ],
+      "window": [
+        "windowId",
+        "name",
+        "startEpochMs",
+        "endEpochMs",
+        "durationMs"
+      ],
+      "mark": [
+        "name",
+        "epochMs",
+        "atMs",
+        "phaseId",
+        "edge"
+      ],
+      "batch": [
+        "batchId",
+        "points",
+        "received",
+        "revision",
+        "receivedEpochMs",
+        "ackEpochMs",
+        "stageAndCommitMs",
+        "stageAndEnqueueMs",
+        "confirmation",
+        "queuedOnly"
+      ],
+      "businessFrame": [
+        "engine",
+        "atMs",
+        "revision",
+        "instances",
+        "inputPoints",
+        "nativeBusinessDraw",
+        "nativeBusinessDrawCalls",
+        "epochMs",
+        "window"
+      ],
+      "pose": [
+        "atMs",
+        "epochMs",
+        "apiCpuMs",
+        "u",
+        "x",
+        "y",
+        "scale",
+        "center",
+        "zoom",
+        "bearing",
+        "pitch",
+        "visible",
+        "focused"
+      ],
+      "raf": [
+        "atMs",
+        "epochMs",
+        "intervalMs",
+        "window"
+      ],
+      "bframe": [
+        "callbackId",
+        "timestamp",
+        "startedMs",
+        "endedMs",
+        "callbackCpuMs",
+        "window",
+        "scheduledBy",
+        "attribution",
+        "targetCommands",
+        "basemapDraws",
+        "businessDraws",
+        "otherContextDraws",
+        "wholeMapGpuMs",
+        "targetContextGpuMs",
+        "targetContextId",
+        "queryAttempted",
+        "firstTargetCommandMs",
+        "coverageVerified",
+        "gpuScope",
+        "coverage"
+      ],
+      "bspan": [
+        "phase",
+        "window",
+        "startedEpochMs",
+        "endEpochMs",
+        "durationMs",
+        "thread",
+        "scope",
+        "inclusive"
+      ],
+      "bworker": [
+        "window",
+        "atMs",
+        "type",
+        "runId",
+        "featureCount"
+      ],
+      "presentation": [
+        "traceTsUs",
+        "browserEpochMs",
+        "reporterCount",
+        "stateCounts",
+        "hasPresentedAll",
+        "displayTraceIds"
+      ],
+      "anchor": [
+        "name",
+        "traceTsUs",
+        "browserEpochMs",
+        "offsetMs"
+      ],
+      "longtask": [
+        "name",
+        "entryType",
+        "startTime",
+        "duration",
+        "epochMs",
+        "window"
+      ],
+      "countSample": [
+        "atMs",
+        "shown",
+        "bytes",
+        "batchSize"
+      ],
+      "frameSample": [
+        "atMs",
+        "intervalMs"
+      ]
+    },
+    "streamMetrics": [
+      "bytes",
+      "parseMs",
+      "packMs",
+      "parsed",
+      "delivered",
+      "maxParsedNotDelivered",
+      "maxParserDrainRecords",
+      "maxReaderChunkBytes",
+      "maxParserBufferedTextCodeUnits",
+      "batches",
+      "fetchMs",
+      "firstBatchMs",
+      "expected",
+      "maxPendingBatches",
+      "mode",
+      "elapsedMs"
+    ],
+    "networkTiming": [
+      "schemaVersion",
+      "clockBasis",
+      "mainClockAvailable",
+      "responseHeadersAtMs",
+      "firstByteAtMs",
+      "firstByteWorkerElapsedMs",
+      "responseBodyEofAtMs",
+      "responseBodyEofWorkerElapsedMs",
+      "workerDoneAtMs",
+      "readerWaitMs",
+      "readerReadCalls",
+      "ackWaitMs",
+      "ackWaitCount",
+      "maxAckWaitMs"
+    ],
+    "transport": [
+      "contentEncoding",
+      "decodedResponseBytes",
+      "encodedBodyBytes",
+      "resourceTimingDecodedBytes",
+      "complete",
+      "byteScope"
+    ],
+    "receipt": [
+      "revision",
+      "stagingRevision",
+      "committedRevision",
+      "updated",
+      "unchanged",
+      "ignored",
+      "updatedPoints",
+      "received",
+      "features",
+      "totalVertices",
+      "pointVertices",
+      "cpuBytes",
+      "gpuBytes",
+      "uploadedBytes",
+      "pendingGeometryPages",
+      "contextLost",
+      "glUploadSubmissionMs",
+      "nativeBusinessDraw",
+      "nativeBusinessDrawCalls",
+      "queuedOnly",
+      "confirmation",
+      "renderedAtMs",
+      "firstNativeBusinessFrameAtMs",
+      "firstConfirmedBusinessAtMs",
+      "firstNativeBusinessFrameMs",
+      "firstNativeBusinessFrameOrigin",
+      "wallMs",
+      "startedEpochMs",
+      "proof"
+    ],
+    "baiduBusinessMetrics": [
+      "firstVisibleMs",
+      "totalMs",
+      "dataDoneMs",
+      "features",
+      "vertices",
+      "stagedVertices",
+      "confirmedVertices",
+      "fullyAcknowledgedVertices",
+      "unacknowledgedConfirmedVertices",
+      "networkBytes",
+      "decodedResponseBytes",
+      "encodedBodyBytes",
+      "featuresPerSecond",
+      "fpsMean",
+      "frameP95",
+      "frameP99",
+      "maxFrameMs",
+      "longTasks",
+      "longTaskTotalMs",
+      "sampledMaxHeapBytes",
+      "gpuBytes",
+      "cpuGeometryBytes",
+      "stagingMs",
+      "glUploadSubmissionMs",
+      "stagingRevision",
+      "committedRevision",
+      "parseMs",
+      "packMs",
+      "drawCalls",
+      "pages",
+      "lodStride"
+    ],
+    "renderScheduling": [
+      "wakeRequests",
+      "coalescedWakeRequests",
+      "repaintRequests",
+      "businessFrames",
+      "drawCalls",
+      "verticesSubmitted",
+      "renderCpuMs",
+      "animationStarts",
+      "animationStops",
+      "sandboxFrameRequests",
+      "reentrantCallbacks",
+      "policy",
+      "lastWakeReason",
+      "pulseActive",
+      "pendingFrame",
+      "sdkAnimating",
+      "sandboxFramePending",
+      "sleeping",
+      "interpretation"
+    ],
+    "gpuCoverage": [
+      "verifiedSamples",
+      "targetCallbacks",
+      "available",
+      "partial",
+      "unframedTargetCommandCount",
+      "otherContextDrawCount",
+      "scope"
+    ],
+    "stats": [
+      "time",
+      "fps",
+      "frameMs",
+      "frameInterval",
+      "drawCalls",
+      "geometryDrawCalls",
+      "vertices",
+      "pointsSubmitted",
+      "pointAlertsDrawn",
+      "culledPages",
+      "visiblePages",
+      "lodStride",
+      "unitsPerPixel",
+      "queryMs",
+      "indexMs",
+      "indexUploadSubmissionMs",
+      "coarseQueryMs",
+      "coarseBucketsTested",
+      "coarseDensityGuardPages",
+      "coarseEmptyPages",
+      "coarseCandidatePages",
+      "coarseCandidatePrimitives",
+      "indexUploadedBytes",
+      "nodesTested",
+      "cacheHits",
+      "spatialDenseFallbackPages",
+      "spatialPendingFallbackPages",
+      "exactReuses",
+      "incrementalReuses",
+      "worldBoxMisses",
+      "matrixChanged",
+      "previousFrameTelemetryCpuMs",
+      "previousFrameTotalCpuMs",
+      "spatialSettled",
+      "frameTelemetryCpuMs",
+      "frameTotalCpuMs",
+      "features",
+      "totalVertices",
+      "pointVertices",
+      "cpuBytes",
+      "pointAlertsTotal",
+      "pointLodStride",
+      "gpuBytes",
+      "uploadedBytes",
+      "stagingRevision",
+      "committedRevision",
+      "glUploadSubmissionMs",
+      "spatialBuildMs",
+      "coarseBuildMs",
+      "fineBuildCount",
+      "fineAppendCount",
+      "fineReuseCount",
+      "coarseDensityGuardCount",
+      "spatialBuildChunks",
+      "spatialBuildCpuMs",
+      "spatialBuildSliceMaxMs",
+      "spatialBuildMaxSliceMs",
+      "spatialBuildMaxFrameMs",
+      "spatialBuildCompletedCount",
+      "spatialBuildLastReadyWallMs",
+      "spatialBuildMaxReadyWallMs",
+      "spatialBuildSynchronousCount",
+      "liveBoundsTypedBytes",
+      "liveBoundsPendingBlocks",
+      "liveBoundsScannedPrimitives",
+      "liveBoundsCaptureTypedBytes",
+      "liveBoundsCapturePeakTypedBytes",
+      "spatialFinePages",
+      "spatialCoarsePages",
+      "spatialIndexedPrimitives",
+      "spatialReadyPages",
+      "spatialPendingPages",
+      "spatialPendingPrimitives",
+      "spatialBuildTargetPrimitives",
+      "spatialSplitLimitedLeaves",
+      "colorDirtyStateBytes",
+      "colorDirtyUniqueVertices",
+      "coarseReferenceBytes",
+      "coarseOwnedBytes",
+      "fineOwnedBytes",
+      "spatialEstimatedBytes",
+      "liveBoundsMutationCpuMs",
+      "liveBoundsMaintenanceCpuMs",
+      "movedPrimitivesTested",
+      "movedPrimitivesRejected",
+      "movedBaseCandidatesSkipped",
+      "spatialBuildProgress",
+      "selectionScratchBytes",
+      "colorPlannerScratchBytes",
+      "pages",
+      "pageCapacity",
+      "mode",
+      "adaptive",
+      "zoom",
+      "heading",
+      "pointSize",
+      "pixelRatio",
+      "contextLost",
+      "received",
+      "revision",
+      "committedRevision",
+      "frames",
+      "sharedCanvas",
+      "sharedContext"
+    ]
+  },
+  "files": [
+    {
+      "group": "formal-realmap1",
+      "file": "formal-realmap1.ndjson.gz",
+      "trialCount": 27,
+      "gzip": {
+        "name": "formal-realmap1.ndjson.gz",
+        "sha256": "84c6d64f64ae2a17dcb5c421640942bafcc163874cdc194a0bbaba0f1c1f9807",
+        "bytes": 12871855,
+        "expectedShaVerified": false
+      },
+      "ndjsonSha256": "3a50980abdcdcacb5effa1aae2ab58e50086ea09528637ccda942a0f26cb58e8",
+      "ndjsonBytes": 123907193,
+      "counts": {
+        "frames": 28209,
+        "spans": 1296691,
+        "batches": 582,
+        "businessFrames": 25360,
+        "updates": 372,
+        "browserPresentationPoints": 28182
+      }
+    },
+    {
+      "group": "matched-policy1",
+      "file": "matched-policy1.ndjson.gz",
+      "trialCount": 9,
+      "gzip": {
+        "name": "matched-policy1.ndjson.gz",
+        "sha256": "cf3ed8783ee560b00edc42e1b66a1cecb4cdd81e374cab9ebc5ec31e0a1811df",
+        "bytes": 4113904,
+        "expectedShaVerified": false
+      },
+      "ndjsonSha256": "12564f249522dc20fe74278f9081176d1657abff888ac999c100eef1d28eea33",
+      "ndjsonBytes": 39831268,
+      "counts": {
+        "frames": 9241,
+        "spans": 426958,
+        "batches": 117,
+        "businessFrames": 9229,
+        "updates": 126
+      }
+    },
+    {
+      "group": "minimal-policy1",
+      "file": "minimal-policy1.ndjson.gz",
+      "trialCount": 9,
+      "gzip": {
+        "name": "minimal-policy1.ndjson.gz",
+        "sha256": "d1220e01802dad03018b77521d8bbb74e941af093c034ee740365e7fe6df598e",
+        "bytes": 847824,
+        "expectedShaVerified": false
+      },
+      "ndjsonSha256": "987af6143f48a0772270b6485f8cca2210cac1dda13ee19ea7cc8bcc855dce1c",
+      "ndjsonBytes": 2638866,
+      "counts": {
+        "frames": 0,
+        "spans": 0,
+        "batches": 117,
+        "businessFrames": 9225,
+        "updates": 122
+      }
+    },
+    {
+      "group": "native-coalesced1",
+      "file": "native-coalesced1.ndjson.gz",
+      "trialCount": 3,
+      "gzip": {
+        "name": "native-coalesced1.ndjson.gz",
+        "sha256": "912c7b830b0fe8215b2aa479d3ec3a01e8f44d16deb1e739cee89e0ae4d61e29",
+        "bytes": 1414736,
+        "expectedShaVerified": false
+      },
+      "ndjsonSha256": "b656323719f0ccecdbbb45d807a98a63dbc3b031a200d7959015f8accaccd6e3",
+      "ndjsonBytes": 13185519,
+      "counts": {
+        "frames": 3102,
+        "spans": 136522,
+        "batches": 39,
+        "businessFrames": 3003,
+        "updates": 18,
+        "browserPresentationPoints": 3102
+      }
+    },
+    {
+      "group": "baidu-production-complete1",
+      "file": "baidu-production-complete1.ndjson.gz",
+      "trialCount": 6,
+      "gzip": {
+        "name": "baidu-production-complete1.ndjson.gz",
+        "sha256": "c6379a7cf3df567e48d9aa946311c65e96e0920ba9fe868301799ba78545bccd",
+        "bytes": 545654,
+        "expectedShaVerified": false
+      },
+      "ndjsonSha256": "2db871e499cce418d2f991bb259b9136c64a6a2b8b118dea3bbf526aaba14ceb",
+      "ndjsonBytes": 4577377,
+      "counts": {
+        "frames": 8002,
+        "spans": 54826,
+        "batches": 0,
+        "businessFrames": 0,
+        "updates": 0,
+        "browserPresentationPoints": 8875
+      }
+    }
+  ],
+  "sourceIdentities": [
+    {
+      "name": "data.json",
+      "sha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "bytes": 2373598,
+      "expectedShaVerified": false
+    },
+    {
+      "name": "data.json",
+      "sha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "bytes": 101219,
+      "expectedShaVerified": false
+    },
+    {
+      "name": "data.json",
+      "sha256": "ffeb730cb70c3454127a0a136d3dcec983d8ea83f4e79f80bc74fff7f7f7590d",
+      "bytes": 238607,
+      "expectedShaVerified": false
+    },
+    {
+      "name": "data.json",
+      "sha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "bytes": 10986142,
+      "expectedShaVerified": false
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "report.json",
+      "sha256": "55c4c0f48b4af532a030c552de8d887b39040d298d71289dc788dc04f090a95a",
+      "bytes": 174459,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "base-20000-r0.trial.json",
+      "sha256": "c47d095d3730d251025dc07bf302f9c4e4951cdd2011efae95018221551daee2",
+      "bytes": 18191640,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "base-20000-r0.trace.json",
+      "sha256": "e9d0fea0ba9033988da3ab8fa37d5f152a1c18532cca0b1599cd1028de3d4580",
+      "bytes": 72092465,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-20000-r0.trial.json",
+      "sha256": "a8a9bd80e5e5af8bbe9a75468929b82c2392dd6af298ca7e1c6a75802c3aa022",
+      "bytes": 22896933,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-20000-r0.trace.json",
+      "sha256": "a2d30df601363595bf20816c0d35ee164f454a22cdac252606e9f6c6184eef03",
+      "bytes": 80095914,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-20000-r0.trial.json",
+      "sha256": "4dd0d3f1fb05d26e708a3e65f1cdd73b120f9f7c882f6261338fd19c5f5bfea6",
+      "bytes": 22661075,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-20000-r0.trace.json",
+      "sha256": "ffe0cf82569bc8c326b8a2f434a6c783fd4a7d51a6203687362c4f4fb8b4d705",
+      "bytes": 82633267,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-20000-r0.trial.json",
+      "sha256": "696c9b891d95267245a0aaf480ff412d898bffcd07387af5b1f1cf00a466acce",
+      "bytes": 20754679,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-20000-r0.trace.json",
+      "sha256": "c61a2669c86f3b16149f04cc45a0854db0afdee4e40a394f08b486dac592daca",
+      "bytes": 85939456,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-20000-r0.trial.json",
+      "sha256": "e877c6d1f4478886b91202d7ed8917ba9c50a46feb8ec4164672e38aef20da4e",
+      "bytes": 22500588,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-20000-r0.trace.json",
+      "sha256": "86b39f2b900feaa55513f9f0b1af34db1ce4a5186a7300b657d670144b7755b2",
+      "bytes": 98541713,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-100000-r0.trial.json",
+      "sha256": "d906f24686104deb988abdc95fd8ddffa0a71b54dff832ff96f834dac2372a5b",
+      "bytes": 24761770,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-100000-r0.trace.json",
+      "sha256": "799ca9a6460714ae08f132acdba3953ee0d2d7a934f276f1b66210fb815fbea0",
+      "bytes": 87429648,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-100000-r0.trial.json",
+      "sha256": "52ba6d0f4ef12d7077ccf022d2569816100d6f4b3dc3cda557a28a3989043914",
+      "bytes": 23659535,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-100000-r0.trace.json",
+      "sha256": "9bf2639048241e85ca76cd68d01ae1d66a5a7a3850efc7cb6601087e84a380fa",
+      "bytes": 84554714,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-100000-r0.trial.json",
+      "sha256": "b934ebefc5d9b4dde8f2dffab96f458a5de32646fb4ea37ad2e492b18fb6aa36",
+      "bytes": 21677179,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-100000-r0.trace.json",
+      "sha256": "a81e90ca0524805446aa1f65dd0f3a22f0423edfe90faffa39800cf029c7dd30",
+      "bytes": 89860302,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-100000-r0.trial.json",
+      "sha256": "691cfc3c4d7c93cbd73968815b1ba223d5da748203c3bdd7f8515215943f1ab1",
+      "bytes": 27541469,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-100000-r0.trace.json",
+      "sha256": "5c3750d2cd51bc865f86a30d97c95bd3b67b7f66bfd14c23ee63e5788cd286ea",
+      "bytes": 212553394,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-20000-r1.trial.json",
+      "sha256": "34d6913976557114ccd66aa50680ce53d5d2e6ca9545148af9cfacd6864a180c",
+      "bytes": 22982193,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-20000-r1.trace.json",
+      "sha256": "e14aef12ba47f0e9b541fa70f501cc6173cff8bc0084a9dc1b07dc68d0a3f4c0",
+      "bytes": 83790522,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-20000-r1.trial.json",
+      "sha256": "d3a6006899cf5c483c170555c82e8f5ded5b6f25bc09e8c54b88c5a848f34245",
+      "bytes": 22656499,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-20000-r1.trace.json",
+      "sha256": "1c03c4375d104318cb78590e472da027b2066fc15aca5149b47f59e5143cb34b",
+      "bytes": 84652298,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-20000-r1.trial.json",
+      "sha256": "131ce4298e60220dda9925d78a497714022fbad0eb8c6302bf14e5b38825a7e5",
+      "bytes": 20730697,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-20000-r1.trace.json",
+      "sha256": "bcf8c2a309d5f6c887997d5bdf23fe9bea5762ead623c53cfff2977f227fd093",
+      "bytes": 87375881,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-20000-r1.trial.json",
+      "sha256": "d4ce92e2ed654f305b6258b635bb7cc14af37728498164b61355958c2ac90d8f",
+      "bytes": 22520498,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-20000-r1.trace.json",
+      "sha256": "b8b7be21486f987922512c253c19f2fd5a21e3bd370ce149f1e21f878215d874",
+      "bytes": 100549523,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "base-20000-r1.trial.json",
+      "sha256": "fcebccc9e0785a1b35d9ed5be97d2bd2e0f0345b1b1c73d151997e427cf5e528",
+      "bytes": 18240320,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "base-20000-r1.trace.json",
+      "sha256": "397b94f9a4a9baf9d1e00d509950d06fb1f01f18a55a1d2382321a0a3a2d305d",
+      "bytes": 73269391,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-100000-r1.trial.json",
+      "sha256": "41a292249536f5d7825d5348d8c9d760ea7ddf398e21a08d701b238c873082e7",
+      "bytes": 23680455,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-100000-r1.trace.json",
+      "sha256": "c870584551f8981e1c0096f51be117512c0608a53518ca885a61c184ebc033b0",
+      "bytes": 87388501,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-100000-r1.trial.json",
+      "sha256": "243811fd8e249ea333a0e8af3d048cc31bc1cdb5480ca4863be9669ff23875ff",
+      "bytes": 21674299,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-100000-r1.trace.json",
+      "sha256": "62b04378ea1871e3550cf11fbc26c604835175bd53966c0323ea1daf7d1cd55d",
+      "bytes": 91994264,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-100000-r1.trial.json",
+      "sha256": "a1e55881917fbd2a09d9f6c40153202611a2050ddaacfd0965a698fb85d106cc",
+      "bytes": 27396094,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-100000-r1.trace.json",
+      "sha256": "ca3b14d6e49100b3feaf549a1dc2acb257e153afdcedc0b56b23856985c36240",
+      "bytes": 209652185,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-100000-r1.trial.json",
+      "sha256": "803bbda571042f225fb8ad20a01e76fae888d3579b5582688517b83161746090",
+      "bytes": 24543856,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-100000-r1.trace.json",
+      "sha256": "faf02c26b93d87ebaf175929e577672cb13d0e980f26776cb821a3ef11a5678e",
+      "bytes": 88835729,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-20000-r2.trial.json",
+      "sha256": "8f26952aea73c1773aaec0c72995ed41bcbddf1ceea9d7ac46a04fb3c1ecaecc",
+      "bytes": 22695679,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-20000-r2.trace.json",
+      "sha256": "656bab717cd7f8ac164868f8dad21ae333f4eb9bdc0239643f82e058cb252919",
+      "bytes": 84576601,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-20000-r2.trial.json",
+      "sha256": "54526a7bf5b145fc74b0fcba9a17d97672c2fca32cc4f60247279bbfbb63a3cb",
+      "bytes": 20701493,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-20000-r2.trace.json",
+      "sha256": "b5ea38968672576138e3758e7fa8e62f68ecad8636cb092d252ad81b87f3139f",
+      "bytes": 87283076,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-20000-r2.trial.json",
+      "sha256": "6f7cfc45e37f5cb1bd87c9724e39ceb99e318fb98af40d3a4468a38b23f81732",
+      "bytes": 22504285,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-20000-r2.trace.json",
+      "sha256": "c3b284964eefe89cf170834b7273a4e090ce2f6c7f9b8473517d395d518ce398",
+      "bytes": 99259806,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "base-20000-r2.trial.json",
+      "sha256": "5c9a45a17943ee1636a7f3daca1e5b6de31390167c647e9fa066cf4ffe3e5f1d",
+      "bytes": 18288347,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "base-20000-r2.trace.json",
+      "sha256": "7518e6a404d146dcf088e33a65f3b76a24076b9cb9dddb7c6a760f7ed22d234e",
+      "bytes": 72769904,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-20000-r2.trial.json",
+      "sha256": "43f909f4428116354dfdc05d978103aee6cbef70dfd10d7592a87463ea102fb9",
+      "bytes": 22791341,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-20000-r2.trace.json",
+      "sha256": "8690eabfc1581b63ce276a29462a0def7c722779ca9398461352243f774d1aba",
+      "bytes": 84637829,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-100000-r2.trial.json",
+      "sha256": "e96a2cec94fc750eae321f6cd20c0bd4c06227f1f2153f9c82784e6f278ae7a6",
+      "bytes": 21573237,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "deck-100000-r2.trace.json",
+      "sha256": "6d3ebacfc388783f80705e7be715a6420cd50126dd2934bcdd90252563189dd6",
+      "bytes": 91604163,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-100000-r2.trial.json",
+      "sha256": "a3cbc3fad0a2db6cca38b6a508932a9bed10fccce28910f24399354a66c39b4c",
+      "bytes": 27327950,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "maplibre-100000-r2.trace.json",
+      "sha256": "5dbdce4b252ca6d4d2da538bc04fe7821f6dc7635bd6273b8b492c429cb7c946",
+      "bytes": 209813431,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-100000-r2.trial.json",
+      "sha256": "8f97b37911a04679bd2b09db83e60ca1cb4877ef392d6d615c9e72e5ac18d9ed",
+      "bytes": 24594336,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-current-100000-r2.trace.json",
+      "sha256": "6c86daed522912bc5dfad0c3ba5abbd8ae5618019351a2606919603254144fa5",
+      "bytes": 88971668,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-100000-r2.trial.json",
+      "sha256": "4cddfd59e07da55eccd7fbfa955fc71180f0240af0fe33c72aa8e858b457d430",
+      "bytes": 23592375,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "formal-realmap1",
+      "name": "geopulse-hybrid-100000-r2.trace.json",
+      "sha256": "c4190340ef8f8480068d9f09454dc2da3b23b363651414e10141168f5da7289a",
+      "bytes": 86742816,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "report.json",
+      "sha256": "037cea8f8a4a587b597208ac2b005777a0beb3b845b95e10da4876f2aedb2648",
+      "bytes": 67816,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "geopulse-current-100000-r0.trial.json",
+      "sha256": "b23fccc746875e23b9d0144c901a8a97b8f8354fc9bd6447de528c13b71da499",
+      "bytes": 23671363,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "geopulse-current-100000-r0.trace.json",
+      "sha256": "34d5a9fd242528d691d36256204e7e2df21e8d5b9cd9e819f71af56dc3ebe48b",
+      "bytes": 85737542,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "deck-100000-r0.trial.json",
+      "sha256": "5cb50f6af87187f08314138ba522af853f4f23d1e8f2434ef2c8cf43e04c064c",
+      "bytes": 20864379,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "deck-100000-r0.trace.json",
+      "sha256": "5de966e5b5a64969980d1b281403874deae45c819f34134a1df0e16b79bf0112",
+      "bytes": 87112910,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "maplibre-100000-r0.trial.json",
+      "sha256": "d111e302b8f7c0ad91877b593fbec5b4f4da278438202e4414181a12541ce798",
+      "bytes": 22808853,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "maplibre-100000-r0.trace.json",
+      "sha256": "dd288cb9c136da01e4dacc3adabb914bd1c532f0dbabda8c5972a33e75ccd367",
+      "bytes": 132569221,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "deck-100000-r1.trial.json",
+      "sha256": "fc00e4ecae0a7b6a7b9126d4c43891bec2eff32681db43c6029687371b136293",
+      "bytes": 20938235,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "deck-100000-r1.trace.json",
+      "sha256": "763c8770a1fefb2fd0eb145a43f49a57373f5b15955106c8cd0c6b929cacc030",
+      "bytes": 87315734,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "maplibre-100000-r1.trial.json",
+      "sha256": "c6a73db48566d5a59f7d6c238cec480204a7110306f77a97d75a3231ead81367",
+      "bytes": 22737003,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "maplibre-100000-r1.trace.json",
+      "sha256": "76cf8bc1f6fcf7be40eab6bad8b19374b9a12a0c7e18d69ab2b2d04d1b61bebd",
+      "bytes": 128314108,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "geopulse-current-100000-r1.trial.json",
+      "sha256": "4bb1bdb7541c46ce6b3478e02b8635d8e7d80a33541881fe69e98e9f44663c0c",
+      "bytes": 23801218,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "geopulse-current-100000-r1.trace.json",
+      "sha256": "5c478f4a253546e9683f98f92691689588dd23e519872241b607f6f6cde5928f",
+      "bytes": 84199096,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "maplibre-100000-r2.trial.json",
+      "sha256": "580bce8ded6c09b74d464a39dd51572b9c4d154acee4ea2d449c00897a5ce7a7",
+      "bytes": 22678116,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "maplibre-100000-r2.trace.json",
+      "sha256": "9a9cd47ea3be191bcfca9b4d221b590d055331bc94db8d39b9e7c6f311cbf277",
+      "bytes": 128406248,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "geopulse-current-100000-r2.trial.json",
+      "sha256": "a445f3e0978e3285a51e16363c3d1b77601cc1a495514591b5ceb283afa7f837",
+      "bytes": 23821809,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "geopulse-current-100000-r2.trace.json",
+      "sha256": "cd72543f4a9d2b790bbed4ea71e8a9dfbe693a97fc0ffeb00befa96887416ae5",
+      "bytes": 84564769,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "deck-100000-r2.trial.json",
+      "sha256": "99ce92cec0c802c43d9f36c0b9e49a9e6667a6a4a23f0683877cea0561520742",
+      "bytes": 20814525,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "matched-policy1",
+      "name": "deck-100000-r2.trace.json",
+      "sha256": "c6ee21d4dacf1bf0b519485ac3ef5d15716769fe5f72595536db97bf6de1216b",
+      "bytes": 87335393,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "report.json",
+      "sha256": "6182394b666022ba16827cb68143de9cb087f86e7544f2f9e6f90acfbb337721",
+      "bytes": 68026,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "geopulse-current-100000-r0.trial.json",
+      "sha256": "80fb0b79977111b00dbd368ac404ff09a44ca0dd9050163676d55e5870baed06",
+      "bytes": 541726,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "deck-100000-r0.trial.json",
+      "sha256": "8784c6827a5c03ef3f4b826689e8eddd4eb313d6463059d51036b4a1f455e178",
+      "bytes": 528204,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "maplibre-100000-r0.trial.json",
+      "sha256": "bd6637c8e1a723bba6da58000b1ce53b08597a22148fd01b35927a4b39fdca88",
+      "bytes": 516134,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "deck-100000-r1.trial.json",
+      "sha256": "1e83968851875fab721413184c172b05c44c25ff6220b1f8bf39c0d7fa692195",
+      "bytes": 536083,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "maplibre-100000-r1.trial.json",
+      "sha256": "9940a2ca88be7fa9c3d8b84f8bf27047614ffce3a67a5c0faea37268df9e2eda",
+      "bytes": 517952,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "geopulse-current-100000-r1.trial.json",
+      "sha256": "f7986449032b345e520af58e70828ec5ef21cb7b01d87f91349863bd40333b29",
+      "bytes": 539548,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "maplibre-100000-r2.trial.json",
+      "sha256": "c14e860b3ff331cd01c5d4c8e65414de76c8cdc20aad0eb9d10182f7575c921f",
+      "bytes": 516398,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "geopulse-current-100000-r2.trial.json",
+      "sha256": "1b677758cf9fc289ebf74e8eb681ff34dbae6d6cc8b2fd2d83c1db5e976146ab",
+      "bytes": 539997,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "minimal-policy1",
+      "name": "deck-100000-r2.trial.json",
+      "sha256": "f2817df8c2cbc8b7d21c02ca93d8dbafbe1b87e5ec0e49e24547379d0c11ec67",
+      "bytes": 533706,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "native-coalesced1",
+      "name": "report.json",
+      "sha256": "bd42d4f32a0dd44737da2bf74b429b7925822e5781ce5e3584a1879386f3f358",
+      "bytes": 31266,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "native-coalesced1",
+      "name": "maplibre-100000-r0.trial.json",
+      "sha256": "ec4c453369d352a1618690bd8785010c91c497413e3080d65797454edf62dd5d",
+      "bytes": 21840935,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "native-coalesced1",
+      "name": "maplibre-100000-r0.trace.json",
+      "sha256": "27dd7f6d56b83abf08a6ac8310f5cc6ad64d2fc2a0bb7e33f2af37c718fed237",
+      "bytes": 115875271,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "native-coalesced1",
+      "name": "maplibre-100000-r1.trial.json",
+      "sha256": "6f698413f53a5aedd2320b56d53239743dcc52e48a719379b4d760c2835785e8",
+      "bytes": 21921721,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "native-coalesced1",
+      "name": "maplibre-100000-r1.trace.json",
+      "sha256": "91630635e73cfd9fefa641a7ff39d66db16d4eebf356d2b65763d66d5acadc05",
+      "bytes": 118640177,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "native-coalesced1",
+      "name": "maplibre-100000-r2.trial.json",
+      "sha256": "52c30f1fb7893aca1f3b1d9b88e199c8da0e36ea9a2b30db351fdf093bbe0377",
+      "bytes": 21825578,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "native-coalesced1",
+      "name": "maplibre-100000-r2.trace.json",
+      "sha256": "e3cba99858ff64c8cf718916038b27fb9e63da61ad5c42894494f7d751601334",
+      "bytes": 114966930,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "baidu-production-complete1",
+      "name": "report.json",
+      "sha256": "826f08446e704cfdbbcd96fee7c3048698318b1adc6d592ffbe2fb78622d205c",
+      "bytes": 51153550,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "baidu-production-complete1",
+      "name": "current-r0.trace.json",
+      "sha256": "f9e0f5e5c119e48849a236bc69dd406dab94b7db7d6cdbc0527b3ef15655e6c3",
+      "bytes": 240374506,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "baidu-production-complete1",
+      "name": "hybrid-r0.trace.json",
+      "sha256": "0d348be13b5a816799b6eeca0ff448fe6e565b85a58612b0a6ed6db59bee0614",
+      "bytes": 231371550,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "baidu-production-complete1",
+      "name": "hybrid-r1.trace.json",
+      "sha256": "40929013ca55dd331b2d2b25dcf7ea5799a6ba4a6f5df3246a101ed93aff324c",
+      "bytes": 225550047,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "baidu-production-complete1",
+      "name": "current-r1.trace.json",
+      "sha256": "6e7fdadb9fa348590240e781c8a7296b2c8420097cb622678a1c8dcb4804f5ef",
+      "bytes": 231135093,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "baidu-production-complete1",
+      "name": "current-r2.trace.json",
+      "sha256": "4f02fb72433e4b48ae1d4552a792914e21b43c575c21732436211b9ade5a7f3a",
+      "bytes": 233503451,
+      "expectedShaVerified": true
+    },
+    {
+      "group": "baidu-production-complete1",
+      "name": "hybrid-r2.trace.json",
+      "sha256": "2f38de74ab7bcc47216b76a0aba6f71a8d1bbcc544442505544b222926af986e",
+      "bytes": 228887501,
+      "expectedShaVerified": true
+    }
+  ],
+  "compressedBytes": 19793973,
+  "verification": {
+    "checkCount": 3483,
+    "passed": true,
+    "checksFile": "verification.json",
+    "fileIdentity": {
+      "name": "verification.json",
+      "sha256": "93d65472306b69928994c7f69e58a450e4fb2c57e99a203eb7d46e3843d8d1f5",
+      "bytes": 674977,
+      "expectedShaVerified": false
+    }
+  },
+  "physicalPresentationFps": null
+}

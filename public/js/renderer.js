@@ -2424,16 +2424,9 @@ export class GeoRenderer {
         this._map.enableScrollWheelZoom();
         this._map.enableRotate();
         this._map.enableTilt();
-        if (typeof this._map.setTheme === 'function') this._map.setTheme('dark');
-        if (typeof this._map.setMapStyle === 'function') this._map.setMapStyle({
-          styleJson: [
-            { featureType: 'land', elementType: 'geometry', stylers: { color: '#091825ff' } },
-            { featureType: 'water', elementType: 'geometry', stylers: { color: '#06121eff' } },
-            { featureType: 'green', elementType: 'geometry', stylers: { color: '#102b31ff' } },
-            { featureType: 'road', elementType: 'geometry.fill', stylers: { color: '#1b354aff' } },
-            { featureType: 'road', elementType: 'geometry.stroke', stylers: { color: '#28445aff' } }
-          ]
-        });
+        // Use the SDK's standard basemap. The optional custom-style service can
+        // fail independently of AK verification and the custom WebGL layer;
+        // waiting on that style previously left the geographic basemap blank.
         await new Promise((resolve, reject) => {
           let settled = false;
           const finish = (error) => {

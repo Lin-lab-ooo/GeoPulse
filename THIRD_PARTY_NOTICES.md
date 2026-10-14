@@ -16,6 +16,12 @@ Training and exploratory calibration are documented in [ml/README.md](ml/README.
 
 The SDK is loaded from its service at runtime using the user's own account configuration. SDK source, account credentials, POI response caches and long diagnostic SDK excerpts are not bundled as open-source project code or data.
 
+## Whole-map benchmark figures
+
+The cross-renderer report uses MapLibre GL JS 6.14.0 (BSD-3-Clause) and deck.gl 9.4.0 (MIT). Their package sources and native SDK bundles are not vendored in the report. The common city basemap comes from the [MapLibre demotiles](https://github.com/maplibre/demotiles) repository pinned at commit `601ae60796ceceda2cbd2ed3d2ea92d17a84be4b`.
+
+The map imagery in the report is attributed to [OpenMapTiles](https://openmaptiles.org/) and [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). OpenStreetMap data retains its ODbL terms; applicable OpenMapTiles style/schema materials retain their CC BY 4.0 notices. No city vector tiles or font files are bundled in this report. Attribution also accompanies cropped map screenshots where a canvas export did not include the native attribution control. Baidu map screenshots retain the native Baidu attribution; they do not license the Baidu SDK or map data under the project's MIT license.
+
 ## CI tooling
 
 The CI configuration references the official [actions/checkout](https://github.com/actions/checkout) and [actions/setup-node](https://github.com/actions/setup-node) v7 usage documentation checked during preparation. Their source is not vendored. The workflow requires no project secret and runs local Node tests only.

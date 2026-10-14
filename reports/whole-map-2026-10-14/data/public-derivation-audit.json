@@ -1,0 +1,302 @@
+{
+  "schema": "geo-pulse/public-derivation-audit-1.0",
+  "transformCounts": {
+    "rewrittenLocalPathValues": 514
+  },
+  "omittedPresentationPointArrays": [
+    {
+      "field": "baidu/trials/0/windows/baseline/browserCameraCompositorPresentation/presentationPoints",
+      "count": 473
+    },
+    {
+      "field": "baidu/trials/0/windows/loading/browserCameraCompositorPresentation/presentationPoints",
+      "count": 129
+    },
+    {
+      "field": "baidu/trials/0/windows/camera/browserCameraCompositorPresentation/presentationPoints",
+      "count": 744
+    },
+    {
+      "field": "baidu/trials/0/trace/phasePresentation/0/presentationPoints",
+      "count": 473
+    },
+    {
+      "field": "baidu/trials/0/trace/phasePresentation/1/presentationPoints",
+      "count": 129
+    },
+    {
+      "field": "baidu/trials/0/trace/phasePresentation/2/presentationPoints",
+      "count": 744
+    },
+    {
+      "field": "baidu/trials/1/windows/baseline/browserCameraCompositorPresentation/presentationPoints",
+      "count": 474
+    },
+    {
+      "field": "baidu/trials/1/windows/loading/browserCameraCompositorPresentation/presentationPoints",
+      "count": 111
+    },
+    {
+      "field": "baidu/trials/1/windows/camera/browserCameraCompositorPresentation/presentationPoints",
+      "count": 742
+    },
+    {
+      "field": "baidu/trials/1/trace/phasePresentation/0/presentationPoints",
+      "count": 474
+    },
+    {
+      "field": "baidu/trials/1/trace/phasePresentation/1/presentationPoints",
+      "count": 111
+    },
+    {
+      "field": "baidu/trials/1/trace/phasePresentation/2/presentationPoints",
+      "count": 742
+    },
+    {
+      "field": "baidu/trials/2/windows/baseline/browserCameraCompositorPresentation/presentationPoints",
+      "count": 454
+    },
+    {
+      "field": "baidu/trials/2/windows/loading/browserCameraCompositorPresentation/presentationPoints",
+      "count": 104
+    },
+    {
+      "field": "baidu/trials/2/windows/camera/browserCameraCompositorPresentation/presentationPoints",
+      "count": 723
+    },
+    {
+      "field": "baidu/trials/2/trace/phasePresentation/0/presentationPoints",
+      "count": 454
+    },
+    {
+      "field": "baidu/trials/2/trace/phasePresentation/1/presentationPoints",
+      "count": 104
+    },
+    {
+      "field": "baidu/trials/2/trace/phasePresentation/2/presentationPoints",
+      "count": 723
+    },
+    {
+      "field": "baidu/trials/3/windows/baseline/browserCameraCompositorPresentation/presentationPoints",
+      "count": 459
+    },
+    {
+      "field": "baidu/trials/3/windows/loading/browserCameraCompositorPresentation/presentationPoints",
+      "count": 136
+    },
+    {
+      "field": "baidu/trials/3/windows/camera/browserCameraCompositorPresentation/presentationPoints",
+      "count": 731
+    },
+    {
+      "field": "baidu/trials/3/trace/phasePresentation/0/presentationPoints",
+      "count": 459
+    },
+    {
+      "field": "baidu/trials/3/trace/phasePresentation/1/presentationPoints",
+      "count": 136
+    },
+    {
+      "field": "baidu/trials/3/trace/phasePresentation/2/presentationPoints",
+      "count": 731
+    },
+    {
+      "field": "baidu/trials/4/windows/baseline/browserCameraCompositorPresentation/presentationPoints",
+      "count": 467
+    },
+    {
+      "field": "baidu/trials/4/windows/loading/browserCameraCompositorPresentation/presentationPoints",
+      "count": 157
+    },
+    {
+      "field": "baidu/trials/4/windows/camera/browserCameraCompositorPresentation/presentationPoints",
+      "count": 721
+    },
+    {
+      "field": "baidu/trials/4/trace/phasePresentation/0/presentationPoints",
+      "count": 467
+    },
+    {
+      "field": "baidu/trials/4/trace/phasePresentation/1/presentationPoints",
+      "count": 157
+    },
+    {
+      "field": "baidu/trials/4/trace/phasePresentation/2/presentationPoints",
+      "count": 721
+    },
+    {
+      "field": "baidu/trials/5/windows/baseline/browserCameraCompositorPresentation/presentationPoints",
+      "count": 472
+    },
+    {
+      "field": "baidu/trials/5/windows/loading/browserCameraCompositorPresentation/presentationPoints",
+      "count": 107
+    },
+    {
+      "field": "baidu/trials/5/windows/camera/browserCameraCompositorPresentation/presentationPoints",
+      "count": 738
+    },
+    {
+      "field": "baidu/trials/5/trace/phasePresentation/0/presentationPoints",
+      "count": 472
+    },
+    {
+      "field": "baidu/trials/5/trace/phasePresentation/1/presentationPoints",
+      "count": 107
+    },
+    {
+      "field": "baidu/trials/5/trace/phasePresentation/2/presentationPoints",
+      "count": 738
+    },
+    {
+      "field": "baidu/traces/0/phasePresentation/0/presentationPoints",
+      "count": 473
+    },
+    {
+      "field": "baidu/traces/0/phasePresentation/1/presentationPoints",
+      "count": 129
+    },
+    {
+      "field": "baidu/traces/0/phasePresentation/2/presentationPoints",
+      "count": 744
+    },
+    {
+      "field": "baidu/traces/1/phasePresentation/0/presentationPoints",
+      "count": 474
+    },
+    {
+      "field": "baidu/traces/1/phasePresentation/1/presentationPoints",
+      "count": 111
+    },
+    {
+      "field": "baidu/traces/1/phasePresentation/2/presentationPoints",
+      "count": 742
+    },
+    {
+      "field": "baidu/traces/2/phasePresentation/0/presentationPoints",
+      "count": 454
+    },
+    {
+      "field": "baidu/traces/2/phasePresentation/1/presentationPoints",
+      "count": 104
+    },
+    {
+      "field": "baidu/traces/2/phasePresentation/2/presentationPoints",
+      "count": 723
+    },
+    {
+      "field": "baidu/traces/3/phasePresentation/0/presentationPoints",
+      "count": 459
+    },
+    {
+      "field": "baidu/traces/3/phasePresentation/1/presentationPoints",
+      "count": 136
+    },
+    {
+      "field": "baidu/traces/3/phasePresentation/2/presentationPoints",
+      "count": 731
+    },
+    {
+      "field": "baidu/traces/4/phasePresentation/0/presentationPoints",
+      "count": 467
+    },
+    {
+      "field": "baidu/traces/4/phasePresentation/1/presentationPoints",
+      "count": 157
+    },
+    {
+      "field": "baidu/traces/4/phasePresentation/2/presentationPoints",
+      "count": 721
+    },
+    {
+      "field": "baidu/traces/5/phasePresentation/0/presentationPoints",
+      "count": 472
+    },
+    {
+      "field": "baidu/traces/5/phasePresentation/1/presentationPoints",
+      "count": 107
+    },
+    {
+      "field": "baidu/traces/5/phasePresentation/2/presentationPoints",
+      "count": 738
+    },
+    {
+      "field": "/0/phasePresentation/0/presentationPoints",
+      "count": 473
+    },
+    {
+      "field": "/0/phasePresentation/1/presentationPoints",
+      "count": 129
+    },
+    {
+      "field": "/0/phasePresentation/2/presentationPoints",
+      "count": 744
+    },
+    {
+      "field": "/1/phasePresentation/0/presentationPoints",
+      "count": 474
+    },
+    {
+      "field": "/1/phasePresentation/1/presentationPoints",
+      "count": 111
+    },
+    {
+      "field": "/1/phasePresentation/2/presentationPoints",
+      "count": 742
+    },
+    {
+      "field": "/2/phasePresentation/0/presentationPoints",
+      "count": 454
+    },
+    {
+      "field": "/2/phasePresentation/1/presentationPoints",
+      "count": 104
+    },
+    {
+      "field": "/2/phasePresentation/2/presentationPoints",
+      "count": 723
+    },
+    {
+      "field": "/3/phasePresentation/0/presentationPoints",
+      "count": 459
+    },
+    {
+      "field": "/3/phasePresentation/1/presentationPoints",
+      "count": 136
+    },
+    {
+      "field": "/3/phasePresentation/2/presentationPoints",
+      "count": 731
+    },
+    {
+      "field": "/4/phasePresentation/0/presentationPoints",
+      "count": 467
+    },
+    {
+      "field": "/4/phasePresentation/1/presentationPoints",
+      "count": 157
+    },
+    {
+      "field": "/4/phasePresentation/2/presentationPoints",
+      "count": 721
+    },
+    {
+      "field": "/5/phasePresentation/0/presentationPoints",
+      "count": 472
+    },
+    {
+      "field": "/5/phasePresentation/1/presentationPoints",
+      "count": 107
+    },
+    {
+      "field": "/5/phasePresentation/2/presentationPoints",
+      "count": 738
+    }
+  ],
+  "numericAggregatesUnchanged": true,
+  "sourceDataSha256Recorded": true,
+  "figureBytesUnchanged": true,
+  "accountNamesAndAbsolutePathsRemoved": true,
+  "allDataUrlStringsRemoved": true,
+  "note": "This is a derived public report; the independent numeric evidence extraction supplies measurement arrays. No original raw report, complete CDP trace, SDK bundle or credential was copied here."
+}

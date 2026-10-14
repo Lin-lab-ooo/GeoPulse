@@ -1,0 +1,3003 @@
+{
+  "schema": "geo-pulse/public-whole-map-source-index-1.0",
+  "date": "2026-10-14",
+  "originalHashMeaning": "All original hashes refer to immutable original bytes retained in the local archive. Public derived JSON has different bytes and separate hashes in manifest.report-files.json. Logical archive paths are identifiers, not links claiming the private originals were uploaded.",
+  "sourceReports": [
+    {
+      "logicalPath": "results/formal-realmap1/report.json",
+      "sha256": "55c4c0f48b4af532a030c552de8d887b39040d298d71289dc788dc04f090a95a",
+      "bytes": 174459,
+      "schema": "geo-pulse/whole-map-benchmark-1.0",
+      "createdAt": "2026-10-14T13:45:25.536Z",
+      "rawPassed": true,
+      "sceneValid": null,
+      "protocolPassed": null,
+      "trialCount": 27,
+      "bindings": {
+        "geopulse/data.js": "0ed171c44e9d2eb17a61ba0dd41455b83f1dc535940fc5faf8ff41d5e5a14b59",
+        "geopulse/stream-worker.js": "da2ee18942dd03a0a92784ac6c1ef8c0c831f009420fefdd257710bf69ed7327",
+        "geopulse/renderer.js": "f3b751f53ec78acfe79337e3cf19abb2b7c1054f1b94f06270b766824515d1bc",
+        "geopulse/scheduler.js": "6f42c06cb085e19c9ecb6d4492e89cd136f7d227180b2f5a9730999b4fbf4226",
+        "geopulse/app.js": "4ed8fc54a0cbfc24dc52badaac842e163928db2fac2de1e95b04785787df36ab",
+        "geopulse/neural-model.js": "f8d0da26d22bb17799d313d3ecd128831ad77f2c3f440060ffaf60a2abb35344",
+        "geopulse/neural-worker.js": "79f91d993652d6832a9f717d6ca0bd6639a81519f22cc9904dbde4a22ae1bb29",
+        "geopulse/neural-panel.js": "352f81202e214f36f312157a814f2b6a26303e8015e799b52a3c0aae45f2b04c",
+        "geopulse/lod-experiment.js": "b67819eb94d55ecb9251750e7eef816c8e09821c240f1877854f780275b0f6ab",
+        "geopulse/dirty-ranges.js": "6a8597591b03bb2b8546d4fe17773643f96ced66efaa3f42166140d539847a43",
+        "geopulse/spatial-index.js": "94e7947124cc1426d7a6c812a03ade0e77c789b0ec5dcff8e50582965dc8ba43",
+        "geopulse/optimization-fixtures.js": "defdbfa448f44ffec5f6d62d30463f194b3505c694c1436166d6cd6865266b6f",
+        "geopulse/optimization-experiment.js": "e34d655a2d734aab49586c39b7bd1af6a02d4d0587ad84a4fccbbe6782b45877",
+        "geopulse/map-frame-experiment.js": "31e8e392a539baa8dec72583d0b49785d438b40b8f58340d9f2e6bac19cdbc63",
+        "geopulse/baidu-poi.js": "92da8db7879e349df6c233fd4795793f9ac669fe895a32675eceff7f8923c4ed",
+        "geopulse/baidu-poi-cache.js": "0a777d8c8cc7da3322069b4b79181cb9a2a75b801afd77e40efdef99f741c830",
+        "geopulse/baidu-poi-rate-limit.js": "6a5832b5b281cf7b4b31eb86c81dbac67b22c2466fa4066026c61167bce5d095",
+        "geopulse/coarse-spatial-index.js": "5d01626be3ecd442512b9b6a311715266ffb693cd0571966a2f80c10031c3a64",
+        "geopulse/loading-experiment.js": "eceb4d9aff351661ece1cc871e979a8843e565ba93315359e0a1c4a72e3dacda",
+        "geopulse/demand-experiment.js": "d11af04a2f984080b4d6e9e928b83341dcc2e3521d9c77d5e5511b35dc512512",
+        "geopulse/projected-bounds.js": "4e4b25c5a37af05726ebae4fe8e85d7bbb69274fea48015357641ab1ec8a0409",
+        "geopulse/spatial-query-worker.js": "714f6721097d75ce61289cdee69a46d6c57c045d2be4edaf3b22de39cc105489",
+        "geopulse/spatial-query-client.js": "7eca978035cb410d1dc2f28c5e0d7184aa995e362ba5772d814d4872b07d693f",
+        "geopulse/update-queue.js": "7529c792bd040ec5d1fc26515cf817c360e6e05c5d1b4fd134bf04500e83427e",
+        "geopulse/feature-overlay.js": "c2c21c6518081bdfe3a54690b9aed3392d6ec296d5d370d08ed795c0975269f2",
+        "geopulse/loading-staging.js": "752fecfa4bdca84ac55bf1bfb001e12a61829a0bbcd4a7de25ca5b953fe0c9bc",
+        "geopulse/version.js": "4cd45d23e2356f7151082419fa7dbf2914a712ba17704dc9a2ade6b323a6348d",
+        "geopulse/transport.js": "45b6ca482a634c7c2bcff187f7f793b7d5a58b1c8e991213be696dfc82faa9e3",
+        "geopulse/upload-cost-policy.js": "6d32f523621dc6d362b49fa8e674ffb7cffb47c09f372006248ee3fa8c3c5d3e",
+        "geopulse/spatial-work-policy.js": "862ab070f157fd4b3393eda642993f2f207fc742cc5040d3d052d4a62a02c623",
+        "geopulse/upload-density-policy.js": "007caee82b87c36dcf3eb0d228cd1cb25e9cf1f4b2b9bb9847720062d8fdc087",
+        "geopulse/color-dirty-state.js": "2082983e281d72d8263dd5aa89aca9d23671e96d636090997d219509e3a6d023",
+        "geopulse/live-bounds-index.js": "e773fce9074bab1775289f38076b6360b411b26c6bd286354e7b4da18931a713",
+        "geopulse/pick-spatial.js": "69f2f6b218d422e49bb6740d6cbe01a4e1bfdb9dcacd2a36719c716a392c7fb6",
+        "geopulse/workspace-ui.js": "a891f171aadc44c4c9f097d1c40b0ab22ded6f6bfe7d960940af78de2450005a",
+        "geopulse/run-outcome.js": "663b4f8de242c51848f2ee0324f59ab8870e84cbd8961aa86d426cae0cc28247",
+        "geopulse/report-export.js": "fc7f975d6d57e12e52cc7a806587102f410fbc20a8b7e2c102a1bc802c5ea1d4",
+        "geopulse/sampling-window.js": "21c37ed99d00c97c4303835057aaf92eb577e6ab20f5fa99f9781957b43128a7",
+        "stream-worker.profile.js": "322340c6d8d4a9f206e09e9fa2b35c0867e9d13cb0518461b4f252f9a9c20793",
+        "whole-map-entry.js": "e28b7cad5f5e81f13fac4fbdbee88a72c9aff2c5ac4d7b7ead2a2631238b5cf7",
+        "run-whole-map.mjs": "b1f74019b3465a47cd67c79ce7c2b16e9770891e42a498044ce68eb0c8609b8a",
+        "geopulse-map-adapter.js": "1d20d37a323b4a6170155dd3e582304760aff618523010c98a0dfdf31d406431",
+        "deck-map-adapter.js": "34d4654c9d2c88d292eb408f2b3b05d5c9f6f09b6bb59d91a1bb5f3892f58e9e",
+        "native-map-adapter.js": "d40f4351fdab6190d15ef63848cd7e1c67e45632cb84ba596417de81237bdf8d",
+        "whole-map-profiler.js": "bf35d09dc408fd09e1d4fa238d8df46ee1dd6ab1cafb8678d27dcb141748499b",
+        "instrument-stream-worker.mjs": "d285d6d57f08f0ab07f0709d5f99eb3a5a202ad6da9ed2e9c443e86a648a4a4e",
+        "maplibre-worker-profile-suffix.js": "059c9eb663d61a63481d857e4def65b6e9a639a28674f6e999bf2941eccdc793",
+        "package-lock.json": "def6a8aa49ef8bcc5316c0ae00eec6184089b544fa4069a2c9fd02ab27ad59af",
+        "maplibre-worker.native": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9",
+        "maplibre-worker.profile": "e3037f920e53aee84361b68a5c033eb1b444de79b4dde3458d6cba1fe46e36c6",
+        "bundle": "fea9a74dd79cb14fb0d5c702cceea65db7e9e9a8ae7fef922fd777cfad29ad45",
+        "/assets/upstream-style.json": "4733a24f6ae359b7a104cf1a5cde845eb5f16dd590c65059d8de89a40242cb36",
+        "/assets/upstream-tilejson.json": "11fbc44917cf7c5aea5d1f798ee21a0c4240d2a3f7052591406b16351dde8f7e",
+        "/assets/upstream-metadata.json": "ea380c36b09570de05de68ad218132ce0cec7443c53352a0fdc3a9c849f1c757",
+        "/assets/licenses/maplibre-demotiles-BSD-3-Clause.txt": "5dd1cfc5b6f7bef1363ba3f79d7c11c04b12ea1782d8b8d0f3c4366b60640eb2",
+        "/assets/licenses/openmaptiles-LICENSE.md": "6b7862d9537cd3160f10034b8bb0b8d68165da134ea2001080166aa0b624e15c",
+        "/assets/licenses/osm-bright-gl-style-LICENSE.md": "aa25033b12c9cbf8c2d95a310c66ce08727c01139d23de6df5ae97505fb98f82",
+        "/assets/licenses/Noto-SIL-OFL-1.1.txt": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+        "/assets/licenses/OSM-ODbL-1.0.txt": "607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5",
+        "/assets/tiles/12/2177/1435.pbf": "6228b52dd092381f19434b0dcb9359cf98ba1b14d32c4d021cc60513f28f4fc7",
+        "/assets/tiles/12/2177/1436.pbf": "93a3c51170b478e0eb87946d6beef25dca2c098d9f5cd64b2960dfc5b710f22a",
+        "/assets/tiles/12/2178/1435.pbf": "632675fb3a895d57a0f2f188b739a90e4844814c211f68a29043b5f365455ccb",
+        "/assets/tiles/12/2178/1436.pbf": "107f8c54510151ccdbf8886dcbe2b5b7928ba2b167c28518803b47a72d13aa08",
+        "/assets/tiles/14/8710/5744.pbf": "005696bb48fc984c1691944f7b692b4dafff314dbc07380289e9b9a607225c49",
+        "/assets/tiles/14/8710/5745.pbf": "ae78b0b9ad90fca549f9939c9b647315e58b910f9128a3418932f9e5885f93e4",
+        "/assets/tiles/14/8710/5743.pbf": "79910e1737a23146026e693cb2cab1e7354799d8822c79f4e7baee0161a0e041",
+        "/assets/tiles/14/8710/5746.pbf": "47bb90c4213fbad5e148f31a056f570207aff64b6d09781af48ae51b7cedad17",
+        "/assets/tiles/14/8711/5744.pbf": "30a3688e651a405718983639669bfb529a10b44a5aee41c59eefdc1152051a3c",
+        "/assets/tiles/14/8711/5745.pbf": "74bf56dce375e9361bccb6263c536842c9918e80bc4c44f02fb0bab15b2ba064",
+        "/assets/tiles/14/8711/5743.pbf": "a46025ccba6fa4109cfca1a90cc42ef7c5b1f96c496684fbb5f6eec508b7bcb1",
+        "/assets/tiles/14/8711/5746.pbf": "a402c8836c93d54b8f6eb513f8256af9bdf6604b61b6fbba0c307a7dcee8ed07",
+        "/assets/tiles/14/8712/5744.pbf": "f8c3e73f57e05be873e3bb33aebe11836e5e2ac66a04b780bfb3164626452020",
+        "/assets/tiles/14/8712/5745.pbf": "54aa32c3d7a4835392e94615ab53330eb3070aa3c80cf3bcd0a399d7b2bdc7c3",
+        "/assets/tiles/14/8709/5745.pbf": "49f168280faf9b6f4752abf6415255c94a9c8e57232efba386b6f7c1f914c4da",
+        "/assets/tiles/14/8709/5744.pbf": "e53fa49c315374f7ed00731e9e6733664b57d0f6a51a5c05f9ebfa58c7485465",
+        "/assets/tiles/13/4356/2872.pbf": "8bbf6598f6e701b6acce044d36337eb5bf089f8de21ce4621279c2ed373c23c9",
+        "/assets/tiles/13/4356/2871.pbf": "429e9ea628491a416bec0c60fb02c49d2f7473cc58a118a8d3428a3b63456903",
+        "/assets/tiles/13/4356/2873.pbf": "a5f0d6a472f6b1258d718996c3ba01b7c9033c4357288cdc1ca22dedac06afeb",
+        "/assets/tiles/13/4355/2872.pbf": "305fd4a5b53486a02d3ebdfda9217c591e634f7b3628b83ffd20ac0b0eb13039",
+        "/assets/tiles/13/4355/2873.pbf": "b44d39fa2c4e61c5acc06669d407c8fddf4776ad53a38795f94f1218d79efa1d",
+        "/assets/tiles/13/4355/2871.pbf": "522e26f94950f4080354a872a9ee7a6830025a73aa48654ccce017f303ddfba4",
+        "/assets/tiles/13/4354/2872.pbf": "425a8fc7ef6735291f8c4a1cff1a480c9a6ffeab99cb3e10228657fed71651ae",
+        "/assets/tiles/13/4354/2873.pbf": "c408280ceaa7ff4becc155ead4dd0301e86d7f68b483531d932d5f604ebe3bcc",
+        "/assets/tiles/13/4354/2871.pbf": "31c79992cc51e93d22526234439110cdffa5bb401c9c07f416fdbc776fe265ba",
+        "/assets/initial-acquisition.json": "08030de57563a4aae556094b99066cd097d3bdf48fcef9a100ee1ed760174a9b",
+        "/assets/tile-acquisition.json": "f604fec7f1f5d9c249ab5799eb96a049c691220ef6d0f1d06428e8cc1fa65137",
+        "/assets/fonts/Noto Sans Regular/0-255.pbf": "ef1f38a3f1978591e846e9eaddf8a54f7047f546fc6aaed7872cc53151a5de78",
+        "/assets/fonts/Noto Sans Regular/256-511.pbf": "992557f9e2574cfb9a75e16c7b52832578849772b7c9a6e480d6213fb008fe5d",
+        "/assets/font-acquisition.json": "0c3180ac1f591901820cde3e88e1f5941892f91e0873c72550aff03dbc8bf40c",
+        "/assets/license-source-revisions.json": "db4ebcc1c990a31bca6a5a4c5dcf8b91b96083f20b54f5eb133359cd4d67eed3",
+        "/assets/license-acquisition.json": "46fecddbf7654aec12513c64951ddb1361865bb796c72f498189ea61260e7ea7",
+        "/assets/decoded-validation.json": "dc68bc46cc4aa8c28a18f8a05ed946df2d91081f1ddde9c700f327cb0e935c62",
+        "/assets/base-style.json": "785ee309602ccc548176cc90f69108b8e34659035763f9e19a7e712fefdd28e4",
+        "/assets/manifest.json": "a0d4044100a4f82c5106c49de931350ab4d7a00e564e2dcc34db1eb1202f936c",
+        "/assets/preflight1-tile-acquisition.json": "abb514ba8e303f633e9f6ff6aa717a136562f9f5919f803f940e8b2f74aedd71"
+      },
+      "rawReportIncluded": false
+    },
+    {
+      "logicalPath": "results/matched-policy1/report.json",
+      "sha256": "037cea8f8a4a587b597208ac2b005777a0beb3b845b95e10da4876f2aedb2648",
+      "bytes": 67816,
+      "schema": "geo-pulse/whole-map-benchmark-1.0",
+      "createdAt": "2026-10-14T13:56:08.199Z",
+      "rawPassed": true,
+      "sceneValid": null,
+      "protocolPassed": null,
+      "trialCount": 9,
+      "bindings": {
+        "geopulse/data.js": "0ed171c44e9d2eb17a61ba0dd41455b83f1dc535940fc5faf8ff41d5e5a14b59",
+        "geopulse/stream-worker.js": "da2ee18942dd03a0a92784ac6c1ef8c0c831f009420fefdd257710bf69ed7327",
+        "geopulse/renderer.js": "f3b751f53ec78acfe79337e3cf19abb2b7c1054f1b94f06270b766824515d1bc",
+        "geopulse/scheduler.js": "6f42c06cb085e19c9ecb6d4492e89cd136f7d227180b2f5a9730999b4fbf4226",
+        "geopulse/app.js": "4ed8fc54a0cbfc24dc52badaac842e163928db2fac2de1e95b04785787df36ab",
+        "geopulse/neural-model.js": "f8d0da26d22bb17799d313d3ecd128831ad77f2c3f440060ffaf60a2abb35344",
+        "geopulse/neural-worker.js": "79f91d993652d6832a9f717d6ca0bd6639a81519f22cc9904dbde4a22ae1bb29",
+        "geopulse/neural-panel.js": "352f81202e214f36f312157a814f2b6a26303e8015e799b52a3c0aae45f2b04c",
+        "geopulse/lod-experiment.js": "b67819eb94d55ecb9251750e7eef816c8e09821c240f1877854f780275b0f6ab",
+        "geopulse/dirty-ranges.js": "6a8597591b03bb2b8546d4fe17773643f96ced66efaa3f42166140d539847a43",
+        "geopulse/spatial-index.js": "94e7947124cc1426d7a6c812a03ade0e77c789b0ec5dcff8e50582965dc8ba43",
+        "geopulse/optimization-fixtures.js": "defdbfa448f44ffec5f6d62d30463f194b3505c694c1436166d6cd6865266b6f",
+        "geopulse/optimization-experiment.js": "e34d655a2d734aab49586c39b7bd1af6a02d4d0587ad84a4fccbbe6782b45877",
+        "geopulse/map-frame-experiment.js": "31e8e392a539baa8dec72583d0b49785d438b40b8f58340d9f2e6bac19cdbc63",
+        "geopulse/baidu-poi.js": "92da8db7879e349df6c233fd4795793f9ac669fe895a32675eceff7f8923c4ed",
+        "geopulse/baidu-poi-cache.js": "0a777d8c8cc7da3322069b4b79181cb9a2a75b801afd77e40efdef99f741c830",
+        "geopulse/baidu-poi-rate-limit.js": "6a5832b5b281cf7b4b31eb86c81dbac67b22c2466fa4066026c61167bce5d095",
+        "geopulse/coarse-spatial-index.js": "5d01626be3ecd442512b9b6a311715266ffb693cd0571966a2f80c10031c3a64",
+        "geopulse/loading-experiment.js": "eceb4d9aff351661ece1cc871e979a8843e565ba93315359e0a1c4a72e3dacda",
+        "geopulse/demand-experiment.js": "d11af04a2f984080b4d6e9e928b83341dcc2e3521d9c77d5e5511b35dc512512",
+        "geopulse/projected-bounds.js": "4e4b25c5a37af05726ebae4fe8e85d7bbb69274fea48015357641ab1ec8a0409",
+        "geopulse/spatial-query-worker.js": "714f6721097d75ce61289cdee69a46d6c57c045d2be4edaf3b22de39cc105489",
+        "geopulse/spatial-query-client.js": "7eca978035cb410d1dc2f28c5e0d7184aa995e362ba5772d814d4872b07d693f",
+        "geopulse/update-queue.js": "7529c792bd040ec5d1fc26515cf817c360e6e05c5d1b4fd134bf04500e83427e",
+        "geopulse/feature-overlay.js": "c2c21c6518081bdfe3a54690b9aed3392d6ec296d5d370d08ed795c0975269f2",
+        "geopulse/loading-staging.js": "752fecfa4bdca84ac55bf1bfb001e12a61829a0bbcd4a7de25ca5b953fe0c9bc",
+        "geopulse/version.js": "4cd45d23e2356f7151082419fa7dbf2914a712ba17704dc9a2ade6b323a6348d",
+        "geopulse/transport.js": "45b6ca482a634c7c2bcff187f7f793b7d5a58b1c8e991213be696dfc82faa9e3",
+        "geopulse/upload-cost-policy.js": "6d32f523621dc6d362b49fa8e674ffb7cffb47c09f372006248ee3fa8c3c5d3e",
+        "geopulse/spatial-work-policy.js": "862ab070f157fd4b3393eda642993f2f207fc742cc5040d3d052d4a62a02c623",
+        "geopulse/upload-density-policy.js": "007caee82b87c36dcf3eb0d228cd1cb25e9cf1f4b2b9bb9847720062d8fdc087",
+        "geopulse/color-dirty-state.js": "2082983e281d72d8263dd5aa89aca9d23671e96d636090997d219509e3a6d023",
+        "geopulse/live-bounds-index.js": "e773fce9074bab1775289f38076b6360b411b26c6bd286354e7b4da18931a713",
+        "geopulse/pick-spatial.js": "69f2f6b218d422e49bb6740d6cbe01a4e1bfdb9dcacd2a36719c716a392c7fb6",
+        "geopulse/workspace-ui.js": "a891f171aadc44c4c9f097d1c40b0ab22ded6f6bfe7d960940af78de2450005a",
+        "geopulse/run-outcome.js": "663b4f8de242c51848f2ee0324f59ab8870e84cbd8961aa86d426cae0cc28247",
+        "geopulse/report-export.js": "fc7f975d6d57e12e52cc7a806587102f410fbc20a8b7e2c102a1bc802c5ea1d4",
+        "geopulse/sampling-window.js": "21c37ed99d00c97c4303835057aaf92eb577e6ab20f5fa99f9781957b43128a7",
+        "stream-worker.profile.js": "322340c6d8d4a9f206e09e9fa2b35c0867e9d13cb0518461b4f252f9a9c20793",
+        "whole-map-entry.js": "754d336c141e23dbd7a98c215a9b764c9bbd5c9f8569dab850dfd380b972775a",
+        "run-whole-map.mjs": "4f3b57ca38db0145a7b02fb9f0573be2f0762ed7671810e2f3605c47f9cb3b6d",
+        "geopulse-map-adapter.js": "1d20d37a323b4a6170155dd3e582304760aff618523010c98a0dfdf31d406431",
+        "deck-map-adapter.js": "34d4654c9d2c88d292eb408f2b3b05d5c9f6f09b6bb59d91a1bb5f3892f58e9e",
+        "native-map-adapter.js": "d40f4351fdab6190d15ef63848cd7e1c67e45632cb84ba596417de81237bdf8d",
+        "whole-map-profiler.js": "bf35d09dc408fd09e1d4fa238d8df46ee1dd6ab1cafb8678d27dcb141748499b",
+        "instrument-stream-worker.mjs": "d285d6d57f08f0ab07f0709d5f99eb3a5a202ad6da9ed2e9c443e86a648a4a4e",
+        "maplibre-worker-profile-suffix.js": "059c9eb663d61a63481d857e4def65b6e9a639a28674f6e999bf2941eccdc793",
+        "package-lock.json": "def6a8aa49ef8bcc5316c0ae00eec6184089b544fa4069a2c9fd02ab27ad59af",
+        "maplibre-worker.native": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9",
+        "maplibre-worker.profile": "e3037f920e53aee84361b68a5c033eb1b444de79b4dde3458d6cba1fe46e36c6",
+        "bundle": "836574688f2dd4d188d00541c78249579d8de67cfaed030e25976b7aef18d6a1",
+        "/assets/upstream-style.json": "4733a24f6ae359b7a104cf1a5cde845eb5f16dd590c65059d8de89a40242cb36",
+        "/assets/upstream-tilejson.json": "11fbc44917cf7c5aea5d1f798ee21a0c4240d2a3f7052591406b16351dde8f7e",
+        "/assets/upstream-metadata.json": "ea380c36b09570de05de68ad218132ce0cec7443c53352a0fdc3a9c849f1c757",
+        "/assets/licenses/maplibre-demotiles-BSD-3-Clause.txt": "5dd1cfc5b6f7bef1363ba3f79d7c11c04b12ea1782d8b8d0f3c4366b60640eb2",
+        "/assets/licenses/openmaptiles-LICENSE.md": "6b7862d9537cd3160f10034b8bb0b8d68165da134ea2001080166aa0b624e15c",
+        "/assets/licenses/osm-bright-gl-style-LICENSE.md": "aa25033b12c9cbf8c2d95a310c66ce08727c01139d23de6df5ae97505fb98f82",
+        "/assets/licenses/Noto-SIL-OFL-1.1.txt": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+        "/assets/licenses/OSM-ODbL-1.0.txt": "607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5",
+        "/assets/tiles/12/2177/1435.pbf": "6228b52dd092381f19434b0dcb9359cf98ba1b14d32c4d021cc60513f28f4fc7",
+        "/assets/tiles/12/2177/1436.pbf": "93a3c51170b478e0eb87946d6beef25dca2c098d9f5cd64b2960dfc5b710f22a",
+        "/assets/tiles/12/2178/1435.pbf": "632675fb3a895d57a0f2f188b739a90e4844814c211f68a29043b5f365455ccb",
+        "/assets/tiles/12/2178/1436.pbf": "107f8c54510151ccdbf8886dcbe2b5b7928ba2b167c28518803b47a72d13aa08",
+        "/assets/tiles/14/8710/5744.pbf": "005696bb48fc984c1691944f7b692b4dafff314dbc07380289e9b9a607225c49",
+        "/assets/tiles/14/8710/5745.pbf": "ae78b0b9ad90fca549f9939c9b647315e58b910f9128a3418932f9e5885f93e4",
+        "/assets/tiles/14/8710/5743.pbf": "79910e1737a23146026e693cb2cab1e7354799d8822c79f4e7baee0161a0e041",
+        "/assets/tiles/14/8710/5746.pbf": "47bb90c4213fbad5e148f31a056f570207aff64b6d09781af48ae51b7cedad17",
+        "/assets/tiles/14/8711/5744.pbf": "30a3688e651a405718983639669bfb529a10b44a5aee41c59eefdc1152051a3c",
+        "/assets/tiles/14/8711/5745.pbf": "74bf56dce375e9361bccb6263c536842c9918e80bc4c44f02fb0bab15b2ba064",
+        "/assets/tiles/14/8711/5743.pbf": "a46025ccba6fa4109cfca1a90cc42ef7c5b1f96c496684fbb5f6eec508b7bcb1",
+        "/assets/tiles/14/8711/5746.pbf": "a402c8836c93d54b8f6eb513f8256af9bdf6604b61b6fbba0c307a7dcee8ed07",
+        "/assets/tiles/14/8712/5744.pbf": "f8c3e73f57e05be873e3bb33aebe11836e5e2ac66a04b780bfb3164626452020",
+        "/assets/tiles/14/8712/5745.pbf": "54aa32c3d7a4835392e94615ab53330eb3070aa3c80cf3bcd0a399d7b2bdc7c3",
+        "/assets/tiles/14/8709/5745.pbf": "49f168280faf9b6f4752abf6415255c94a9c8e57232efba386b6f7c1f914c4da",
+        "/assets/tiles/14/8709/5744.pbf": "e53fa49c315374f7ed00731e9e6733664b57d0f6a51a5c05f9ebfa58c7485465",
+        "/assets/tiles/13/4356/2872.pbf": "8bbf6598f6e701b6acce044d36337eb5bf089f8de21ce4621279c2ed373c23c9",
+        "/assets/tiles/13/4356/2871.pbf": "429e9ea628491a416bec0c60fb02c49d2f7473cc58a118a8d3428a3b63456903",
+        "/assets/tiles/13/4356/2873.pbf": "a5f0d6a472f6b1258d718996c3ba01b7c9033c4357288cdc1ca22dedac06afeb",
+        "/assets/tiles/13/4355/2872.pbf": "305fd4a5b53486a02d3ebdfda9217c591e634f7b3628b83ffd20ac0b0eb13039",
+        "/assets/tiles/13/4355/2873.pbf": "b44d39fa2c4e61c5acc06669d407c8fddf4776ad53a38795f94f1218d79efa1d",
+        "/assets/tiles/13/4355/2871.pbf": "522e26f94950f4080354a872a9ee7a6830025a73aa48654ccce017f303ddfba4",
+        "/assets/tiles/13/4354/2872.pbf": "425a8fc7ef6735291f8c4a1cff1a480c9a6ffeab99cb3e10228657fed71651ae",
+        "/assets/tiles/13/4354/2873.pbf": "c408280ceaa7ff4becc155ead4dd0301e86d7f68b483531d932d5f604ebe3bcc",
+        "/assets/tiles/13/4354/2871.pbf": "31c79992cc51e93d22526234439110cdffa5bb401c9c07f416fdbc776fe265ba",
+        "/assets/initial-acquisition.json": "08030de57563a4aae556094b99066cd097d3bdf48fcef9a100ee1ed760174a9b",
+        "/assets/tile-acquisition.json": "f604fec7f1f5d9c249ab5799eb96a049c691220ef6d0f1d06428e8cc1fa65137",
+        "/assets/fonts/Noto Sans Regular/0-255.pbf": "ef1f38a3f1978591e846e9eaddf8a54f7047f546fc6aaed7872cc53151a5de78",
+        "/assets/fonts/Noto Sans Regular/256-511.pbf": "992557f9e2574cfb9a75e16c7b52832578849772b7c9a6e480d6213fb008fe5d",
+        "/assets/font-acquisition.json": "0c3180ac1f591901820cde3e88e1f5941892f91e0873c72550aff03dbc8bf40c",
+        "/assets/license-source-revisions.json": "db4ebcc1c990a31bca6a5a4c5dcf8b91b96083f20b54f5eb133359cd4d67eed3",
+        "/assets/license-acquisition.json": "46fecddbf7654aec12513c64951ddb1361865bb796c72f498189ea61260e7ea7",
+        "/assets/decoded-validation.json": "dc68bc46cc4aa8c28a18f8a05ed946df2d91081f1ddde9c700f327cb0e935c62",
+        "/assets/base-style.json": "785ee309602ccc548176cc90f69108b8e34659035763f9e19a7e712fefdd28e4",
+        "/assets/manifest.json": "a0d4044100a4f82c5106c49de931350ab4d7a00e564e2dcc34db1eb1202f936c",
+        "/assets/preflight1-tile-acquisition.json": "abb514ba8e303f633e9f6ff6aa717a136562f9f5919f803f940e8b2f74aedd71"
+      },
+      "rawReportIncluded": false
+    },
+    {
+      "logicalPath": "results/minimal-policy1/report.json",
+      "sha256": "6182394b666022ba16827cb68143de9cb087f86e7544f2f9e6f90acfbb337721",
+      "bytes": 68026,
+      "schema": "geo-pulse/whole-map-benchmark-1.0",
+      "createdAt": "2026-10-14T13:59:28.561Z",
+      "rawPassed": true,
+      "sceneValid": null,
+      "protocolPassed": null,
+      "trialCount": 9,
+      "bindings": {
+        "geopulse/data.js": "0ed171c44e9d2eb17a61ba0dd41455b83f1dc535940fc5faf8ff41d5e5a14b59",
+        "geopulse/stream-worker.js": "da2ee18942dd03a0a92784ac6c1ef8c0c831f009420fefdd257710bf69ed7327",
+        "geopulse/renderer.js": "f3b751f53ec78acfe79337e3cf19abb2b7c1054f1b94f06270b766824515d1bc",
+        "geopulse/scheduler.js": "6f42c06cb085e19c9ecb6d4492e89cd136f7d227180b2f5a9730999b4fbf4226",
+        "geopulse/app.js": "4ed8fc54a0cbfc24dc52badaac842e163928db2fac2de1e95b04785787df36ab",
+        "geopulse/neural-model.js": "f8d0da26d22bb17799d313d3ecd128831ad77f2c3f440060ffaf60a2abb35344",
+        "geopulse/neural-worker.js": "79f91d993652d6832a9f717d6ca0bd6639a81519f22cc9904dbde4a22ae1bb29",
+        "geopulse/neural-panel.js": "352f81202e214f36f312157a814f2b6a26303e8015e799b52a3c0aae45f2b04c",
+        "geopulse/lod-experiment.js": "b67819eb94d55ecb9251750e7eef816c8e09821c240f1877854f780275b0f6ab",
+        "geopulse/dirty-ranges.js": "6a8597591b03bb2b8546d4fe17773643f96ced66efaa3f42166140d539847a43",
+        "geopulse/spatial-index.js": "94e7947124cc1426d7a6c812a03ade0e77c789b0ec5dcff8e50582965dc8ba43",
+        "geopulse/optimization-fixtures.js": "defdbfa448f44ffec5f6d62d30463f194b3505c694c1436166d6cd6865266b6f",
+        "geopulse/optimization-experiment.js": "e34d655a2d734aab49586c39b7bd1af6a02d4d0587ad84a4fccbbe6782b45877",
+        "geopulse/map-frame-experiment.js": "31e8e392a539baa8dec72583d0b49785d438b40b8f58340d9f2e6bac19cdbc63",
+        "geopulse/baidu-poi.js": "92da8db7879e349df6c233fd4795793f9ac669fe895a32675eceff7f8923c4ed",
+        "geopulse/baidu-poi-cache.js": "0a777d8c8cc7da3322069b4b79181cb9a2a75b801afd77e40efdef99f741c830",
+        "geopulse/baidu-poi-rate-limit.js": "6a5832b5b281cf7b4b31eb86c81dbac67b22c2466fa4066026c61167bce5d095",
+        "geopulse/coarse-spatial-index.js": "5d01626be3ecd442512b9b6a311715266ffb693cd0571966a2f80c10031c3a64",
+        "geopulse/loading-experiment.js": "eceb4d9aff351661ece1cc871e979a8843e565ba93315359e0a1c4a72e3dacda",
+        "geopulse/demand-experiment.js": "d11af04a2f984080b4d6e9e928b83341dcc2e3521d9c77d5e5511b35dc512512",
+        "geopulse/projected-bounds.js": "4e4b25c5a37af05726ebae4fe8e85d7bbb69274fea48015357641ab1ec8a0409",
+        "geopulse/spatial-query-worker.js": "714f6721097d75ce61289cdee69a46d6c57c045d2be4edaf3b22de39cc105489",
+        "geopulse/spatial-query-client.js": "7eca978035cb410d1dc2f28c5e0d7184aa995e362ba5772d814d4872b07d693f",
+        "geopulse/update-queue.js": "7529c792bd040ec5d1fc26515cf817c360e6e05c5d1b4fd134bf04500e83427e",
+        "geopulse/feature-overlay.js": "c2c21c6518081bdfe3a54690b9aed3392d6ec296d5d370d08ed795c0975269f2",
+        "geopulse/loading-staging.js": "752fecfa4bdca84ac55bf1bfb001e12a61829a0bbcd4a7de25ca5b953fe0c9bc",
+        "geopulse/version.js": "4cd45d23e2356f7151082419fa7dbf2914a712ba17704dc9a2ade6b323a6348d",
+        "geopulse/transport.js": "45b6ca482a634c7c2bcff187f7f793b7d5a58b1c8e991213be696dfc82faa9e3",
+        "geopulse/upload-cost-policy.js": "6d32f523621dc6d362b49fa8e674ffb7cffb47c09f372006248ee3fa8c3c5d3e",
+        "geopulse/spatial-work-policy.js": "862ab070f157fd4b3393eda642993f2f207fc742cc5040d3d052d4a62a02c623",
+        "geopulse/upload-density-policy.js": "007caee82b87c36dcf3eb0d228cd1cb25e9cf1f4b2b9bb9847720062d8fdc087",
+        "geopulse/color-dirty-state.js": "2082983e281d72d8263dd5aa89aca9d23671e96d636090997d219509e3a6d023",
+        "geopulse/live-bounds-index.js": "e773fce9074bab1775289f38076b6360b411b26c6bd286354e7b4da18931a713",
+        "geopulse/pick-spatial.js": "69f2f6b218d422e49bb6740d6cbe01a4e1bfdb9dcacd2a36719c716a392c7fb6",
+        "geopulse/workspace-ui.js": "a891f171aadc44c4c9f097d1c40b0ab22ded6f6bfe7d960940af78de2450005a",
+        "geopulse/run-outcome.js": "663b4f8de242c51848f2ee0324f59ab8870e84cbd8961aa86d426cae0cc28247",
+        "geopulse/report-export.js": "fc7f975d6d57e12e52cc7a806587102f410fbc20a8b7e2c102a1bc802c5ea1d4",
+        "geopulse/sampling-window.js": "21c37ed99d00c97c4303835057aaf92eb577e6ab20f5fa99f9781957b43128a7",
+        "stream-worker.profile.js": "da2ee18942dd03a0a92784ac6c1ef8c0c831f009420fefdd257710bf69ed7327",
+        "whole-map-entry.js": "754d336c141e23dbd7a98c215a9b764c9bbd5c9f8569dab850dfd380b972775a",
+        "run-whole-map.mjs": "4f3b57ca38db0145a7b02fb9f0573be2f0762ed7671810e2f3605c47f9cb3b6d",
+        "geopulse-map-adapter.js": "1d20d37a323b4a6170155dd3e582304760aff618523010c98a0dfdf31d406431",
+        "deck-map-adapter.js": "34d4654c9d2c88d292eb408f2b3b05d5c9f6f09b6bb59d91a1bb5f3892f58e9e",
+        "native-map-adapter.js": "d40f4351fdab6190d15ef63848cd7e1c67e45632cb84ba596417de81237bdf8d",
+        "whole-map-profiler.js": "bf35d09dc408fd09e1d4fa238d8df46ee1dd6ab1cafb8678d27dcb141748499b",
+        "instrument-stream-worker.mjs": "d285d6d57f08f0ab07f0709d5f99eb3a5a202ad6da9ed2e9c443e86a648a4a4e",
+        "maplibre-worker-profile-suffix.js": "059c9eb663d61a63481d857e4def65b6e9a639a28674f6e999bf2941eccdc793",
+        "package-lock.json": "def6a8aa49ef8bcc5316c0ae00eec6184089b544fa4069a2c9fd02ab27ad59af",
+        "maplibre-worker.native": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9",
+        "maplibre-worker.profile": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9",
+        "bundle": "836574688f2dd4d188d00541c78249579d8de67cfaed030e25976b7aef18d6a1",
+        "/assets/upstream-style.json": "4733a24f6ae359b7a104cf1a5cde845eb5f16dd590c65059d8de89a40242cb36",
+        "/assets/upstream-tilejson.json": "11fbc44917cf7c5aea5d1f798ee21a0c4240d2a3f7052591406b16351dde8f7e",
+        "/assets/upstream-metadata.json": "ea380c36b09570de05de68ad218132ce0cec7443c53352a0fdc3a9c849f1c757",
+        "/assets/licenses/maplibre-demotiles-BSD-3-Clause.txt": "5dd1cfc5b6f7bef1363ba3f79d7c11c04b12ea1782d8b8d0f3c4366b60640eb2",
+        "/assets/licenses/openmaptiles-LICENSE.md": "6b7862d9537cd3160f10034b8bb0b8d68165da134ea2001080166aa0b624e15c",
+        "/assets/licenses/osm-bright-gl-style-LICENSE.md": "aa25033b12c9cbf8c2d95a310c66ce08727c01139d23de6df5ae97505fb98f82",
+        "/assets/licenses/Noto-SIL-OFL-1.1.txt": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+        "/assets/licenses/OSM-ODbL-1.0.txt": "607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5",
+        "/assets/tiles/12/2177/1435.pbf": "6228b52dd092381f19434b0dcb9359cf98ba1b14d32c4d021cc60513f28f4fc7",
+        "/assets/tiles/12/2177/1436.pbf": "93a3c51170b478e0eb87946d6beef25dca2c098d9f5cd64b2960dfc5b710f22a",
+        "/assets/tiles/12/2178/1435.pbf": "632675fb3a895d57a0f2f188b739a90e4844814c211f68a29043b5f365455ccb",
+        "/assets/tiles/12/2178/1436.pbf": "107f8c54510151ccdbf8886dcbe2b5b7928ba2b167c28518803b47a72d13aa08",
+        "/assets/tiles/14/8710/5744.pbf": "005696bb48fc984c1691944f7b692b4dafff314dbc07380289e9b9a607225c49",
+        "/assets/tiles/14/8710/5745.pbf": "ae78b0b9ad90fca549f9939c9b647315e58b910f9128a3418932f9e5885f93e4",
+        "/assets/tiles/14/8710/5743.pbf": "79910e1737a23146026e693cb2cab1e7354799d8822c79f4e7baee0161a0e041",
+        "/assets/tiles/14/8710/5746.pbf": "47bb90c4213fbad5e148f31a056f570207aff64b6d09781af48ae51b7cedad17",
+        "/assets/tiles/14/8711/5744.pbf": "30a3688e651a405718983639669bfb529a10b44a5aee41c59eefdc1152051a3c",
+        "/assets/tiles/14/8711/5745.pbf": "74bf56dce375e9361bccb6263c536842c9918e80bc4c44f02fb0bab15b2ba064",
+        "/assets/tiles/14/8711/5743.pbf": "a46025ccba6fa4109cfca1a90cc42ef7c5b1f96c496684fbb5f6eec508b7bcb1",
+        "/assets/tiles/14/8711/5746.pbf": "a402c8836c93d54b8f6eb513f8256af9bdf6604b61b6fbba0c307a7dcee8ed07",
+        "/assets/tiles/14/8712/5744.pbf": "f8c3e73f57e05be873e3bb33aebe11836e5e2ac66a04b780bfb3164626452020",
+        "/assets/tiles/14/8712/5745.pbf": "54aa32c3d7a4835392e94615ab53330eb3070aa3c80cf3bcd0a399d7b2bdc7c3",
+        "/assets/tiles/14/8709/5745.pbf": "49f168280faf9b6f4752abf6415255c94a9c8e57232efba386b6f7c1f914c4da",
+        "/assets/tiles/14/8709/5744.pbf": "e53fa49c315374f7ed00731e9e6733664b57d0f6a51a5c05f9ebfa58c7485465",
+        "/assets/tiles/13/4356/2872.pbf": "8bbf6598f6e701b6acce044d36337eb5bf089f8de21ce4621279c2ed373c23c9",
+        "/assets/tiles/13/4356/2871.pbf": "429e9ea628491a416bec0c60fb02c49d2f7473cc58a118a8d3428a3b63456903",
+        "/assets/tiles/13/4356/2873.pbf": "a5f0d6a472f6b1258d718996c3ba01b7c9033c4357288cdc1ca22dedac06afeb",
+        "/assets/tiles/13/4355/2872.pbf": "305fd4a5b53486a02d3ebdfda9217c591e634f7b3628b83ffd20ac0b0eb13039",
+        "/assets/tiles/13/4355/2873.pbf": "b44d39fa2c4e61c5acc06669d407c8fddf4776ad53a38795f94f1218d79efa1d",
+        "/assets/tiles/13/4355/2871.pbf": "522e26f94950f4080354a872a9ee7a6830025a73aa48654ccce017f303ddfba4",
+        "/assets/tiles/13/4354/2872.pbf": "425a8fc7ef6735291f8c4a1cff1a480c9a6ffeab99cb3e10228657fed71651ae",
+        "/assets/tiles/13/4354/2873.pbf": "c408280ceaa7ff4becc155ead4dd0301e86d7f68b483531d932d5f604ebe3bcc",
+        "/assets/tiles/13/4354/2871.pbf": "31c79992cc51e93d22526234439110cdffa5bb401c9c07f416fdbc776fe265ba",
+        "/assets/initial-acquisition.json": "08030de57563a4aae556094b99066cd097d3bdf48fcef9a100ee1ed760174a9b",
+        "/assets/tile-acquisition.json": "f604fec7f1f5d9c249ab5799eb96a049c691220ef6d0f1d06428e8cc1fa65137",
+        "/assets/fonts/Noto Sans Regular/0-255.pbf": "ef1f38a3f1978591e846e9eaddf8a54f7047f546fc6aaed7872cc53151a5de78",
+        "/assets/fonts/Noto Sans Regular/256-511.pbf": "992557f9e2574cfb9a75e16c7b52832578849772b7c9a6e480d6213fb008fe5d",
+        "/assets/font-acquisition.json": "0c3180ac1f591901820cde3e88e1f5941892f91e0873c72550aff03dbc8bf40c",
+        "/assets/license-source-revisions.json": "db4ebcc1c990a31bca6a5a4c5dcf8b91b96083f20b54f5eb133359cd4d67eed3",
+        "/assets/license-acquisition.json": "46fecddbf7654aec12513c64951ddb1361865bb796c72f498189ea61260e7ea7",
+        "/assets/decoded-validation.json": "dc68bc46cc4aa8c28a18f8a05ed946df2d91081f1ddde9c700f327cb0e935c62",
+        "/assets/base-style.json": "785ee309602ccc548176cc90f69108b8e34659035763f9e19a7e712fefdd28e4",
+        "/assets/manifest.json": "a0d4044100a4f82c5106c49de931350ab4d7a00e564e2dcc34db1eb1202f936c",
+        "/assets/preflight1-tile-acquisition.json": "abb514ba8e303f633e9f6ff6aa717a136562f9f5919f803f940e8b2f74aedd71"
+      },
+      "rawReportIncluded": false
+    },
+    {
+      "logicalPath": "results/native-coalesced1/report.json",
+      "sha256": "bd42d4f32a0dd44737da2bf74b429b7925822e5781ce5e3584a1879386f3f358",
+      "bytes": 31266,
+      "schema": "geo-pulse/whole-map-benchmark-1.0",
+      "createdAt": "2026-10-14T14:12:15.238Z",
+      "rawPassed": true,
+      "sceneValid": null,
+      "protocolPassed": null,
+      "trialCount": 3,
+      "bindings": {
+        "geopulse/data.js": "0ed171c44e9d2eb17a61ba0dd41455b83f1dc535940fc5faf8ff41d5e5a14b59",
+        "geopulse/stream-worker.js": "da2ee18942dd03a0a92784ac6c1ef8c0c831f009420fefdd257710bf69ed7327",
+        "geopulse/renderer.js": "f3b751f53ec78acfe79337e3cf19abb2b7c1054f1b94f06270b766824515d1bc",
+        "geopulse/scheduler.js": "6f42c06cb085e19c9ecb6d4492e89cd136f7d227180b2f5a9730999b4fbf4226",
+        "geopulse/app.js": "4ed8fc54a0cbfc24dc52badaac842e163928db2fac2de1e95b04785787df36ab",
+        "geopulse/neural-model.js": "f8d0da26d22bb17799d313d3ecd128831ad77f2c3f440060ffaf60a2abb35344",
+        "geopulse/neural-worker.js": "79f91d993652d6832a9f717d6ca0bd6639a81519f22cc9904dbde4a22ae1bb29",
+        "geopulse/neural-panel.js": "352f81202e214f36f312157a814f2b6a26303e8015e799b52a3c0aae45f2b04c",
+        "geopulse/lod-experiment.js": "b67819eb94d55ecb9251750e7eef816c8e09821c240f1877854f780275b0f6ab",
+        "geopulse/dirty-ranges.js": "6a8597591b03bb2b8546d4fe17773643f96ced66efaa3f42166140d539847a43",
+        "geopulse/spatial-index.js": "94e7947124cc1426d7a6c812a03ade0e77c789b0ec5dcff8e50582965dc8ba43",
+        "geopulse/optimization-fixtures.js": "defdbfa448f44ffec5f6d62d30463f194b3505c694c1436166d6cd6865266b6f",
+        "geopulse/optimization-experiment.js": "e34d655a2d734aab49586c39b7bd1af6a02d4d0587ad84a4fccbbe6782b45877",
+        "geopulse/map-frame-experiment.js": "31e8e392a539baa8dec72583d0b49785d438b40b8f58340d9f2e6bac19cdbc63",
+        "geopulse/baidu-poi.js": "92da8db7879e349df6c233fd4795793f9ac669fe895a32675eceff7f8923c4ed",
+        "geopulse/baidu-poi-cache.js": "0a777d8c8cc7da3322069b4b79181cb9a2a75b801afd77e40efdef99f741c830",
+        "geopulse/baidu-poi-rate-limit.js": "6a5832b5b281cf7b4b31eb86c81dbac67b22c2466fa4066026c61167bce5d095",
+        "geopulse/coarse-spatial-index.js": "5d01626be3ecd442512b9b6a311715266ffb693cd0571966a2f80c10031c3a64",
+        "geopulse/loading-experiment.js": "eceb4d9aff351661ece1cc871e979a8843e565ba93315359e0a1c4a72e3dacda",
+        "geopulse/demand-experiment.js": "d11af04a2f984080b4d6e9e928b83341dcc2e3521d9c77d5e5511b35dc512512",
+        "geopulse/projected-bounds.js": "4e4b25c5a37af05726ebae4fe8e85d7bbb69274fea48015357641ab1ec8a0409",
+        "geopulse/spatial-query-worker.js": "714f6721097d75ce61289cdee69a46d6c57c045d2be4edaf3b22de39cc105489",
+        "geopulse/spatial-query-client.js": "7eca978035cb410d1dc2f28c5e0d7184aa995e362ba5772d814d4872b07d693f",
+        "geopulse/update-queue.js": "7529c792bd040ec5d1fc26515cf817c360e6e05c5d1b4fd134bf04500e83427e",
+        "geopulse/feature-overlay.js": "c2c21c6518081bdfe3a54690b9aed3392d6ec296d5d370d08ed795c0975269f2",
+        "geopulse/loading-staging.js": "752fecfa4bdca84ac55bf1bfb001e12a61829a0bbcd4a7de25ca5b953fe0c9bc",
+        "geopulse/version.js": "4cd45d23e2356f7151082419fa7dbf2914a712ba17704dc9a2ade6b323a6348d",
+        "geopulse/transport.js": "45b6ca482a634c7c2bcff187f7f793b7d5a58b1c8e991213be696dfc82faa9e3",
+        "geopulse/upload-cost-policy.js": "6d32f523621dc6d362b49fa8e674ffb7cffb47c09f372006248ee3fa8c3c5d3e",
+        "geopulse/spatial-work-policy.js": "862ab070f157fd4b3393eda642993f2f207fc742cc5040d3d052d4a62a02c623",
+        "geopulse/upload-density-policy.js": "007caee82b87c36dcf3eb0d228cd1cb25e9cf1f4b2b9bb9847720062d8fdc087",
+        "geopulse/color-dirty-state.js": "2082983e281d72d8263dd5aa89aca9d23671e96d636090997d219509e3a6d023",
+        "geopulse/live-bounds-index.js": "e773fce9074bab1775289f38076b6360b411b26c6bd286354e7b4da18931a713",
+        "geopulse/pick-spatial.js": "69f2f6b218d422e49bb6740d6cbe01a4e1bfdb9dcacd2a36719c716a392c7fb6",
+        "geopulse/workspace-ui.js": "a891f171aadc44c4c9f097d1c40b0ab22ded6f6bfe7d960940af78de2450005a",
+        "geopulse/run-outcome.js": "663b4f8de242c51848f2ee0324f59ab8870e84cbd8961aa86d426cae0cc28247",
+        "geopulse/report-export.js": "fc7f975d6d57e12e52cc7a806587102f410fbc20a8b7e2c102a1bc802c5ea1d4",
+        "geopulse/sampling-window.js": "21c37ed99d00c97c4303835057aaf92eb577e6ab20f5fa99f9781957b43128a7",
+        "stream-worker.profile.js": "322340c6d8d4a9f206e09e9fa2b35c0867e9d13cb0518461b4f252f9a9c20793",
+        "whole-map-entry.js": "83b6e704b9e7373929daeae08b375f7e832d320cd1a98dc809d9acf375c19f86",
+        "run-whole-map.mjs": "b0b5bf98a37caa35f86c9f9d38f652cb0e7347d335224934f15a74e3a9fd021c",
+        "geopulse-map-adapter.js": "1d20d37a323b4a6170155dd3e582304760aff618523010c98a0dfdf31d406431",
+        "deck-map-adapter.js": "34d4654c9d2c88d292eb408f2b3b05d5c9f6f09b6bb59d91a1bb5f3892f58e9e",
+        "native-map-adapter.js": "2b1dc8c9bb9b6a8cdf7cdc318a718c836932ba956fc97ab6b190133a261b96e2",
+        "whole-map-profiler.js": "bf35d09dc408fd09e1d4fa238d8df46ee1dd6ab1cafb8678d27dcb141748499b",
+        "instrument-stream-worker.mjs": "d285d6d57f08f0ab07f0709d5f99eb3a5a202ad6da9ed2e9c443e86a648a4a4e",
+        "maplibre-worker-profile-suffix.js": "059c9eb663d61a63481d857e4def65b6e9a639a28674f6e999bf2941eccdc793",
+        "package-lock.json": "def6a8aa49ef8bcc5316c0ae00eec6184089b544fa4069a2c9fd02ab27ad59af",
+        "maplibre-worker.native": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9",
+        "maplibre-worker.profile": "e3037f920e53aee84361b68a5c033eb1b444de79b4dde3458d6cba1fe46e36c6",
+        "bundle": "cf1b815ff08dc15197eb66fb1274593f9510ca7041d71861cc2ea9a898777317",
+        "/assets/upstream-style.json": "4733a24f6ae359b7a104cf1a5cde845eb5f16dd590c65059d8de89a40242cb36",
+        "/assets/upstream-tilejson.json": "11fbc44917cf7c5aea5d1f798ee21a0c4240d2a3f7052591406b16351dde8f7e",
+        "/assets/upstream-metadata.json": "ea380c36b09570de05de68ad218132ce0cec7443c53352a0fdc3a9c849f1c757",
+        "/assets/licenses/maplibre-demotiles-BSD-3-Clause.txt": "5dd1cfc5b6f7bef1363ba3f79d7c11c04b12ea1782d8b8d0f3c4366b60640eb2",
+        "/assets/licenses/openmaptiles-LICENSE.md": "6b7862d9537cd3160f10034b8bb0b8d68165da134ea2001080166aa0b624e15c",
+        "/assets/licenses/osm-bright-gl-style-LICENSE.md": "aa25033b12c9cbf8c2d95a310c66ce08727c01139d23de6df5ae97505fb98f82",
+        "/assets/licenses/Noto-SIL-OFL-1.1.txt": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+        "/assets/licenses/OSM-ODbL-1.0.txt": "607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5",
+        "/assets/tiles/12/2177/1435.pbf": "6228b52dd092381f19434b0dcb9359cf98ba1b14d32c4d021cc60513f28f4fc7",
+        "/assets/tiles/12/2177/1436.pbf": "93a3c51170b478e0eb87946d6beef25dca2c098d9f5cd64b2960dfc5b710f22a",
+        "/assets/tiles/12/2178/1435.pbf": "632675fb3a895d57a0f2f188b739a90e4844814c211f68a29043b5f365455ccb",
+        "/assets/tiles/12/2178/1436.pbf": "107f8c54510151ccdbf8886dcbe2b5b7928ba2b167c28518803b47a72d13aa08",
+        "/assets/tiles/14/8710/5744.pbf": "005696bb48fc984c1691944f7b692b4dafff314dbc07380289e9b9a607225c49",
+        "/assets/tiles/14/8710/5745.pbf": "ae78b0b9ad90fca549f9939c9b647315e58b910f9128a3418932f9e5885f93e4",
+        "/assets/tiles/14/8710/5743.pbf": "79910e1737a23146026e693cb2cab1e7354799d8822c79f4e7baee0161a0e041",
+        "/assets/tiles/14/8710/5746.pbf": "47bb90c4213fbad5e148f31a056f570207aff64b6d09781af48ae51b7cedad17",
+        "/assets/tiles/14/8711/5744.pbf": "30a3688e651a405718983639669bfb529a10b44a5aee41c59eefdc1152051a3c",
+        "/assets/tiles/14/8711/5745.pbf": "74bf56dce375e9361bccb6263c536842c9918e80bc4c44f02fb0bab15b2ba064",
+        "/assets/tiles/14/8711/5743.pbf": "a46025ccba6fa4109cfca1a90cc42ef7c5b1f96c496684fbb5f6eec508b7bcb1",
+        "/assets/tiles/14/8711/5746.pbf": "a402c8836c93d54b8f6eb513f8256af9bdf6604b61b6fbba0c307a7dcee8ed07",
+        "/assets/tiles/14/8712/5744.pbf": "f8c3e73f57e05be873e3bb33aebe11836e5e2ac66a04b780bfb3164626452020",
+        "/assets/tiles/14/8712/5745.pbf": "54aa32c3d7a4835392e94615ab53330eb3070aa3c80cf3bcd0a399d7b2bdc7c3",
+        "/assets/tiles/14/8709/5745.pbf": "49f168280faf9b6f4752abf6415255c94a9c8e57232efba386b6f7c1f914c4da",
+        "/assets/tiles/14/8709/5744.pbf": "e53fa49c315374f7ed00731e9e6733664b57d0f6a51a5c05f9ebfa58c7485465",
+        "/assets/tiles/13/4356/2872.pbf": "8bbf6598f6e701b6acce044d36337eb5bf089f8de21ce4621279c2ed373c23c9",
+        "/assets/tiles/13/4356/2871.pbf": "429e9ea628491a416bec0c60fb02c49d2f7473cc58a118a8d3428a3b63456903",
+        "/assets/tiles/13/4356/2873.pbf": "a5f0d6a472f6b1258d718996c3ba01b7c9033c4357288cdc1ca22dedac06afeb",
+        "/assets/tiles/13/4355/2872.pbf": "305fd4a5b53486a02d3ebdfda9217c591e634f7b3628b83ffd20ac0b0eb13039",
+        "/assets/tiles/13/4355/2873.pbf": "b44d39fa2c4e61c5acc06669d407c8fddf4776ad53a38795f94f1218d79efa1d",
+        "/assets/tiles/13/4355/2871.pbf": "522e26f94950f4080354a872a9ee7a6830025a73aa48654ccce017f303ddfba4",
+        "/assets/tiles/13/4354/2872.pbf": "425a8fc7ef6735291f8c4a1cff1a480c9a6ffeab99cb3e10228657fed71651ae",
+        "/assets/tiles/13/4354/2873.pbf": "c408280ceaa7ff4becc155ead4dd0301e86d7f68b483531d932d5f604ebe3bcc",
+        "/assets/tiles/13/4354/2871.pbf": "31c79992cc51e93d22526234439110cdffa5bb401c9c07f416fdbc776fe265ba",
+        "/assets/initial-acquisition.json": "08030de57563a4aae556094b99066cd097d3bdf48fcef9a100ee1ed760174a9b",
+        "/assets/tile-acquisition.json": "f604fec7f1f5d9c249ab5799eb96a049c691220ef6d0f1d06428e8cc1fa65137",
+        "/assets/fonts/Noto Sans Regular/0-255.pbf": "ef1f38a3f1978591e846e9eaddf8a54f7047f546fc6aaed7872cc53151a5de78",
+        "/assets/fonts/Noto Sans Regular/256-511.pbf": "992557f9e2574cfb9a75e16c7b52832578849772b7c9a6e480d6213fb008fe5d",
+        "/assets/font-acquisition.json": "0c3180ac1f591901820cde3e88e1f5941892f91e0873c72550aff03dbc8bf40c",
+        "/assets/license-source-revisions.json": "db4ebcc1c990a31bca6a5a4c5dcf8b91b96083f20b54f5eb133359cd4d67eed3",
+        "/assets/license-acquisition.json": "46fecddbf7654aec12513c64951ddb1361865bb796c72f498189ea61260e7ea7",
+        "/assets/decoded-validation.json": "dc68bc46cc4aa8c28a18f8a05ed946df2d91081f1ddde9c700f327cb0e935c62",
+        "/assets/base-style.json": "785ee309602ccc548176cc90f69108b8e34659035763f9e19a7e712fefdd28e4",
+        "/assets/manifest.json": "a0d4044100a4f82c5106c49de931350ab4d7a00e564e2dcc34db1eb1202f936c",
+        "/assets/preflight1-tile-acquisition.json": "abb514ba8e303f633e9f6ff6aa717a136562f9f5919f803f940e8b2f74aedd71"
+      },
+      "rawReportIncluded": false
+    },
+    {
+      "logicalPath": "results/baidu-production-complete1/report.json",
+      "sha256": "826f08446e704cfdbbcd96fee7c3048698318b1adc6d592ffbe2fb78622d205c",
+      "bytes": 51153550,
+      "schema": "geo-pulse/baidu-whole-map-probe-1.1",
+      "createdAt": "2026-10-14T15:23:02.870Z",
+      "rawPassed": true,
+      "sceneValid": true,
+      "protocolPassed": true,
+      "trialCount": 6,
+      "bindings": {
+        "app.native.js": "4ed8fc54a0cbfc24dc52badaac842e163928db2fac2de1e95b04785787df36ab",
+        "chain-app-hook.js": "f5c078579effba24a0d86d748fca68e1bf9a8ee4149c877b472a165dbc11b149",
+        "baidu-whole-map-observer.js": "623b43ff17e4307db4a52bcecb661a30106da298d57e860aee6453fd02564595",
+        "app.served.js": "31edbe1779dba02b1d459b0fe3b0411f728fd6788ff7c2afd0dbe418616e6d0d",
+        "stream-worker.native.js": "da2ee18942dd03a0a92784ac6c1ef8c0c831f009420fefdd257710bf69ed7327",
+        "stream-worker.profile.js": "322340c6d8d4a9f206e09e9fa2b35c0867e9d13cb0518461b4f252f9a9c20793",
+        "renderer.native.js": "653a8334c5a8e741eccc6f98297f7d2ba35d7a7e0bad9e6ad8c6594bc42b5614",
+        "renderer.served.js": "653a8334c5a8e741eccc6f98297f7d2ba35d7a7e0bad9e6ad8c6594bc42b5614",
+        "baidu-whole-map-probe.mjs": "c6f9f49242c15fcc3a9fe2f4c65f6de537b025d2209c89a8c4d3bcd70d5414a2",
+        "instrument-stream-worker.mjs": "d285d6d57f08f0ab07f0709d5f99eb3a5a202ad6da9ed2e9c443e86a648a4a4e",
+        "production/data.js": "0ed171c44e9d2eb17a61ba0dd41455b83f1dc535940fc5faf8ff41d5e5a14b59",
+        "production/stream-worker.js": "da2ee18942dd03a0a92784ac6c1ef8c0c831f009420fefdd257710bf69ed7327",
+        "production/renderer.js": "653a8334c5a8e741eccc6f98297f7d2ba35d7a7e0bad9e6ad8c6594bc42b5614",
+        "production/scheduler.js": "6f42c06cb085e19c9ecb6d4492e89cd136f7d227180b2f5a9730999b4fbf4226",
+        "production/app.js": "4ed8fc54a0cbfc24dc52badaac842e163928db2fac2de1e95b04785787df36ab",
+        "production/neural-model.js": "f8d0da26d22bb17799d313d3ecd128831ad77f2c3f440060ffaf60a2abb35344",
+        "production/neural-worker.js": "79f91d993652d6832a9f717d6ca0bd6639a81519f22cc9904dbde4a22ae1bb29",
+        "production/neural-panel.js": "352f81202e214f36f312157a814f2b6a26303e8015e799b52a3c0aae45f2b04c",
+        "production/lod-experiment.js": "b67819eb94d55ecb9251750e7eef816c8e09821c240f1877854f780275b0f6ab",
+        "production/dirty-ranges.js": "6a8597591b03bb2b8546d4fe17773643f96ced66efaa3f42166140d539847a43",
+        "production/spatial-index.js": "94e7947124cc1426d7a6c812a03ade0e77c789b0ec5dcff8e50582965dc8ba43",
+        "production/optimization-fixtures.js": "defdbfa448f44ffec5f6d62d30463f194b3505c694c1436166d6cd6865266b6f",
+        "production/optimization-experiment.js": "e34d655a2d734aab49586c39b7bd1af6a02d4d0587ad84a4fccbbe6782b45877",
+        "production/map-frame-experiment.js": "31e8e392a539baa8dec72583d0b49785d438b40b8f58340d9f2e6bac19cdbc63",
+        "production/baidu-poi.js": "92da8db7879e349df6c233fd4795793f9ac669fe895a32675eceff7f8923c4ed",
+        "production/baidu-poi-cache.js": "0a777d8c8cc7da3322069b4b79181cb9a2a75b801afd77e40efdef99f741c830",
+        "production/baidu-poi-rate-limit.js": "6a5832b5b281cf7b4b31eb86c81dbac67b22c2466fa4066026c61167bce5d095",
+        "production/coarse-spatial-index.js": "5d01626be3ecd442512b9b6a311715266ffb693cd0571966a2f80c10031c3a64",
+        "production/loading-experiment.js": "eceb4d9aff351661ece1cc871e979a8843e565ba93315359e0a1c4a72e3dacda",
+        "production/demand-experiment.js": "d11af04a2f984080b4d6e9e928b83341dcc2e3521d9c77d5e5511b35dc512512",
+        "production/projected-bounds.js": "4e4b25c5a37af05726ebae4fe8e85d7bbb69274fea48015357641ab1ec8a0409",
+        "production/spatial-query-worker.js": "714f6721097d75ce61289cdee69a46d6c57c045d2be4edaf3b22de39cc105489",
+        "production/spatial-query-client.js": "7eca978035cb410d1dc2f28c5e0d7184aa995e362ba5772d814d4872b07d693f",
+        "production/update-queue.js": "7529c792bd040ec5d1fc26515cf817c360e6e05c5d1b4fd134bf04500e83427e",
+        "production/feature-overlay.js": "c2c21c6518081bdfe3a54690b9aed3392d6ec296d5d370d08ed795c0975269f2",
+        "production/loading-staging.js": "752fecfa4bdca84ac55bf1bfb001e12a61829a0bbcd4a7de25ca5b953fe0c9bc",
+        "production/version.js": "4cd45d23e2356f7151082419fa7dbf2914a712ba17704dc9a2ade6b323a6348d",
+        "production/transport.js": "45b6ca482a634c7c2bcff187f7f793b7d5a58b1c8e991213be696dfc82faa9e3",
+        "production/upload-cost-policy.js": "6d32f523621dc6d362b49fa8e674ffb7cffb47c09f372006248ee3fa8c3c5d3e",
+        "production/spatial-work-policy.js": "862ab070f157fd4b3393eda642993f2f207fc742cc5040d3d052d4a62a02c623",
+        "production/upload-density-policy.js": "007caee82b87c36dcf3eb0d228cd1cb25e9cf1f4b2b9bb9847720062d8fdc087",
+        "production/color-dirty-state.js": "2082983e281d72d8263dd5aa89aca9d23671e96d636090997d219509e3a6d023",
+        "production/live-bounds-index.js": "e773fce9074bab1775289f38076b6360b411b26c6bd286354e7b4da18931a713",
+        "production/pick-spatial.js": "69f2f6b218d422e49bb6740d6cbe01a4e1bfdb9dcacd2a36719c716a392c7fb6",
+        "production/workspace-ui.js": "a891f171aadc44c4c9f097d1c40b0ab22ded6f6bfe7d960940af78de2450005a",
+        "production/run-outcome.js": "663b4f8de242c51848f2ee0324f59ab8870e84cbd8961aa86d426cae0cc28247",
+        "production/report-export.js": "fc7f975d6d57e12e52cc7a806587102f410fbc20a8b7e2c102a1bc802c5ea1d4",
+        "production/sampling-window.js": "21c37ed99d00c97c4303835057aaf92eb577e6ab20f5fa99f9781957b43128a7"
+      },
+      "rawReportIncluded": false
+    }
+  ],
+  "analyses": [
+    {
+      "family": "primary",
+      "logicalPath": "results/formal-realmap1/analysis-primary1/data.json",
+      "originalSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerFile": "results/formal-realmap1/analysis-primary1/analyze-whole-map-results.py",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "publicDerivedFile": "data/primary.json",
+      "publicDerivedSha256": "23b93e6a7f4b0a7e6e1b8b1784066df30c1a4b808481ccf0f2e474f026103287"
+    },
+    {
+      "family": "matched",
+      "logicalPath": "results/analysis-matched1/data.json",
+      "originalSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerFile": "results/analysis-matched1/analyze-whole-map-matched.py",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "publicDerivedFile": "data/matched.json",
+      "publicDerivedSha256": "6486bdf142dcad46ea4a980ce1a9bf03ccd5f159bcbd06eeb77c21e25544d3ce"
+    },
+    {
+      "family": "updates",
+      "logicalPath": "results/analysis-update-matched1/data.json",
+      "originalSha256": "ffeb730cb70c3454127a0a136d3dcec983d8ea83f4e79f80bc74fff7f7f7590d",
+      "originalAnalyzerFile": "results/analysis-update-matched1/analyze-whole-map-updates.py",
+      "originalAnalyzerSha256": "8fd13ecef24afd1dac73abde59beb79a6905f7c90b4b6209d6581f6a969a67cc",
+      "publicDerivedFile": "data/updates.json",
+      "publicDerivedSha256": "bd8c8bdf43021b9d38373258badf5e1f7e00efd1f3403b30cf94a8f757f4a3ac"
+    },
+    {
+      "family": "baidu",
+      "logicalPath": "results/baidu-production-complete1/analysis-final1/data.json",
+      "originalSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerFile": "results/baidu-production-complete1/analysis-final1/analyze-baidu-whole-map.py",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "publicDerivedFile": "data/baidu.json",
+      "publicDerivedSha256": "44fd89b453cc7536842381a7c19f995a7242dfcdf8e02052dec441452a3aeba3"
+    }
+  ],
+  "originalTrialAndTraceIdentities": {
+    "primary": [
+      {
+        "file": "archive/results/formal-realmap1/base-20000-r0.trial.json",
+        "sha256": "c47d095d3730d251025dc07bf302f9c4e4951cdd2011efae95018221551daee2",
+        "trace": {
+          "file": "archive/results/formal-realmap1/base-20000-r0.trace.json",
+          "sha256": "e9d0fea0ba9033988da3ab8fa37d5f152a1c18532cca0b1599cd1028de3d4580"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-current-20000-r0.trial.json",
+        "sha256": "a8a9bd80e5e5af8bbe9a75468929b82c2392dd6af298ca7e1c6a75802c3aa022",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-current-20000-r0.trace.json",
+          "sha256": "a2d30df601363595bf20816c0d35ee164f454a22cdac252606e9f6c6184eef03"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-hybrid-20000-r0.trial.json",
+        "sha256": "4dd0d3f1fb05d26e708a3e65f1cdd73b120f9f7c882f6261338fd19c5f5bfea6",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-hybrid-20000-r0.trace.json",
+          "sha256": "ffe0cf82569bc8c326b8a2f434a6c783fd4a7d51a6203687362c4f4fb8b4d705"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/deck-20000-r0.trial.json",
+        "sha256": "696c9b891d95267245a0aaf480ff412d898bffcd07387af5b1f1cf00a466acce",
+        "trace": {
+          "file": "archive/results/formal-realmap1/deck-20000-r0.trace.json",
+          "sha256": "c61a2669c86f3b16149f04cc45a0854db0afdee4e40a394f08b486dac592daca"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/maplibre-20000-r0.trial.json",
+        "sha256": "e877c6d1f4478886b91202d7ed8917ba9c50a46feb8ec4164672e38aef20da4e",
+        "trace": {
+          "file": "archive/results/formal-realmap1/maplibre-20000-r0.trace.json",
+          "sha256": "86b39f2b900feaa55513f9f0b1af34db1ce4a5186a7300b657d670144b7755b2"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-current-100000-r0.trial.json",
+        "sha256": "d906f24686104deb988abdc95fd8ddffa0a71b54dff832ff96f834dac2372a5b",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-current-100000-r0.trace.json",
+          "sha256": "799ca9a6460714ae08f132acdba3953ee0d2d7a934f276f1b66210fb815fbea0"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-hybrid-100000-r0.trial.json",
+        "sha256": "52ba6d0f4ef12d7077ccf022d2569816100d6f4b3dc3cda557a28a3989043914",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-hybrid-100000-r0.trace.json",
+          "sha256": "9bf2639048241e85ca76cd68d01ae1d66a5a7a3850efc7cb6601087e84a380fa"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/deck-100000-r0.trial.json",
+        "sha256": "b934ebefc5d9b4dde8f2dffab96f458a5de32646fb4ea37ad2e492b18fb6aa36",
+        "trace": {
+          "file": "archive/results/formal-realmap1/deck-100000-r0.trace.json",
+          "sha256": "a81e90ca0524805446aa1f65dd0f3a22f0423edfe90faffa39800cf029c7dd30"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/maplibre-100000-r0.trial.json",
+        "sha256": "691cfc3c4d7c93cbd73968815b1ba223d5da748203c3bdd7f8515215943f1ab1",
+        "trace": {
+          "file": "archive/results/formal-realmap1/maplibre-100000-r0.trace.json",
+          "sha256": "5c3750d2cd51bc865f86a30d97c95bd3b67b7f66bfd14c23ee63e5788cd286ea"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-current-20000-r1.trial.json",
+        "sha256": "34d6913976557114ccd66aa50680ce53d5d2e6ca9545148af9cfacd6864a180c",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-current-20000-r1.trace.json",
+          "sha256": "e14aef12ba47f0e9b541fa70f501cc6173cff8bc0084a9dc1b07dc68d0a3f4c0"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-hybrid-20000-r1.trial.json",
+        "sha256": "d3a6006899cf5c483c170555c82e8f5ded5b6f25bc09e8c54b88c5a848f34245",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-hybrid-20000-r1.trace.json",
+          "sha256": "1c03c4375d104318cb78590e472da027b2066fc15aca5149b47f59e5143cb34b"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/deck-20000-r1.trial.json",
+        "sha256": "131ce4298e60220dda9925d78a497714022fbad0eb8c6302bf14e5b38825a7e5",
+        "trace": {
+          "file": "archive/results/formal-realmap1/deck-20000-r1.trace.json",
+          "sha256": "bcf8c2a309d5f6c887997d5bdf23fe9bea5762ead623c53cfff2977f227fd093"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/maplibre-20000-r1.trial.json",
+        "sha256": "d4ce92e2ed654f305b6258b635bb7cc14af37728498164b61355958c2ac90d8f",
+        "trace": {
+          "file": "archive/results/formal-realmap1/maplibre-20000-r1.trace.json",
+          "sha256": "b8b7be21486f987922512c253c19f2fd5a21e3bd370ce149f1e21f878215d874"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/base-20000-r1.trial.json",
+        "sha256": "fcebccc9e0785a1b35d9ed5be97d2bd2e0f0345b1b1c73d151997e427cf5e528",
+        "trace": {
+          "file": "archive/results/formal-realmap1/base-20000-r1.trace.json",
+          "sha256": "397b94f9a4a9baf9d1e00d509950d06fb1f01f18a55a1d2382321a0a3a2d305d"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-hybrid-100000-r1.trial.json",
+        "sha256": "41a292249536f5d7825d5348d8c9d760ea7ddf398e21a08d701b238c873082e7",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-hybrid-100000-r1.trace.json",
+          "sha256": "c870584551f8981e1c0096f51be117512c0608a53518ca885a61c184ebc033b0"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/deck-100000-r1.trial.json",
+        "sha256": "243811fd8e249ea333a0e8af3d048cc31bc1cdb5480ca4863be9669ff23875ff",
+        "trace": {
+          "file": "archive/results/formal-realmap1/deck-100000-r1.trace.json",
+          "sha256": "62b04378ea1871e3550cf11fbc26c604835175bd53966c0323ea1daf7d1cd55d"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/maplibre-100000-r1.trial.json",
+        "sha256": "a1e55881917fbd2a09d9f6c40153202611a2050ddaacfd0965a698fb85d106cc",
+        "trace": {
+          "file": "archive/results/formal-realmap1/maplibre-100000-r1.trace.json",
+          "sha256": "ca3b14d6e49100b3feaf549a1dc2acb257e153afdcedc0b56b23856985c36240"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-current-100000-r1.trial.json",
+        "sha256": "803bbda571042f225fb8ad20a01e76fae888d3579b5582688517b83161746090",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-current-100000-r1.trace.json",
+          "sha256": "faf02c26b93d87ebaf175929e577672cb13d0e980f26776cb821a3ef11a5678e"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-hybrid-20000-r2.trial.json",
+        "sha256": "8f26952aea73c1773aaec0c72995ed41bcbddf1ceea9d7ac46a04fb3c1ecaecc",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-hybrid-20000-r2.trace.json",
+          "sha256": "656bab717cd7f8ac164868f8dad21ae333f4eb9bdc0239643f82e058cb252919"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/deck-20000-r2.trial.json",
+        "sha256": "54526a7bf5b145fc74b0fcba9a17d97672c2fca32cc4f60247279bbfbb63a3cb",
+        "trace": {
+          "file": "archive/results/formal-realmap1/deck-20000-r2.trace.json",
+          "sha256": "b5ea38968672576138e3758e7fa8e62f68ecad8636cb092d252ad81b87f3139f"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/maplibre-20000-r2.trial.json",
+        "sha256": "6f7cfc45e37f5cb1bd87c9724e39ceb99e318fb98af40d3a4468a38b23f81732",
+        "trace": {
+          "file": "archive/results/formal-realmap1/maplibre-20000-r2.trace.json",
+          "sha256": "c3b284964eefe89cf170834b7273a4e090ce2f6c7f9b8473517d395d518ce398"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/base-20000-r2.trial.json",
+        "sha256": "5c9a45a17943ee1636a7f3daca1e5b6de31390167c647e9fa066cf4ffe3e5f1d",
+        "trace": {
+          "file": "archive/results/formal-realmap1/base-20000-r2.trace.json",
+          "sha256": "7518e6a404d146dcf088e33a65f3b76a24076b9cb9dddb7c6a760f7ed22d234e"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-current-20000-r2.trial.json",
+        "sha256": "43f909f4428116354dfdc05d978103aee6cbef70dfd10d7592a87463ea102fb9",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-current-20000-r2.trace.json",
+          "sha256": "8690eabfc1581b63ce276a29462a0def7c722779ca9398461352243f774d1aba"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/deck-100000-r2.trial.json",
+        "sha256": "e96a2cec94fc750eae321f6cd20c0bd4c06227f1f2153f9c82784e6f278ae7a6",
+        "trace": {
+          "file": "archive/results/formal-realmap1/deck-100000-r2.trace.json",
+          "sha256": "6d3ebacfc388783f80705e7be715a6420cd50126dd2934bcdd90252563189dd6"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/maplibre-100000-r2.trial.json",
+        "sha256": "a3cbc3fad0a2db6cca38b6a508932a9bed10fccce28910f24399354a66c39b4c",
+        "trace": {
+          "file": "archive/results/formal-realmap1/maplibre-100000-r2.trace.json",
+          "sha256": "5dbdce4b252ca6d4d2da538bc04fe7821f6dc7635bd6273b8b492c429cb7c946"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-current-100000-r2.trial.json",
+        "sha256": "8f97b37911a04679bd2b09db83e60ca1cb4877ef392d6d615c9e72e5ac18d9ed",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-current-100000-r2.trace.json",
+          "sha256": "6c86daed522912bc5dfad0c3ba5abbd8ae5618019351a2606919603254144fa5"
+        }
+      },
+      {
+        "file": "archive/results/formal-realmap1/geopulse-hybrid-100000-r2.trial.json",
+        "sha256": "4cddfd59e07da55eccd7fbfa955fc71180f0240af0fe33c72aa8e858b457d430",
+        "trace": {
+          "file": "archive/results/formal-realmap1/geopulse-hybrid-100000-r2.trace.json",
+          "sha256": "c4190340ef8f8480068d9f09454dc2da3b23b363651414e10141168f5da7289a"
+        }
+      }
+    ],
+    "matched": [
+      {
+        "report": "archive/results/matched-policy1/report.json",
+        "sha256": "037cea8f8a4a587b597208ac2b005777a0beb3b845b95e10da4876f2aedb2648",
+        "trials": [
+          {
+            "file": "archive/results/matched-policy1/geopulse-current-100000-r0.trial.json",
+            "sha256": "b23fccc746875e23b9d0144c901a8a97b8f8354fc9bd6447de528c13b71da499"
+          },
+          {
+            "file": "archive/results/matched-policy1/deck-100000-r0.trial.json",
+            "sha256": "5cb50f6af87187f08314138ba522af853f4f23d1e8f2434ef2c8cf43e04c064c"
+          },
+          {
+            "file": "archive/results/matched-policy1/maplibre-100000-r0.trial.json",
+            "sha256": "d111e302b8f7c0ad91877b593fbec5b4f4da278438202e4414181a12541ce798"
+          },
+          {
+            "file": "archive/results/matched-policy1/deck-100000-r1.trial.json",
+            "sha256": "fc00e4ecae0a7b6a7b9126d4c43891bec2eff32681db43c6029687371b136293"
+          },
+          {
+            "file": "archive/results/matched-policy1/maplibre-100000-r1.trial.json",
+            "sha256": "c6a73db48566d5a59f7d6c238cec480204a7110306f77a97d75a3231ead81367"
+          },
+          {
+            "file": "archive/results/matched-policy1/geopulse-current-100000-r1.trial.json",
+            "sha256": "4bb1bdb7541c46ce6b3478e02b8635d8e7d80a33541881fe69e98e9f44663c0c"
+          },
+          {
+            "file": "archive/results/matched-policy1/maplibre-100000-r2.trial.json",
+            "sha256": "580bce8ded6c09b74d464a39dd51572b9c4d154acee4ea2d449c00897a5ce7a7"
+          },
+          {
+            "file": "archive/results/matched-policy1/geopulse-current-100000-r2.trial.json",
+            "sha256": "a445f3e0978e3285a51e16363c3d1b77601cc1a495514591b5ceb283afa7f837"
+          },
+          {
+            "file": "archive/results/matched-policy1/deck-100000-r2.trial.json",
+            "sha256": "99ce92cec0c802c43d9f36c0b9e49a9e6667a6a4a23f0683877cea0561520742"
+          }
+        ],
+        "label": "matched-full"
+      },
+      {
+        "report": "archive/results/minimal-policy1/report.json",
+        "sha256": "6182394b666022ba16827cb68143de9cb087f86e7544f2f9e6f90acfbb337721",
+        "trials": [
+          {
+            "file": "archive/results/minimal-policy1/geopulse-current-100000-r0.trial.json",
+            "sha256": "80fb0b79977111b00dbd368ac404ff09a44ca0dd9050163676d55e5870baed06"
+          },
+          {
+            "file": "archive/results/minimal-policy1/deck-100000-r0.trial.json",
+            "sha256": "8784c6827a5c03ef3f4b826689e8eddd4eb313d6463059d51036b4a1f455e178"
+          },
+          {
+            "file": "archive/results/minimal-policy1/maplibre-100000-r0.trial.json",
+            "sha256": "bd6637c8e1a723bba6da58000b1ce53b08597a22148fd01b35927a4b39fdca88"
+          },
+          {
+            "file": "archive/results/minimal-policy1/deck-100000-r1.trial.json",
+            "sha256": "1e83968851875fab721413184c172b05c44c25ff6220b1f8bf39c0d7fa692195"
+          },
+          {
+            "file": "archive/results/minimal-policy1/maplibre-100000-r1.trial.json",
+            "sha256": "9940a2ca88be7fa9c3d8b84f8bf27047614ffce3a67a5c0faea37268df9e2eda"
+          },
+          {
+            "file": "archive/results/minimal-policy1/geopulse-current-100000-r1.trial.json",
+            "sha256": "f7986449032b345e520af58e70828ec5ef21cb7b01d87f91349863bd40333b29"
+          },
+          {
+            "file": "archive/results/minimal-policy1/maplibre-100000-r2.trial.json",
+            "sha256": "c14e860b3ff331cd01c5d4c8e65414de76c8cdc20aad0eb9d10182f7575c921f"
+          },
+          {
+            "file": "archive/results/minimal-policy1/geopulse-current-100000-r2.trial.json",
+            "sha256": "1b677758cf9fc289ebf74e8eb681ff34dbae6d6cc8b2fd2d83c1db5e976146ab"
+          },
+          {
+            "file": "archive/results/minimal-policy1/deck-100000-r2.trial.json",
+            "sha256": "f2817df8c2cbc8b7d21c02ca93d8dbafbe1b87e5ec0e49e24547379d0c11ec67"
+          }
+        ],
+        "label": "matched-minimal"
+      },
+      {
+        "report": "archive/results/native-coalesced1/report.json",
+        "sha256": "bd42d4f32a0dd44737da2bf74b429b7925822e5781ce5e3584a1879386f3f358",
+        "trials": [
+          {
+            "file": "archive/results/native-coalesced1/maplibre-100000-r0.trial.json",
+            "sha256": "ec4c453369d352a1618690bd8785010c91c497413e3080d65797454edf62dd5d"
+          },
+          {
+            "file": "archive/results/native-coalesced1/maplibre-100000-r1.trial.json",
+            "sha256": "6f698413f53a5aedd2320b56d53239743dcc52e48a719379b4d760c2835785e8"
+          },
+          {
+            "file": "archive/results/native-coalesced1/maplibre-100000-r2.trial.json",
+            "sha256": "52c30f1fb7893aca1f3b1d9b88e199c8da0e36ea9a2b30db351fdf093bbe0377"
+          }
+        ],
+        "label": "native-coalesced"
+      }
+    ],
+    "updates": [
+      {
+        "report": "archive/results/matched-policy1/report.json",
+        "sha256": "037cea8f8a4a587b597208ac2b005777a0beb3b845b95e10da4876f2aedb2648",
+        "trials": [
+          {
+            "file": "archive/results/matched-policy1/geopulse-current-100000-r0.trial.json",
+            "sha256": "b23fccc746875e23b9d0144c901a8a97b8f8354fc9bd6447de528c13b71da499"
+          },
+          {
+            "file": "archive/results/matched-policy1/deck-100000-r0.trial.json",
+            "sha256": "5cb50f6af87187f08314138ba522af853f4f23d1e8f2434ef2c8cf43e04c064c"
+          },
+          {
+            "file": "archive/results/matched-policy1/deck-100000-r1.trial.json",
+            "sha256": "fc00e4ecae0a7b6a7b9126d4c43891bec2eff32681db43c6029687371b136293"
+          },
+          {
+            "file": "archive/results/matched-policy1/geopulse-current-100000-r1.trial.json",
+            "sha256": "4bb1bdb7541c46ce6b3478e02b8635d8e7d80a33541881fe69e98e9f44663c0c"
+          },
+          {
+            "file": "archive/results/matched-policy1/geopulse-current-100000-r2.trial.json",
+            "sha256": "a445f3e0978e3285a51e16363c3d1b77601cc1a495514591b5ceb283afa7f837"
+          },
+          {
+            "file": "archive/results/matched-policy1/deck-100000-r2.trial.json",
+            "sha256": "99ce92cec0c802c43d9f36c0b9e49a9e6667a6a4a23f0683877cea0561520742"
+          }
+        ]
+      },
+      {
+        "report": "archive/results/native-coalesced1/report.json",
+        "sha256": "bd42d4f32a0dd44737da2bf74b429b7925822e5781ce5e3584a1879386f3f358",
+        "trials": [
+          {
+            "file": "archive/results/native-coalesced1/maplibre-100000-r0.trial.json",
+            "sha256": "ec4c453369d352a1618690bd8785010c91c497413e3080d65797454edf62dd5d"
+          },
+          {
+            "file": "archive/results/native-coalesced1/maplibre-100000-r1.trial.json",
+            "sha256": "6f698413f53a5aedd2320b56d53239743dcc52e48a719379b4d760c2835785e8"
+          },
+          {
+            "file": "archive/results/native-coalesced1/maplibre-100000-r2.trial.json",
+            "sha256": "52c30f1fb7893aca1f3b1d9b88e199c8da0e36ea9a2b30db351fdf093bbe0377"
+          }
+        ]
+      }
+    ],
+    "baidu": [
+      {
+        "id": "current-r0",
+        "available": true,
+        "file": "archive/results/baidu-production-complete1/current-r0.trace.json",
+        "sha256": "f9e0f5e5c119e48849a236bc69dd406dab94b7db7d6cdbc0527b3ef15655e6c3",
+        "bytes": 240374506,
+        "eventCount": 1027809,
+        "relevantEventCounts": {
+          "SkiaRenderer::SwapBuffers": 1541,
+          "Display::FrameDisplayed": 1540,
+          "FramePresented": 2,
+          "PipelineReporter": 6322,
+          "EndActivateToSubmitCompositorFrame": 6162,
+          "SubmitCompositorFrameToPresentationCompositorFrame": 6162
+        },
+        "userTimingNameCounts": {
+          "wm-baidu-base-current-r0-begin": 1,
+          "wm-baidu-base-current-r0-end": 1,
+          "wm-baidu-load-current-r0-begin": 1,
+          "wm-baidu-load-current-r0-end": 1,
+          "wm-baidu-camera-current-r0-begin": 1,
+          "wm-baidu-camera-current-r0-end": 1
+        },
+        "authoredPhaseMarks": [
+          {
+            "name": "wm-baidu-base-current-r0-begin",
+            "pid": 49412,
+            "ts": 14771209431,
+            "args": {
+              "data": {
+                "callTime": 14771209445,
+                "detail": "{\"browserEpochMs\":1791991418373.0999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006563062,
+                "startTime": 34815.40000000037
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-base-current-r0-end",
+            "pid": 49412,
+            "ts": 14773218649,
+            "args": {
+              "data": {
+                "callTime": 14773218666,
+                "detail": "{\"browserEpochMs\":1791991420382.2}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006576947,
+                "startTime": 36824.59999999963
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-current-r0-begin",
+            "pid": 49412,
+            "ts": 14773547871,
+            "args": {
+              "data": {
+                "callTime": 14773547883,
+                "detail": "{\"browserEpochMs\":1791991420711.5}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006522341,
+                "startTime": 37153.80000000075
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-current-r0-end",
+            "pid": 49412,
+            "ts": 14774117386,
+            "args": {
+              "data": {
+                "callTime": 14774117403,
+                "detail": "{\"browserEpochMs\":1791991421281}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006520682,
+                "startTime": 37723.30000000075
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-current-r0-begin",
+            "pid": 49412,
+            "ts": 14774271282,
+            "args": {
+              "data": {
+                "callTime": 14774271296,
+                "detail": "{\"browserEpochMs\":1791991421434.9}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006530175,
+                "startTime": 37877.20000000112
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-current-r0-end",
+            "pid": 49412,
+            "ts": 14777379607,
+            "args": {
+              "data": {
+                "callTime": 14777379618,
+                "detail": "{\"browserEpochMs\":1791991424543.2}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006498775,
+                "startTime": 40985.5
+              }
+            }
+          }
+        ],
+        "rendererMainCandidatePids": [
+          49412
+        ],
+        "browserMode": "headed",
+        "physicalFps": null,
+        "scope": "Target page compositor presentation feedback; physical scanout unverified. Whole-run baseline/screenshots/idle is never scored as camera FPS.",
+        "phasePresentation": [
+          {
+            "name": "baseline",
+            "windowId": "base-current-r0",
+            "startEpochMs": 1791991418373.0999,
+            "endEpochMs": 1791991420382.2,
+            "durationMs": 2009.10009765625,
+            "startTraceTsUs": 14771209483.886719,
+            "endTraceTsUs": 14773218583.984375,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 473,
+              "firstTraceTsUs": 14771218459,
+              "lastTraceTsUs": 14773218522,
+              "observedSpanMs": 2000.063,
+              "intervals": {
+                "n": 472,
+                "minMs": 3.91,
+                "p50Ms": 4.1675,
+                "p95Ms": 4.2759,
+                "p99Ms": 8.30874,
+                "maxMs": 8.345
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 235.9925662341636,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 473,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "loading",
+            "windowId": "load-current-r0",
+            "startEpochMs": 1791991420711.5,
+            "endEpochMs": 1791991421281.0,
+            "durationMs": 569.5,
+            "startTraceTsUs": 14773547884.033203,
+            "endTraceTsUs": 14774117384.033203,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 129,
+              "firstTraceTsUs": 14773551826,
+              "lastTraceTsUs": 14774114415,
+              "observedSpanMs": 562.589,
+              "intervals": {
+                "n": 128,
+                "minMs": 3.926,
+                "p50Ms": 4.169,
+                "p95Ms": 4.2909,
+                "p99Ms": 12.49328,
+                "maxMs": 16.67
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 227.5195569056629,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 129,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "camera",
+            "windowId": "camera-current-r0",
+            "startEpochMs": 1791991421434.9,
+            "endEpochMs": 1791991424543.2,
+            "durationMs": 3108.300048828125,
+            "startTraceTsUs": 14774271283.935547,
+            "endTraceTsUs": 14777379583.984375,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 744,
+              "firstTraceTsUs": 14774272731,
+              "lastTraceTsUs": 14777376926,
+              "observedSpanMs": 3104.195,
+              "intervals": {
+                "n": 743,
+                "minMs": 3.76,
+                "p50Ms": 4.167,
+                "p95Ms": 4.2688,
+                "p99Ms": 4.40558,
+                "maxMs": 8.35
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 239.3535199947168,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 744,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          }
+        ],
+        "clockAlignment": {
+          "status": "measured-anchor-map",
+          "traceClock": "trace ts in monotonic microseconds; not epoch milliseconds",
+          "mapping": "browserEpochMs = traceTsUs/1000 + anchorOffsetMs",
+          "anchorOffsetMs": 1791976647163.616,
+          "anchorCount": 6,
+          "maxAnchorOffsetResidualMs": 0.06494140625,
+          "anchors": [
+            {
+              "name": "wm-baidu-base-current-r0-begin",
+              "traceTsUs": 14771209431,
+              "browserEpochMs": 1791991418373.0999,
+              "offsetMs": 1791976647163.669
+            },
+            {
+              "name": "wm-baidu-base-current-r0-end",
+              "traceTsUs": 14773218649,
+              "browserEpochMs": 1791991420382.2,
+              "offsetMs": 1791976647163.551
+            },
+            {
+              "name": "wm-baidu-load-current-r0-begin",
+              "traceTsUs": 14773547871,
+              "browserEpochMs": 1791991420711.5,
+              "offsetMs": 1791976647163.629
+            },
+            {
+              "name": "wm-baidu-load-current-r0-end",
+              "traceTsUs": 14774117386,
+              "browserEpochMs": 1791991421281,
+              "offsetMs": 1791976647163.614
+            },
+            {
+              "name": "wm-baidu-camera-current-r0-begin",
+              "traceTsUs": 14774271282,
+              "browserEpochMs": 1791991421434.9,
+              "offsetMs": 1791976647163.618
+            },
+            {
+              "name": "wm-baidu-camera-current-r0-end",
+              "traceTsUs": 14777379607,
+              "browserEpochMs": 1791991424543.2,
+              "offsetMs": 1791976647163.593
+            }
+          ],
+          "unavailableReason": null,
+          "systemClockWasNotUsed": true
+        },
+        "targetRendererPid": 49412,
+        "targetRendererBinding": "wm-user-timing-mark-renderer",
+        "cameraPresentationP95Ms": 4.2688,
+        "cameraPresentationValid": true,
+        "analysisFile": "archive/results/baidu-production-complete1/analysis-final1/trace-analyses/current-r0.json",
+        "analysisSHA256": "457c2c814575db1df57f8887daa911b13c4489f32244e63bd921eaab8bfe2c7e",
+        "evidenceFile": "archive/results/baidu-production-complete1/analysis-final1/trace-evidence/current-r0.presentation-evidence.json",
+        "evidenceSHA256": "bee714e81a7e9fe99111e0cb1bc4404d6216c8185e18e31439100f9526924625",
+        "reason": null
+      },
+      {
+        "id": "hybrid-r0",
+        "available": true,
+        "file": "archive/results/baidu-production-complete1/hybrid-r0.trace.json",
+        "sha256": "0d348be13b5a816799b6eeca0ff448fe6e565b85a58612b0a6ed6db59bee0614",
+        "bytes": 231371550,
+        "eventCount": 988967,
+        "relevantEventCounts": {
+          "SkiaRenderer::SwapBuffers": 1494,
+          "Display::FrameDisplayed": 1493,
+          "FramePresented": 2,
+          "PipelineReporter": 6120,
+          "EndActivateToSubmitCompositorFrame": 5974,
+          "SubmitCompositorFrameToPresentationCompositorFrame": 5974
+        },
+        "userTimingNameCounts": {
+          "wm-baidu-base-hybrid-r0-begin": 1,
+          "wm-baidu-base-hybrid-r0-end": 1,
+          "wm-baidu-load-hybrid-r0-begin": 1,
+          "wm-baidu-load-hybrid-r0-end": 1,
+          "wm-baidu-camera-hybrid-r0-begin": 1,
+          "wm-baidu-camera-hybrid-r0-end": 1
+        },
+        "authoredPhaseMarks": [
+          {
+            "name": "wm-baidu-base-hybrid-r0-begin",
+            "pid": 49412,
+            "ts": 14796458449,
+            "args": {
+              "data": {
+                "callTime": 14796458467,
+                "detail": "{\"browserEpochMs\":1791991443622}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006847310,
+                "startTime": 60064.30000000075
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-base-hybrid-r0-end",
+            "pid": 49412,
+            "ts": 14798468068,
+            "args": {
+              "data": {
+                "callTime": 14798468079,
+                "detail": "{\"browserEpochMs\":1791991445631.5999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006877509,
+                "startTime": 62074
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-hybrid-r0-begin",
+            "pid": 49412,
+            "ts": 14798742973,
+            "args": {
+              "data": {
+                "callTime": 14798742984,
+                "detail": "{\"browserEpochMs\":1791991445906.5999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006871673,
+                "startTime": 62348.90000000037
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-hybrid-r0-end",
+            "pid": 49412,
+            "ts": 14799214571,
+            "args": {
+              "data": {
+                "callTime": 14799214585,
+                "detail": "{\"browserEpochMs\":1791991446378.0999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006820435,
+                "startTime": 62820.40000000037
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-hybrid-r0-begin",
+            "pid": 49412,
+            "ts": 14799351285,
+            "args": {
+              "data": {
+                "callTime": 14799351296,
+                "detail": "{\"browserEpochMs\":1791991446514.9}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006813424,
+                "startTime": 62957.20000000112
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-hybrid-r0-end",
+            "pid": 49412,
+            "ts": 14802467653,
+            "args": {
+              "data": {
+                "callTime": 14802467667,
+                "detail": "{\"browserEpochMs\":1791991449631.2}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006781950,
+                "startTime": 66073.5
+              }
+            }
+          }
+        ],
+        "rendererMainCandidatePids": [
+          49412
+        ],
+        "browserMode": "headed",
+        "physicalFps": null,
+        "scope": "Target page compositor presentation feedback; physical scanout unverified. Whole-run baseline/screenshots/idle is never scored as camera FPS.",
+        "phasePresentation": [
+          {
+            "name": "baseline",
+            "windowId": "base-hybrid-r0",
+            "startEpochMs": 1791991443622.0,
+            "endEpochMs": 1791991445631.5999,
+            "durationMs": 2009.599853515625,
+            "startTraceTsUs": 14796458451.171875,
+            "endTraceTsUs": 14798468051.02539,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 474,
+              "firstTraceTsUs": 14796464867,
+              "lastTraceTsUs": 14798464918,
+              "observedSpanMs": 2000.051,
+              "intervals": {
+                "n": 473,
+                "minMs": 3.481,
+                "p50Ms": 4.168,
+                "p95Ms": 4.2596,
+                "p99Ms": 8.29468,
+                "maxMs": 12.509
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 236.4939694037802,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 474,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "loading",
+            "windowId": "load-hybrid-r0",
+            "startEpochMs": 1791991445906.5999,
+            "endEpochMs": 1791991446378.0999,
+            "durationMs": 471.5,
+            "startTraceTsUs": 14798743051.02539,
+            "endTraceTsUs": 14799214551.02539,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 111,
+              "firstTraceTsUs": 14798744072,
+              "lastTraceTsUs": 14799210747,
+              "observedSpanMs": 466.675,
+              "intervals": {
+                "n": 110,
+                "minMs": 3.919,
+                "p50Ms": 4.167,
+                "p95Ms": 4.2541,
+                "p99Ms": 7.9757699999999865,
+                "maxMs": 8.339
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 235.7100766057749,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 111,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "camera",
+            "windowId": "camera-hybrid-r0",
+            "startEpochMs": 1791991446514.9,
+            "endEpochMs": 1791991449631.2,
+            "durationMs": 3116.300048828125,
+            "startTraceTsUs": 14799351351.074219,
+            "endTraceTsUs": 14802467651.123047,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 742,
+              "firstTraceTsUs": 14799352444,
+              "lastTraceTsUs": 14802465016,
+              "observedSpanMs": 3112.572,
+              "intervals": {
+                "n": 741,
+                "minMs": 3.704,
+                "p50Ms": 4.166,
+                "p95Ms": 4.242,
+                "p99Ms": 4.4842,
+                "maxMs": 8.349
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 238.0667820696196,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 742,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          }
+        ],
+        "clockAlignment": {
+          "status": "measured-anchor-map",
+          "traceClock": "trace ts in monotonic microseconds; not epoch milliseconds",
+          "mapping": "browserEpochMs = traceTsUs/1000 + anchorOffsetMs",
+          "anchorOffsetMs": 1791976647163.5488,
+          "anchorCount": 6,
+          "maxAnchorOffsetResidualMs": 0.078125,
+          "anchors": [
+            {
+              "name": "wm-baidu-base-hybrid-r0-begin",
+              "traceTsUs": 14796458449,
+              "browserEpochMs": 1791991443622,
+              "offsetMs": 1791976647163.551
+            },
+            {
+              "name": "wm-baidu-base-hybrid-r0-end",
+              "traceTsUs": 14798468068,
+              "browserEpochMs": 1791991445631.5999,
+              "offsetMs": 1791976647163.5317
+            },
+            {
+              "name": "wm-baidu-load-hybrid-r0-begin",
+              "traceTsUs": 14798742973,
+              "browserEpochMs": 1791991445906.5999,
+              "offsetMs": 1791976647163.627
+            },
+            {
+              "name": "wm-baidu-load-hybrid-r0-end",
+              "traceTsUs": 14799214571,
+              "browserEpochMs": 1791991446378.0999,
+              "offsetMs": 1791976647163.5288
+            },
+            {
+              "name": "wm-baidu-camera-hybrid-r0-begin",
+              "traceTsUs": 14799351285,
+              "browserEpochMs": 1791991446514.9,
+              "offsetMs": 1791976647163.615
+            },
+            {
+              "name": "wm-baidu-camera-hybrid-r0-end",
+              "traceTsUs": 14802467653,
+              "browserEpochMs": 1791991449631.2,
+              "offsetMs": 1791976647163.5469
+            }
+          ],
+          "unavailableReason": null,
+          "systemClockWasNotUsed": true
+        },
+        "targetRendererPid": 49412,
+        "targetRendererBinding": "wm-user-timing-mark-renderer",
+        "cameraPresentationP95Ms": 4.242,
+        "cameraPresentationValid": true,
+        "analysisFile": "archive/results/baidu-production-complete1/analysis-final1/trace-analyses/hybrid-r0.json",
+        "analysisSHA256": "7acfea97290cd144c9209a6d0551ae839fd50f5e6fb7a613780d77cc0a0944b1",
+        "evidenceFile": "archive/results/baidu-production-complete1/analysis-final1/trace-evidence/hybrid-r0.presentation-evidence.json",
+        "evidenceSHA256": "dfad426137beea7dc1313b8976289bbe25305259e8c79042403ebe366720d07e",
+        "reason": null
+      },
+      {
+        "id": "hybrid-r1",
+        "available": true,
+        "file": "archive/results/baidu-production-complete1/hybrid-r1.trace.json",
+        "sha256": "40929013ca55dd331b2d2b25dcf7ea5799a6ba4a6f5df3246a101ed93aff324c",
+        "bytes": 225550047,
+        "eventCount": 960928,
+        "relevantEventCounts": {
+          "SkiaRenderer::SwapBuffers": 1449,
+          "Display::FrameDisplayed": 1448,
+          "FramePresented": 2,
+          "PipelineReporter": 6040,
+          "EndActivateToSubmitCompositorFrame": 5794,
+          "SubmitCompositorFrameToPresentationCompositorFrame": 5794
+        },
+        "userTimingNameCounts": {
+          "wm-baidu-base-hybrid-r1-begin": 1,
+          "wm-baidu-base-hybrid-r1-end": 1,
+          "wm-baidu-load-hybrid-r1-begin": 1,
+          "wm-baidu-load-hybrid-r1-end": 1,
+          "wm-baidu-camera-hybrid-r1-begin": 1,
+          "wm-baidu-camera-hybrid-r1-end": 1
+        },
+        "authoredPhaseMarks": [
+          {
+            "name": "wm-baidu-base-hybrid-r1-begin",
+            "pid": 49412,
+            "ts": 14819372186,
+            "args": {
+              "data": {
+                "callTime": 14819372201,
+                "detail": "{\"browserEpochMs\":1791991466535.8}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006669829,
+                "startTime": 82978.09999999963
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-base-hybrid-r1-end",
+            "pid": 49412,
+            "ts": 14821381402,
+            "args": {
+              "data": {
+                "callTime": 14821381414,
+                "detail": "{\"browserEpochMs\":1791991468545}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007141873,
+                "startTime": 84987.30000000075
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-hybrid-r1-begin",
+            "pid": 49412,
+            "ts": 14821686353,
+            "args": {
+              "data": {
+                "callTime": 14821686377,
+                "detail": "{\"browserEpochMs\":1791991468849.9}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007144295,
+                "startTime": 85292.30000000075
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-hybrid-r1-end",
+            "pid": 49412,
+            "ts": 14822139824,
+            "args": {
+              "data": {
+                "callTime": 14822139837,
+                "detail": "{\"browserEpochMs\":1791991469303.4}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007149410,
+                "startTime": 85745.70000000112
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-hybrid-r1-begin",
+            "pid": 49412,
+            "ts": 14822273973,
+            "args": {
+              "data": {
+                "callTime": 14822273988,
+                "detail": "{\"browserEpochMs\":1791991469437.5999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007150497,
+                "startTime": 85879.90000000037
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-hybrid-r1-end",
+            "pid": 49412,
+            "ts": 14825397984,
+            "args": {
+              "data": {
+                "callTime": 14825397997,
+                "detail": "{\"browserEpochMs\":1791991472561.5}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007118335,
+                "startTime": 89003.80000000075
+              }
+            }
+          }
+        ],
+        "rendererMainCandidatePids": [
+          49412
+        ],
+        "browserMode": "headed",
+        "physicalFps": null,
+        "scope": "Target page compositor presentation feedback; physical scanout unverified. Whole-run baseline/screenshots/idle is never scored as camera FPS.",
+        "phasePresentation": [
+          {
+            "name": "baseline",
+            "windowId": "base-hybrid-r1",
+            "startEpochMs": 1791991466535.8,
+            "endEpochMs": 1791991468545.0,
+            "durationMs": 2009.199951171875,
+            "startTraceTsUs": 14819372213.134766,
+            "endTraceTsUs": 14821381413.085938,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 454,
+              "firstTraceTsUs": 14819377911,
+              "lastTraceTsUs": 14821377928,
+              "observedSpanMs": 2000.017,
+              "intervals": {
+                "n": 453,
+                "minMs": 3.738,
+                "p50Ms": 4.169,
+                "p95Ms": 8.200199999999999,
+                "p99Ms": 8.35648,
+                "maxMs": 12.514
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 226.49807476636448,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 454,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "loading",
+            "windowId": "load-hybrid-r1",
+            "startEpochMs": 1791991468849.9,
+            "endEpochMs": 1791991469303.4,
+            "durationMs": 453.5,
+            "startTraceTsUs": 14821686312.988281,
+            "endTraceTsUs": 14822139812.988281,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 104,
+              "firstTraceTsUs": 14821690482,
+              "lastTraceTsUs": 14822136277,
+              "observedSpanMs": 445.795,
+              "intervals": {
+                "n": 103,
+                "minMs": 4.053,
+                "p50Ms": 4.167,
+                "p95Ms": 4.229500000000001,
+                "p99Ms": 8.34398,
+                "maxMs": 12.494
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 231.04790318419901,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 104,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "camera",
+            "windowId": "camera-hybrid-r1",
+            "startEpochMs": 1791991469437.5999,
+            "endEpochMs": 1791991472561.5,
+            "durationMs": 3123.900146484375,
+            "startTraceTsUs": 14822274012.939453,
+            "endTraceTsUs": 14825397913.085938,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 723,
+              "firstTraceTsUs": 14822277968,
+              "lastTraceTsUs": 14825394675,
+              "observedSpanMs": 3116.707,
+              "intervals": {
+                "n": 722,
+                "minMs": 3.93,
+                "p50Ms": 4.168,
+                "p95Ms": 4.247,
+                "p99Ms": 8.33858,
+                "maxMs": 8.519
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 231.65475612561593,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 723,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          }
+        ],
+        "clockAlignment": {
+          "status": "measured-anchor-map",
+          "traceClock": "trace ts in monotonic microseconds; not epoch milliseconds",
+          "mapping": "browserEpochMs = traceTsUs/1000 + anchorOffsetMs",
+          "anchorOffsetMs": 1791976647163.587,
+          "anchorCount": 6,
+          "maxAnchorOffsetResidualMs": 0.07080078125,
+          "anchors": [
+            {
+              "name": "wm-baidu-base-hybrid-r1-begin",
+              "traceTsUs": 14819372186,
+              "browserEpochMs": 1791991466535.8,
+              "offsetMs": 1791976647163.614
+            },
+            {
+              "name": "wm-baidu-base-hybrid-r1-end",
+              "traceTsUs": 14821381402,
+              "browserEpochMs": 1791991468545,
+              "offsetMs": 1791976647163.598
+            },
+            {
+              "name": "wm-baidu-load-hybrid-r1-begin",
+              "traceTsUs": 14821686353,
+              "browserEpochMs": 1791991468849.9,
+              "offsetMs": 1791976647163.5469
+            },
+            {
+              "name": "wm-baidu-load-hybrid-r1-end",
+              "traceTsUs": 14822139824,
+              "browserEpochMs": 1791991469303.4,
+              "offsetMs": 1791976647163.576
+            },
+            {
+              "name": "wm-baidu-camera-hybrid-r1-begin",
+              "traceTsUs": 14822273973,
+              "browserEpochMs": 1791991469437.5999,
+              "offsetMs": 1791976647163.627
+            },
+            {
+              "name": "wm-baidu-camera-hybrid-r1-end",
+              "traceTsUs": 14825397984,
+              "browserEpochMs": 1791991472561.5,
+              "offsetMs": 1791976647163.516
+            }
+          ],
+          "unavailableReason": null,
+          "systemClockWasNotUsed": true
+        },
+        "targetRendererPid": 49412,
+        "targetRendererBinding": "wm-user-timing-mark-renderer",
+        "cameraPresentationP95Ms": 4.247,
+        "cameraPresentationValid": true,
+        "analysisFile": "archive/results/baidu-production-complete1/analysis-final1/trace-analyses/hybrid-r1.json",
+        "analysisSHA256": "eb8d9d1e3fc260ec327e2a308b4ed09bd6a871ea49292dad17b87111cd09c940",
+        "evidenceFile": "archive/results/baidu-production-complete1/analysis-final1/trace-evidence/hybrid-r1.presentation-evidence.json",
+        "evidenceSHA256": "bdb2af54122469bef9194eac07c6ca766c7507f3d661dff744530b2cab211047",
+        "reason": null
+      },
+      {
+        "id": "current-r1",
+        "available": true,
+        "file": "archive/results/baidu-production-complete1/current-r1.trace.json",
+        "sha256": "6e7fdadb9fa348590240e781c8a7296b2c8420097cb622678a1c8dcb4804f5ef",
+        "bytes": 231135093,
+        "eventCount": 983926,
+        "relevantEventCounts": {
+          "SkiaRenderer::SwapBuffers": 1484,
+          "Display::FrameDisplayed": 1483,
+          "FramePresented": 2,
+          "PipelineReporter": 6148,
+          "EndActivateToSubmitCompositorFrame": 5934,
+          "SubmitCompositorFrameToPresentationCompositorFrame": 5934
+        },
+        "userTimingNameCounts": {
+          "wm-baidu-base-current-r1-begin": 1,
+          "wm-baidu-base-current-r1-end": 1,
+          "wm-baidu-load-current-r1-begin": 1,
+          "wm-baidu-load-current-r1-end": 1,
+          "wm-baidu-camera-current-r1-begin": 1,
+          "wm-baidu-camera-current-r1-end": 1
+        },
+        "authoredPhaseMarks": [
+          {
+            "name": "wm-baidu-base-current-r1-begin",
+            "pid": 49412,
+            "ts": 14842176950,
+            "args": {
+              "data": {
+                "callTime": 14842176964,
+                "detail": "{\"browserEpochMs\":1791991489340.5999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006996926,
+                "startTime": 105782.9000000004
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-base-current-r1-end",
+            "pid": 49412,
+            "ts": 14844187007,
+            "args": {
+              "data": {
+                "callTime": 14844187022,
+                "detail": "{\"browserEpochMs\":1791991491350.5999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006952883,
+                "startTime": 107792.9000000004
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-current-r1-begin",
+            "pid": 49412,
+            "ts": 14844481246,
+            "args": {
+              "data": {
+                "callTime": 14844481257,
+                "detail": "{\"browserEpochMs\":1791991491644.9}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006955217,
+                "startTime": 108087.2000000011
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-current-r1-end",
+            "pid": 49412,
+            "ts": 14845053856,
+            "args": {
+              "data": {
+                "callTime": 14845053875,
+                "detail": "{\"browserEpochMs\":1791991492217.5}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006961865,
+                "startTime": 108659.8000000007
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-current-r1-begin",
+            "pid": 49412,
+            "ts": 14845202738,
+            "args": {
+              "data": {
+                "callTime": 14845202753,
+                "detail": "{\"browserEpochMs\":1791991492366.3}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006962985,
+                "startTime": 108808.7000000011
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-current-r1-end",
+            "pid": 49412,
+            "ts": 14848315245,
+            "args": {
+              "data": {
+                "callTime": 14848315261,
+                "detail": "{\"browserEpochMs\":1791991495478.9}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374006931172,
+                "startTime": 111921.2000000011
+              }
+            }
+          }
+        ],
+        "rendererMainCandidatePids": [
+          49412
+        ],
+        "browserMode": "headed",
+        "physicalFps": null,
+        "scope": "Target page compositor presentation feedback; physical scanout unverified. Whole-run baseline/screenshots/idle is never scored as camera FPS.",
+        "phasePresentation": [
+          {
+            "name": "baseline",
+            "windowId": "base-current-r1",
+            "startEpochMs": 1791991489340.5999,
+            "endEpochMs": 1791991491350.5999,
+            "durationMs": 2010.0,
+            "startTraceTsUs": 14842176952.88086,
+            "endTraceTsUs": 14844186952.88086,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 459,
+              "firstTraceTsUs": 14842182656,
+              "lastTraceTsUs": 14844186780,
+              "observedSpanMs": 2004.124,
+              "intervals": {
+                "n": 458,
+                "minMs": 3.886,
+                "p50Ms": 4.168,
+                "p95Ms": 4.481599999999997,
+                "p99Ms": 8.35143,
+                "maxMs": 12.664
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 228.52877366869515,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 459,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "loading",
+            "windowId": "load-current-r1",
+            "startEpochMs": 1791991491644.9,
+            "endEpochMs": 1791991492217.5,
+            "durationMs": 572.60009765625,
+            "startTraceTsUs": 14844481252.929688,
+            "endTraceTsUs": 14845053853.027344,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 136,
+              "firstTraceTsUs": 14844482635,
+              "lastTraceTsUs": 14845053471,
+              "observedSpanMs": 570.836,
+              "intervals": {
+                "n": 135,
+                "minMs": 3.792,
+                "p50Ms": 4.166,
+                "p95Ms": 4.2036,
+                "p99Ms": 7.027619999999986,
+                "maxMs": 8.363
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 236.49524556965574,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 136,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "camera",
+            "windowId": "camera-current-r1",
+            "startEpochMs": 1791991492366.3,
+            "endEpochMs": 1791991495478.9,
+            "durationMs": 3112.599853515625,
+            "startTraceTsUs": 14845202653.076172,
+            "endTraceTsUs": 14848315252.929688,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 731,
+              "firstTraceTsUs": 14845203483,
+              "lastTraceTsUs": 14848311861,
+              "observedSpanMs": 3108.378,
+              "intervals": {
+                "n": 730,
+                "minMs": 3.813,
+                "p50Ms": 4.167,
+                "p95Ms": 4.22255,
+                "p99Ms": 8.33042,
+                "maxMs": 12.477
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 234.84917214058262,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 731,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          }
+        ],
+        "clockAlignment": {
+          "status": "measured-anchor-map",
+          "traceClock": "trace ts in monotonic microseconds; not epoch milliseconds",
+          "mapping": "browserEpochMs = traceTsUs/1000 + anchorOffsetMs",
+          "anchorOffsetMs": 1791976647163.647,
+          "anchorCount": 6,
+          "maxAnchorOffsetResidualMs": 0.0849609375,
+          "anchors": [
+            {
+              "name": "wm-baidu-base-current-r1-begin",
+              "traceTsUs": 14842176950,
+              "browserEpochMs": 1791991489340.5999,
+              "offsetMs": 1791976647163.65
+            },
+            {
+              "name": "wm-baidu-base-current-r1-end",
+              "traceTsUs": 14844187007,
+              "browserEpochMs": 1791991491350.5999,
+              "offsetMs": 1791976647163.5928
+            },
+            {
+              "name": "wm-baidu-load-current-r1-begin",
+              "traceTsUs": 14844481246,
+              "browserEpochMs": 1791991491644.9,
+              "offsetMs": 1791976647163.6538
+            },
+            {
+              "name": "wm-baidu-load-current-r1-end",
+              "traceTsUs": 14845053856,
+              "browserEpochMs": 1791991492217.5,
+              "offsetMs": 1791976647163.644
+            },
+            {
+              "name": "wm-baidu-camera-current-r1-begin",
+              "traceTsUs": 14845202738,
+              "browserEpochMs": 1791991492366.3,
+              "offsetMs": 1791976647163.562
+            },
+            {
+              "name": "wm-baidu-camera-current-r1-end",
+              "traceTsUs": 14848315245,
+              "browserEpochMs": 1791991495478.9,
+              "offsetMs": 1791976647163.6548
+            }
+          ],
+          "unavailableReason": null,
+          "systemClockWasNotUsed": true
+        },
+        "targetRendererPid": 49412,
+        "targetRendererBinding": "wm-user-timing-mark-renderer",
+        "cameraPresentationP95Ms": 4.22255,
+        "cameraPresentationValid": true,
+        "analysisFile": "archive/results/baidu-production-complete1/analysis-final1/trace-analyses/current-r1.json",
+        "analysisSHA256": "1a563c70d219bead1dbeb3ce5937df8f70c309835a3df6039dda692015d212b0",
+        "evidenceFile": "archive/results/baidu-production-complete1/analysis-final1/trace-evidence/current-r1.presentation-evidence.json",
+        "evidenceSHA256": "ba342b6abe85d685d4774f120ac4e8ffaed3c311fe170389064b2e75b11e2aa4",
+        "reason": null
+      },
+      {
+        "id": "current-r2",
+        "available": true,
+        "file": "archive/results/baidu-production-complete1/current-r2.trace.json",
+        "sha256": "4f02fb72433e4b48ae1d4552a792914e21b43c575c21732436211b9ade5a7f3a",
+        "bytes": 233503451,
+        "eventCount": 992929,
+        "relevantEventCounts": {
+          "SkiaRenderer::SwapBuffers": 1504,
+          "Display::FrameDisplayed": 1503,
+          "FramePresented": 2,
+          "PipelineReporter": 6244,
+          "EndActivateToSubmitCompositorFrame": 6014,
+          "SubmitCompositorFrameToPresentationCompositorFrame": 6014
+        },
+        "userTimingNameCounts": {
+          "wm-baidu-base-current-r2-begin": 1,
+          "wm-baidu-base-current-r2-end": 1,
+          "wm-baidu-load-current-r2-begin": 1,
+          "wm-baidu-load-current-r2-end": 1,
+          "wm-baidu-camera-current-r2-begin": 1,
+          "wm-baidu-camera-current-r2-end": 1
+        },
+        "authoredPhaseMarks": [
+          {
+            "name": "wm-baidu-base-current-r2-begin",
+            "pid": 49412,
+            "ts": 14865551057,
+            "args": {
+              "data": {
+                "callTime": 14865551072,
+                "detail": "{\"browserEpochMs\":1791991512714.5999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007272293,
+                "startTime": 129156.9000000004
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-base-current-r2-end",
+            "pid": 49412,
+            "ts": 14867564738,
+            "args": {
+              "data": {
+                "callTime": 14867564751,
+                "detail": "{\"browserEpochMs\":1791991514728.3}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007302156,
+                "startTime": 131170.7000000011
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-current-r2-begin",
+            "pid": 49412,
+            "ts": 14867828493,
+            "args": {
+              "data": {
+                "callTime": 14867828511,
+                "detail": "{\"browserEpochMs\":1791991514992.0999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007296078,
+                "startTime": 131434.4000000004
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-current-r2-end",
+            "pid": 49412,
+            "ts": 14868499802,
+            "args": {
+              "data": {
+                "callTime": 14868499854,
+                "detail": "{\"browserEpochMs\":1791991515663.4}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007246430,
+                "startTime": 132105.7000000011
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-current-r2-begin",
+            "pid": 49412,
+            "ts": 14868683717,
+            "args": {
+              "data": {
+                "callTime": 14868683737,
+                "detail": "{\"browserEpochMs\":1791991515847.3}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007239555,
+                "startTime": 132289.5999999996
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-current-r2-end",
+            "pid": 49412,
+            "ts": 14871799203,
+            "args": {
+              "data": {
+                "callTime": 14871799218,
+                "detail": "{\"browserEpochMs\":1791991518962.8}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374007207378,
+                "startTime": 135405.0999999996
+              }
+            }
+          }
+        ],
+        "rendererMainCandidatePids": [
+          49412
+        ],
+        "browserMode": "headed",
+        "physicalFps": null,
+        "scope": "Target page compositor presentation feedback; physical scanout unverified. Whole-run baseline/screenshots/idle is never scored as camera FPS.",
+        "phasePresentation": [
+          {
+            "name": "baseline",
+            "windowId": "base-current-r2",
+            "startEpochMs": 1791991512714.5999,
+            "endEpochMs": 1791991514728.3,
+            "durationMs": 2013.7001953125,
+            "startTraceTsUs": 14865551009.765625,
+            "endTraceTsUs": 14867564709.960938,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 467,
+              "firstTraceTsUs": 14865558115,
+              "lastTraceTsUs": 14867562306,
+              "observedSpanMs": 2004.191,
+              "intervals": {
+                "n": 466,
+                "minMs": 3.945,
+                "p50Ms": 4.167,
+                "p95Ms": 4.2565,
+                "p99Ms": 8.338,
+                "maxMs": 8.394
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 232.5127694915305,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 467,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "loading",
+            "windowId": "load-current-r2",
+            "startEpochMs": 1791991514992.0999,
+            "endEpochMs": 1791991515663.4,
+            "durationMs": 671.300048828125,
+            "startTraceTsUs": 14867828509.765625,
+            "endTraceTsUs": 14868499809.814453,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 157,
+              "firstTraceTsUs": 14867829000,
+              "lastTraceTsUs": 14868495678,
+              "observedSpanMs": 666.678,
+              "intervals": {
+                "n": 156,
+                "minMs": 3.724,
+                "p50Ms": 4.166,
+                "p95Ms": 4.26,
+                "p99Ms": 8.3483,
+                "maxMs": 12.505
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 233.99602206762486,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 157,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "camera",
+            "windowId": "camera-current-r2",
+            "startEpochMs": 1791991515847.3,
+            "endEpochMs": 1791991518962.8,
+            "durationMs": 3115.5,
+            "startTraceTsUs": 14868683709.960938,
+            "endTraceTsUs": 14871799209.960938,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 721,
+              "firstTraceTsUs": 14868687354,
+              "lastTraceTsUs": 14871795737,
+              "observedSpanMs": 3108.383,
+              "intervals": {
+                "n": 720,
+                "minMs": 3.907,
+                "p50Ms": 4.167,
+                "p95Ms": 4.292249999999999,
+                "p99Ms": 8.344240000000001,
+                "maxMs": 8.394
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 231.63168760091662,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 721,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          }
+        ],
+        "clockAlignment": {
+          "status": "measured-anchor-map",
+          "traceClock": "trace ts in monotonic microseconds; not epoch milliseconds",
+          "mapping": "browserEpochMs = traceTsUs/1000 + anchorOffsetMs",
+          "anchorOffsetMs": 1791976647163.59,
+          "anchorCount": 6,
+          "maxAnchorOffsetResidualMs": 0.047119140625,
+          "anchors": [
+            {
+              "name": "wm-baidu-base-current-r2-begin",
+              "traceTsUs": 14865551057,
+              "browserEpochMs": 1791991512714.5999,
+              "offsetMs": 1791976647163.543
+            },
+            {
+              "name": "wm-baidu-base-current-r2-end",
+              "traceTsUs": 14867564738,
+              "browserEpochMs": 1791991514728.3,
+              "offsetMs": 1791976647163.562
+            },
+            {
+              "name": "wm-baidu-load-current-r2-begin",
+              "traceTsUs": 14867828493,
+              "browserEpochMs": 1791991514992.0999,
+              "offsetMs": 1791976647163.607
+            },
+            {
+              "name": "wm-baidu-load-current-r2-end",
+              "traceTsUs": 14868499802,
+              "browserEpochMs": 1791991515663.4,
+              "offsetMs": 1791976647163.598
+            },
+            {
+              "name": "wm-baidu-camera-current-r2-begin",
+              "traceTsUs": 14868683717,
+              "browserEpochMs": 1791991515847.3,
+              "offsetMs": 1791976647163.583
+            },
+            {
+              "name": "wm-baidu-camera-current-r2-end",
+              "traceTsUs": 14871799203,
+              "browserEpochMs": 1791991518962.8,
+              "offsetMs": 1791976647163.5972
+            }
+          ],
+          "unavailableReason": null,
+          "systemClockWasNotUsed": true
+        },
+        "targetRendererPid": 49412,
+        "targetRendererBinding": "wm-user-timing-mark-renderer",
+        "cameraPresentationP95Ms": 4.292249999999999,
+        "cameraPresentationValid": true,
+        "analysisFile": "archive/results/baidu-production-complete1/analysis-final1/trace-analyses/current-r2.json",
+        "analysisSHA256": "2a92502630541d0bbd64c872b1e2642932b8c3500d6c1196cd2010d3c4f8d67d",
+        "evidenceFile": "archive/results/baidu-production-complete1/analysis-final1/trace-evidence/current-r2.presentation-evidence.json",
+        "evidenceSHA256": "a26e5ce1eb84df3fe861ca722df0210d7f21eba8607eb859f329a901a97c8da1",
+        "reason": null
+      },
+      {
+        "id": "hybrid-r2",
+        "available": true,
+        "file": "archive/results/baidu-production-complete1/hybrid-r2.trace.json",
+        "sha256": "2f38de74ab7bcc47216b76a0aba6f71a8d1bbcc544442505544b222926af986e",
+        "bytes": 228887501,
+        "eventCount": 973583,
+        "relevantEventCounts": {
+          "SkiaRenderer::SwapBuffers": 1469,
+          "Display::FrameDisplayed": 1468,
+          "FramePresented": 2,
+          "PipelineReporter": 6062,
+          "EndActivateToSubmitCompositorFrame": 5874,
+          "SubmitCompositorFrameToPresentationCompositorFrame": 5874
+        },
+        "userTimingNameCounts": {
+          "wm-baidu-base-hybrid-r2-begin": 1,
+          "wm-baidu-base-hybrid-r2-end": 1,
+          "wm-baidu-load-hybrid-r2-begin": 1,
+          "wm-baidu-load-hybrid-r2-end": 1,
+          "wm-baidu-camera-hybrid-r2-begin": 1,
+          "wm-baidu-camera-hybrid-r2-end": 1
+        },
+        "authoredPhaseMarks": [
+          {
+            "name": "wm-baidu-base-hybrid-r2-begin",
+            "pid": 49412,
+            "ts": 14889240176,
+            "args": {
+              "data": {
+                "callTime": 14889240192,
+                "detail": "{\"browserEpochMs\":1791991536403.8}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374005518606,
+                "startTime": 152846.0999999996
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-base-hybrid-r2-end",
+            "pid": 49412,
+            "ts": 14891250448,
+            "args": {
+              "data": {
+                "callTime": 14891250460,
+                "detail": "{\"browserEpochMs\":1791991538414.0999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374005483232,
+                "startTime": 154856.4000000004
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-hybrid-r2-begin",
+            "pid": 49412,
+            "ts": 14891550151,
+            "args": {
+              "data": {
+                "callTime": 14891550166,
+                "detail": "{\"browserEpochMs\":1791991538713.8}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374005477436,
+                "startTime": 155156.0999999996
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-load-hybrid-r2-end",
+            "pid": 49412,
+            "ts": 14892012550,
+            "args": {
+              "data": {
+                "callTime": 14892012562,
+                "detail": "{\"browserEpochMs\":1791991539176.0999}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374005491051,
+                "startTime": 155618.4000000004
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-hybrid-r2-begin",
+            "pid": 49412,
+            "ts": 14892120149,
+            "args": {
+              "data": {
+                "callTime": 14892120164,
+                "detail": "{\"browserEpochMs\":1791991539283.7}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374005491894,
+                "startTime": 155726
+              }
+            }
+          },
+          {
+            "name": "wm-baidu-camera-hybrid-r2-end",
+            "pid": 49412,
+            "ts": 14895237735,
+            "args": {
+              "data": {
+                "callTime": 14895237746,
+                "detail": "{\"browserEpochMs\":1791991542401.3}",
+                "navigationId": "E925B2A1E26E754DCF88F5F8D909301A",
+                "sampleTraceId": 6791374005460276,
+                "startTime": 158843.5999999996
+              }
+            }
+          }
+        ],
+        "rendererMainCandidatePids": [
+          49412
+        ],
+        "browserMode": "headed",
+        "physicalFps": null,
+        "scope": "Target page compositor presentation feedback; physical scanout unverified. Whole-run baseline/screenshots/idle is never scored as camera FPS.",
+        "phasePresentation": [
+          {
+            "name": "baseline",
+            "windowId": "base-hybrid-r2",
+            "startEpochMs": 1791991536403.8,
+            "endEpochMs": 1791991538414.0999,
+            "durationMs": 2010.2998046875,
+            "startTraceTsUs": 14889240205.566406,
+            "endTraceTsUs": 14891250505.371094,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 472,
+              "firstTraceTsUs": 14889246188,
+              "lastTraceTsUs": 14891250392,
+              "observedSpanMs": 2004.204,
+              "intervals": {
+                "n": 471,
+                "minMs": 3.821,
+                "p50Ms": 4.166,
+                "p95Ms": 4.2605,
+                "p99Ms": 8.3331,
+                "maxMs": 8.391
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 235.0060173515271,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 472,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "loading",
+            "windowId": "load-hybrid-r2",
+            "startEpochMs": 1791991538713.8,
+            "endEpochMs": 1791991539176.0999,
+            "durationMs": 462.2998046875,
+            "startTraceTsUs": 14891550205.566406,
+            "endTraceTsUs": 14892012505.371094,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 107,
+              "firstTraceTsUs": 14891550383,
+              "lastTraceTsUs": 14892008703,
+              "observedSpanMs": 458.32,
+              "intervals": {
+                "n": 106,
+                "minMs": 3.624,
+                "p50Ms": 4.1645,
+                "p95Ms": 4.42625,
+                "p99Ms": 8.34595,
+                "maxMs": 8.385
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 231.27945540233898,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 107,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          },
+          {
+            "name": "camera",
+            "windowId": "camera-hybrid-r2",
+            "startEpochMs": 1791991539283.7,
+            "endEpochMs": 1791991542401.3,
+            "durationMs": 3117.60009765625,
+            "startTraceTsUs": 14892120105.46875,
+            "endTraceTsUs": 14895237705.566406,
+            "clockAlignmentValid": true,
+            "scoringEligible": true,
+            "presentationFeedback": {
+              "scope": "browser-reported target renderer presentation feedback within exact profiler window",
+              "uniqueTimestampCount": 738,
+              "firstTraceTsUs": 14892121226,
+              "lastTraceTsUs": 14895233797,
+              "observedSpanMs": 3112.571,
+              "intervals": {
+                "n": 737,
+                "minMs": 3.935,
+                "p50Ms": 4.167,
+                "p95Ms": 4.220999999999999,
+                "p99Ms": 8.2774,
+                "maxMs": 12.47
+              },
+              "physicalPresentationFps": null,
+              "browserFeedbackCadenceHz": 236.7817473079329,
+              "scoringEligible": true
+            },
+            "presentationPointsIncludedInAggregate": false,
+            "presentationPointCountOmitted": 738,
+            "rendererMainThread": [],
+            "unavailableReason": null,
+            "physicalPresentationFps": null,
+            "filteredCpuUnavailableReason": "Complete X thread CPU events intentionally excluded from bounded presentation-only evidence; CPU remains observer-only."
+          }
+        ],
+        "clockAlignment": {
+          "status": "measured-anchor-map",
+          "traceClock": "trace ts in monotonic microseconds; not epoch milliseconds",
+          "mapping": "browserEpochMs = traceTsUs/1000 + anchorOffsetMs",
+          "anchorOffsetMs": 1791976647163.5945,
+          "anchorCount": 6,
+          "maxAnchorOffsetResidualMs": 0.057373046875,
+          "anchors": [
+            {
+              "name": "wm-baidu-base-hybrid-r2-begin",
+              "traceTsUs": 14889240176,
+              "browserEpochMs": 1791991536403.8,
+              "offsetMs": 1791976647163.624
+            },
+            {
+              "name": "wm-baidu-base-hybrid-r2-end",
+              "traceTsUs": 14891250448,
+              "browserEpochMs": 1791991538414.0999,
+              "offsetMs": 1791976647163.6519
+            },
+            {
+              "name": "wm-baidu-load-hybrid-r2-begin",
+              "traceTsUs": 14891550151,
+              "browserEpochMs": 1791991538713.8,
+              "offsetMs": 1791976647163.6492
+            },
+            {
+              "name": "wm-baidu-load-hybrid-r2-end",
+              "traceTsUs": 14892012550,
+              "browserEpochMs": 1791991539176.0999,
+              "offsetMs": 1791976647163.5498
+            },
+            {
+              "name": "wm-baidu-camera-hybrid-r2-begin",
+              "traceTsUs": 14892120149,
+              "browserEpochMs": 1791991539283.7,
+              "offsetMs": 1791976647163.551
+            },
+            {
+              "name": "wm-baidu-camera-hybrid-r2-end",
+              "traceTsUs": 14895237735,
+              "browserEpochMs": 1791991542401.3,
+              "offsetMs": 1791976647163.565
+            }
+          ],
+          "unavailableReason": null,
+          "systemClockWasNotUsed": true
+        },
+        "targetRendererPid": 49412,
+        "targetRendererBinding": "wm-user-timing-mark-renderer",
+        "cameraPresentationP95Ms": 4.220999999999999,
+        "cameraPresentationValid": true,
+        "analysisFile": "archive/results/baidu-production-complete1/analysis-final1/trace-analyses/hybrid-r2.json",
+        "analysisSHA256": "6277f59b9cd9fe057d52343c0e7e60c8a0d3ccbc559997ac9bee5bc6c1e68020",
+        "evidenceFile": "archive/results/baidu-production-complete1/analysis-final1/trace-evidence/hybrid-r2.presentation-evidence.json",
+        "evidenceSHA256": "967329b1d7bc88a572da15dfed3e47f94ee827609cdd3098d1e2ff7108362d03",
+        "reason": null
+      }
+    ]
+  },
+  "figures": [
+    {
+      "file": "figures/primary/whole-map-ready-stream-wall.png",
+      "sha256": "d48a8bc939bf55978972ad6305ab1ebdd8da66430027e3a45b5bf028856c94d3",
+      "bytes": 122136,
+      "originalFile": "results/formal-realmap1/analysis-primary1/whole-map-ready-stream-wall.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/whole-map-ready-stream-wall.svg",
+      "sha256": "aaee8482d9cf30f8bb6d5986e679f042139826d01ef87e3a63335f0413341bc1",
+      "bytes": 108675,
+      "originalFile": "results/formal-realmap1/analysis-primary1/whole-map-ready-stream-wall.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/whole-map-ack-progress.png",
+      "sha256": "fad9f94469b1bdb12f69efd9b91a1914455fdb66e66230514967d0c85142eb41",
+      "bytes": 142576,
+      "originalFile": "results/formal-realmap1/analysis-primary1/whole-map-ack-progress.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/whole-map-ack-progress.svg",
+      "sha256": "3b0d5c0b8acf32ba764eb0e02e9c0883a5f821873f0d651f99e75d0675dc136f",
+      "bytes": 117563,
+      "originalFile": "results/formal-realmap1/analysis-primary1/whole-map-ack-progress.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/camera-whole-map-cpu.png",
+      "sha256": "e61e308b0ba114f7d7ac5ba3bf1b3c5ac6a2b4c800b6019354c54b59585ec334",
+      "bytes": 106346,
+      "originalFile": "results/formal-realmap1/analysis-primary1/camera-whole-map-cpu.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/camera-whole-map-cpu.svg",
+      "sha256": "57c9a4d491d3c448191d0b279ae6b9c035ded32991ecbde74849046c1ed47ce2",
+      "bytes": 114301,
+      "originalFile": "results/formal-realmap1/analysis-primary1/camera-whole-map-cpu.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/camera-whole-map-gpu.png",
+      "sha256": "8598331af513d338c336d39c5162956f7003f45ce698b9462789d6ed2fc04dd7",
+      "bytes": 101680,
+      "originalFile": "results/formal-realmap1/analysis-primary1/camera-whole-map-gpu.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/camera-whole-map-gpu.svg",
+      "sha256": "baaf8557403c0e93c547cc51a3c11d4e3f0a668c101d7b430f5a60564f4e2477",
+      "bytes": 113590,
+      "originalFile": "results/formal-realmap1/analysis-primary1/camera-whole-map-gpu.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/camera-compositor-feedback.png",
+      "sha256": "9d27318e13472a7fc08494463b9e8f4ddea059c99e3976bc75edf181ee87fa40",
+      "bytes": 60003,
+      "originalFile": "results/formal-realmap1/analysis-primary1/camera-compositor-feedback.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/camera-compositor-feedback.svg",
+      "sha256": "5c53f01b36a5953708bf5d172c963c2e79cd691d65e5d8120a4d9de430703b0c",
+      "bytes": 89277,
+      "originalFile": "results/formal-realmap1/analysis-primary1/camera-compositor-feedback.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/continuous-updates-whole-map-cpu.png",
+      "sha256": "8e417261c91df71187aa9064c9799410671f32f224c4669c21378bd14b5391e0",
+      "bytes": 114948,
+      "originalFile": "results/formal-realmap1/analysis-primary1/continuous-updates-whole-map-cpu.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/continuous-updates-whole-map-cpu.svg",
+      "sha256": "fd4744646efd7210d44de47da29b08b64befb9ddbe698eae734b49057ec74b10",
+      "bytes": 109612,
+      "originalFile": "results/formal-realmap1/analysis-primary1/continuous-updates-whole-map-cpu.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/continuous-updates-whole-map-gpu.png",
+      "sha256": "9ba3b7090ca89db367396c937a4b839ab39b95c6482874ca67dfb734c2bdb53b",
+      "bytes": 148189,
+      "originalFile": "results/formal-realmap1/analysis-primary1/continuous-updates-whole-map-gpu.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/continuous-updates-whole-map-gpu.svg",
+      "sha256": "ef0fa1bdbc1824d0164db56a540b68d0bfc10dedcad39710d18bdc5c0c691e76",
+      "bytes": 105361,
+      "originalFile": "results/formal-realmap1/analysis-primary1/continuous-updates-whole-map-gpu.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/update-confirmation-wall.png",
+      "sha256": "a75b3fba0abc65d3bbe6ed5ae4d14d278ef0162b5c2f6146f2ed017c13d86381",
+      "bytes": 249001,
+      "originalFile": "results/formal-realmap1/analysis-primary1/update-confirmation-wall.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/update-confirmation-wall.svg",
+      "sha256": "3a548650575f0c8169332a512750c63493a65632004bffb4dcd916a9a1b377b1",
+      "bytes": 169757,
+      "originalFile": "results/formal-realmap1/analysis-primary1/update-confirmation-wall.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/phase-streaming-main.png",
+      "sha256": "9482a33bc56bca3c24e828feb7767e3a0003bf1c6878e285da9709c75a5295a4",
+      "bytes": 305737,
+      "originalFile": "results/formal-realmap1/analysis-primary1/phase-streaming-main.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/phase-streaming-main.svg",
+      "sha256": "85516377b7f38e36148c49d8f6f30dccb6ccd084629e053a1a738d122245b81b",
+      "bytes": 185788,
+      "originalFile": "results/formal-realmap1/analysis-primary1/phase-streaming-main.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/phase-camera-main.png",
+      "sha256": "eeed340ada79a2cc7383002b845409e2b7dffed6e2adadfac4e6ee03943d87f4",
+      "bytes": 306466,
+      "originalFile": "results/formal-realmap1/analysis-primary1/phase-camera-main.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/phase-camera-main.svg",
+      "sha256": "24cf32ecaf8507ae06f92bdb31ca9ea64f9f24b3069f9c8ae1ca6183b75838a4",
+      "bytes": 220900,
+      "originalFile": "results/formal-realmap1/analysis-primary1/phase-camera-main.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/phase-streaming-stream-worker.png",
+      "sha256": "709d246885225a40a6f15bac153c8cfb5d4f39c53ab9d0ef7300b1d014c222bd",
+      "bytes": 170684,
+      "originalFile": "results/formal-realmap1/analysis-primary1/phase-streaming-stream-worker.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/phase-streaming-stream-worker.svg",
+      "sha256": "7e952b8cb65850f8ca5c1d5695bef498824edfc8bfafe2baba9291fa7bcbdd36",
+      "bytes": 111734,
+      "originalFile": "results/formal-realmap1/analysis-primary1/phase-streaming-stream-worker.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/phase-streaming-native-map-worker.png",
+      "sha256": "de53efea024afcf55d53f6e72658819d0d091985255327ad60ca60b1a26841d9",
+      "bytes": 155812,
+      "originalFile": "results/formal-realmap1/analysis-primary1/phase-streaming-native-map-worker.png",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/primary/phase-streaming-native-map-worker.svg",
+      "sha256": "9cff6e041609fcca216763ca89ed96e09d3f1a218cf73ecaba9f5da28556539a",
+      "bytes": 105964,
+      "originalFile": "results/formal-realmap1/analysis-primary1/phase-streaming-native-map-worker.svg",
+      "originalAnalysisSha256": "40ced88ad64c5904fa38b4e9a88eccffd8d8627faf30c7b6993f638a05cb9dfe",
+      "originalAnalyzerSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/matched/matched-optimized-overview.png",
+      "sha256": "afe57d7d161ccae2786b5232884234970daf64804485e414031fea4073f393ad",
+      "bytes": 117269,
+      "originalFile": "results/analysis-matched1/matched-optimized-overview.png",
+      "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/matched/matched-optimized-overview.svg",
+      "sha256": "fd148dc2c58e2406bf52dc36411790372dfc91915b549356ea9673d2eb8c6075",
+      "bytes": 120190,
+      "originalFile": "results/analysis-matched1/matched-optimized-overview.svg",
+      "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/matched/instrumentation-observed-control.png",
+      "sha256": "7d9fdf3ccc87038c5f5c07cbbd5d5947242a57318aaab554c7c471f5d8998358",
+      "bytes": 118610,
+      "originalFile": "results/analysis-matched1/instrumentation-observed-control.png",
+      "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/matched/instrumentation-observed-control.svg",
+      "sha256": "cdd1cb28ec940477c29ea101423fb0ff58d09e394459a671b2ce0d9d500c752c",
+      "bytes": 147474,
+      "originalFile": "results/analysis-matched1/instrumentation-observed-control.svg",
+      "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/matched/matched-steady-camera.png",
+      "sha256": "30b0990c09b9317d03846c52569cf132d426a1029d28f557c4d4bb94cf161907",
+      "bytes": 87318,
+      "originalFile": "results/analysis-matched1/matched-steady-camera.png",
+      "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/matched/matched-steady-camera.svg",
+      "sha256": "10c8542b24dabd95ec3ecdda2ca310299c0a553dc1b8d762faceaa98a1ad99c8",
+      "bytes": 102939,
+      "originalFile": "results/analysis-matched1/matched-steady-camera.svg",
+      "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/matched/native-contract-comparison.png",
+      "sha256": "c5cab601f01cf1ae2af59a1c7c3e298f94b2b720a97bcc9d5a547a33febdf951",
+      "bytes": 95504,
+      "originalFile": "results/analysis-matched1/native-contract-comparison.png",
+      "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/matched/native-contract-comparison.svg",
+      "sha256": "43a498981a643f3706d162c1b89b18ea94d20a5e0db74b56bece7a13abadee59",
+      "bytes": 95171,
+      "originalFile": "results/analysis-matched1/native-contract-comparison.svg",
+      "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+      "originalAnalyzerSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/updates/matched-position-update-wall.png",
+      "sha256": "eb073de0005a83153edd147ef9dfae072488fe1951162b2bd733848c564dc585",
+      "bytes": 174752,
+      "originalFile": "results/analysis-update-matched1/matched-position-update-wall.png",
+      "originalAnalysisSha256": "ffeb730cb70c3454127a0a136d3dcec983d8ea83f4e79f80bc74fff7f7f7590d",
+      "originalAnalyzerSha256": "8fd13ecef24afd1dac73abde59beb79a6905f7c90b4b6209d6581f6a969a67cc",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/updates/matched-position-update-wall.svg",
+      "sha256": "8fd58ca9e9cfb3d2fa562cd5a1823ab8b5c426d8644a6d9724cf590b598f1cb6",
+      "bytes": 173373,
+      "originalFile": "results/analysis-update-matched1/matched-position-update-wall.svg",
+      "originalAnalysisSha256": "ffeb730cb70c3454127a0a136d3dcec983d8ea83f4e79f80bc74fff7f7f7590d",
+      "originalAnalyzerSha256": "8fd13ecef24afd1dac73abde59beb79a6905f7c90b4b6209d6581f6a969a67cc",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/updates/matched-continuous-update-commits.png",
+      "sha256": "a66952de2f6431c49bcb147546275c5e8815438e0703f7baabf5598eb97619f0",
+      "bytes": 111187,
+      "originalFile": "results/analysis-update-matched1/matched-continuous-update-commits.png",
+      "originalAnalysisSha256": "ffeb730cb70c3454127a0a136d3dcec983d8ea83f4e79f80bc74fff7f7f7590d",
+      "originalAnalyzerSha256": "8fd13ecef24afd1dac73abde59beb79a6905f7c90b4b6209d6581f6a969a67cc",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/updates/matched-continuous-update-commits.svg",
+      "sha256": "4e4b2f6d9beedc46d2f25fc008442710e9caa3355097b9a30867b022a8b66b17",
+      "bytes": 122232,
+      "originalFile": "results/analysis-update-matched1/matched-continuous-update-commits.svg",
+      "originalAnalysisSha256": "ffeb730cb70c3454127a0a136d3dcec983d8ea83f4e79f80bc74fff7f7f7590d",
+      "originalAnalyzerSha256": "8fd13ecef24afd1dac73abde59beb79a6905f7c90b4b6209d6581f6a969a67cc",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/baidu/baidu-stream-and-startup.png",
+      "sha256": "d7ffa5f2841e315c2234993c8ed134a5ba01961637a36925ba910a3eb7d95141",
+      "bytes": 121731,
+      "originalFile": "results/baidu-production-complete1/analysis-final1/baidu-stream-and-startup.png",
+      "originalAnalysisSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/baidu/baidu-stream-and-startup.svg",
+      "sha256": "fd8f059efd0a602124436b2000d25af5efc46cdca1492c93bf994299cc131868",
+      "bytes": 126758,
+      "originalFile": "results/baidu-production-complete1/analysis-final1/baidu-stream-and-startup.svg",
+      "originalAnalysisSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/baidu/baidu-native-callback-cpu-gpu.png",
+      "sha256": "1d00758684b8ac8997618fea5628707a21b9e7eb7e8925ca8cb94a1a1205bb12",
+      "bytes": 105256,
+      "originalFile": "results/baidu-production-complete1/analysis-final1/baidu-native-callback-cpu-gpu.png",
+      "originalAnalysisSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/baidu/baidu-native-callback-cpu-gpu.svg",
+      "sha256": "5dea8176a542d6279f3013c30acf7aaab78c699a38d8e9ca055736d6c8f55cc6",
+      "bytes": 114377,
+      "originalFile": "results/baidu-production-complete1/analysis-final1/baidu-native-callback-cpu-gpu.svg",
+      "originalAnalysisSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/baidu/baidu-stream-phase-costs.png",
+      "sha256": "0f670ea9915182f09b561ebee1e5ef58a0d4b4e5f0b20ed47b3c0ad10114c108",
+      "bytes": 185453,
+      "originalFile": "results/baidu-production-complete1/analysis-final1/baidu-stream-phase-costs.png",
+      "originalAnalysisSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/baidu/baidu-stream-phase-costs.svg",
+      "sha256": "a4609438f57dab3ee98ef8c030a3a1313f8f13345ae89cbfa0427d4c51ecd924",
+      "bytes": 172500,
+      "originalFile": "results/baidu-production-complete1/analysis-final1/baidu-stream-phase-costs.svg",
+      "originalAnalysisSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/baidu/baidu-compositor-feedback.png",
+      "sha256": "8d6b5a2408d35bdcc3fe7260116cab318ef86e9e95e01f82050d72cdbb0f12e2",
+      "bytes": 79673,
+      "originalFile": "results/baidu-production-complete1/analysis-final1/baidu-compositor-feedback.png",
+      "originalAnalysisSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    },
+    {
+      "file": "figures/baidu/baidu-compositor-feedback.svg",
+      "sha256": "74460e68f3ef6b46f62bd4643a81b34d7becde4ea65554fe1ceafde114750a77",
+      "bytes": 96806,
+      "originalFile": "results/baidu-production-complete1/analysis-final1/baidu-compositor-feedback.svg",
+      "originalAnalysisSha256": "a682bb10d762afc15c70b2d40f54ed8e02679029a7e9414fba7dad76fa51268f",
+      "originalAnalyzerSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "method": "Byte-for-byte copy of original matplotlib output from measured trial aggregates; scatter points are measured repeat results, bars/intervals are repeat median/min/max. Synthetic input features do not mean synthetic timings."
+    }
+  ],
+  "numericRawEvidenceDirectory": "measurements/",
+  "fullCdpTraceIncluded": false,
+  "vendorSdkAssetsIncluded": false
+}

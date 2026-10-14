@@ -1,0 +1,58 @@
+{
+  "schema": "geo-pulse/public-historical-analysis-source-1.0",
+  "originalHashMeaning": "Original immutable archived analyzer bytes; public adapted bytes have separately recorded hashes. These scripts are historical source audit and require original report/trial/trace and bound source files for their full workflows; replot.py uses public aggregates only.",
+  "files": [
+    {
+      "publicFile": "historical-adapted/analyze-whole-map-results.py",
+      "originalLogicalPath": "results/formal-realmap1/analysis-primary1/analyze-whole-map-results.py",
+      "originalSha256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+      "publicSha256": "6fab0640617303253f35dcfd3143a25b588712a187bb76cea9a41f5ce1e55bad",
+      "bytesEqualToOriginal": false,
+      "adaptations": [
+        "System-specific absolute font paths replaced with optional GEOPULSE_REPORT_FONT environment value; numeric/plot algorithms unchanged."
+      ]
+    },
+    {
+      "publicFile": "historical-adapted/analyze-whole-map-trace.py",
+      "originalLogicalPath": "results/formal-realmap1/analysis-primary1/analyze-whole-map-trace.py",
+      "originalSha256": "9bac8d3b231a52690346d5beb2b058b351770bbb83d3498df26b2b58e38a3c33",
+      "publicSha256": "9bac8d3b231a52690346d5beb2b058b351770bbb83d3498df26b2b58e38a3c33",
+      "bytesEqualToOriginal": true,
+      "adaptations": [
+        "No edits; original bytes copied exactly."
+      ]
+    },
+    {
+      "publicFile": "historical-adapted/analyze-whole-map-matched.py",
+      "originalLogicalPath": "results/analysis-matched1/analyze-whole-map-matched.py",
+      "originalSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "publicSha256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+      "bytesEqualToOriginal": true,
+      "adaptations": [
+        "No edits; original bytes copied exactly."
+      ]
+    },
+    {
+      "publicFile": "historical-adapted/analyze-whole-map-updates.py",
+      "originalLogicalPath": "results/analysis-update-matched1/analyze-whole-map-updates.py",
+      "originalSha256": "8fd13ecef24afd1dac73abde59beb79a6905f7c90b4b6209d6581f6a969a67cc",
+      "publicSha256": "20dae61cb8fd1014e766336ae43771bf115ca790111d2721901815dc67d98a7d",
+      "bytesEqualToOriginal": false,
+      "adaptations": [
+        "Production/frozen source verification uses repository-relative default and optional --source-root, replacing private checkout layout assumptions."
+      ]
+    },
+    {
+      "publicFile": "historical-adapted/analyze-baidu-whole-map.py",
+      "originalLogicalPath": "results/baidu-production-complete1/analysis-final1/analyze-baidu-whole-map.py",
+      "originalSha256": "1364e7e8ffd4ebefcdb47575ba900a083242a316d8fa8ae42f6683f4954398f5",
+      "publicSha256": "1072ce580cdf143f8a465bcfd4afaad96d43e90d15004a74c76d95ffbb8f18de",
+      "bytesEqualToOriginal": false,
+      "adaptations": [
+        "Production source verification uses repository-relative default and optional --source-root.",
+        "Historical report-text typo asserting preflight tile failed=0 replaced with reference to measured failedTileRequests (complete1=2); measured numeric analysis and charts unchanged.",
+        "Normalized public adapted source line endings to LF and removed whitespace on blank line 241; original archived bytes and original SHA remain unchanged."
+      ]
+    }
+  ]
+}

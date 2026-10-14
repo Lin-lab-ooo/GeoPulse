@@ -1,0 +1,3105 @@
+{
+  "schema": "geo-pulse/whole-map-matched-analysis-1.0",
+  "analyzerSHA256": "3e0a940727bf7bd2fc36e90621bff912baea8b77ca1699157629a95252b3daed",
+  "primaryHelperSHA256": "d51c6fc46d7f276e570821bf716bc47294bbf2535b8a27aadf1a3c47616b0dd2",
+  "identities": [
+    {
+      "report": "archive/results/matched-policy1/report.json",
+      "sha256": "037cea8f8a4a587b597208ac2b005777a0beb3b845b95e10da4876f2aedb2648",
+      "trials": [
+        {
+          "file": "archive/results/matched-policy1/geopulse-current-100000-r0.trial.json",
+          "sha256": "b23fccc746875e23b9d0144c901a8a97b8f8354fc9bd6447de528c13b71da499"
+        },
+        {
+          "file": "archive/results/matched-policy1/deck-100000-r0.trial.json",
+          "sha256": "5cb50f6af87187f08314138ba522af853f4f23d1e8f2434ef2c8cf43e04c064c"
+        },
+        {
+          "file": "archive/results/matched-policy1/maplibre-100000-r0.trial.json",
+          "sha256": "d111e302b8f7c0ad91877b593fbec5b4f4da278438202e4414181a12541ce798"
+        },
+        {
+          "file": "archive/results/matched-policy1/deck-100000-r1.trial.json",
+          "sha256": "fc00e4ecae0a7b6a7b9126d4c43891bec2eff32681db43c6029687371b136293"
+        },
+        {
+          "file": "archive/results/matched-policy1/maplibre-100000-r1.trial.json",
+          "sha256": "c6a73db48566d5a59f7d6c238cec480204a7110306f77a97d75a3231ead81367"
+        },
+        {
+          "file": "archive/results/matched-policy1/geopulse-current-100000-r1.trial.json",
+          "sha256": "4bb1bdb7541c46ce6b3478e02b8635d8e7d80a33541881fe69e98e9f44663c0c"
+        },
+        {
+          "file": "archive/results/matched-policy1/maplibre-100000-r2.trial.json",
+          "sha256": "580bce8ded6c09b74d464a39dd51572b9c4d154acee4ea2d449c00897a5ce7a7"
+        },
+        {
+          "file": "archive/results/matched-policy1/geopulse-current-100000-r2.trial.json",
+          "sha256": "a445f3e0978e3285a51e16363c3d1b77601cc1a495514591b5ceb283afa7f837"
+        },
+        {
+          "file": "archive/results/matched-policy1/deck-100000-r2.trial.json",
+          "sha256": "99ce92cec0c802c43d9f36c0b9e49a9e6667a6a4a23f0683877cea0561520742"
+        }
+      ],
+      "label": "matched-full"
+    },
+    {
+      "report": "archive/results/minimal-policy1/report.json",
+      "sha256": "6182394b666022ba16827cb68143de9cb087f86e7544f2f9e6f90acfbb337721",
+      "trials": [
+        {
+          "file": "archive/results/minimal-policy1/geopulse-current-100000-r0.trial.json",
+          "sha256": "80fb0b79977111b00dbd368ac404ff09a44ca0dd9050163676d55e5870baed06"
+        },
+        {
+          "file": "archive/results/minimal-policy1/deck-100000-r0.trial.json",
+          "sha256": "8784c6827a5c03ef3f4b826689e8eddd4eb313d6463059d51036b4a1f455e178"
+        },
+        {
+          "file": "archive/results/minimal-policy1/maplibre-100000-r0.trial.json",
+          "sha256": "bd6637c8e1a723bba6da58000b1ce53b08597a22148fd01b35927a4b39fdca88"
+        },
+        {
+          "file": "archive/results/minimal-policy1/deck-100000-r1.trial.json",
+          "sha256": "1e83968851875fab721413184c172b05c44c25ff6220b1f8bf39c0d7fa692195"
+        },
+        {
+          "file": "archive/results/minimal-policy1/maplibre-100000-r1.trial.json",
+          "sha256": "9940a2ca88be7fa9c3d8b84f8bf27047614ffce3a67a5c0faea37268df9e2eda"
+        },
+        {
+          "file": "archive/results/minimal-policy1/geopulse-current-100000-r1.trial.json",
+          "sha256": "f7986449032b345e520af58e70828ec5ef21cb7b01d87f91349863bd40333b29"
+        },
+        {
+          "file": "archive/results/minimal-policy1/maplibre-100000-r2.trial.json",
+          "sha256": "c14e860b3ff331cd01c5d4c8e65414de76c8cdc20aad0eb9d10182f7575c921f"
+        },
+        {
+          "file": "archive/results/minimal-policy1/geopulse-current-100000-r2.trial.json",
+          "sha256": "1b677758cf9fc289ebf74e8eb681ff34dbae6d6cc8b2fd2d83c1db5e976146ab"
+        },
+        {
+          "file": "archive/results/minimal-policy1/deck-100000-r2.trial.json",
+          "sha256": "f2817df8c2cbc8b7d21c02ca93d8dbafbe1b87e5ec0e49e24547379d0c11ec67"
+        }
+      ],
+      "label": "matched-minimal"
+    },
+    {
+      "report": "archive/results/native-coalesced1/report.json",
+      "sha256": "bd42d4f32a0dd44737da2bf74b429b7925822e5781ce5e3584a1879386f3f358",
+      "trials": [
+        {
+          "file": "archive/results/native-coalesced1/maplibre-100000-r0.trial.json",
+          "sha256": "ec4c453369d352a1618690bd8785010c91c497413e3080d65797454edf62dd5d"
+        },
+        {
+          "file": "archive/results/native-coalesced1/maplibre-100000-r1.trial.json",
+          "sha256": "6f698413f53a5aedd2320b56d53239743dcc52e48a719379b4d760c2835785e8"
+        },
+        {
+          "file": "archive/results/native-coalesced1/maplibre-100000-r2.trial.json",
+          "sha256": "52c30f1fb7893aca1f3b1d9b88e199c8da0e36ea9a2b30db351fdf093bbe0377"
+        }
+      ],
+      "label": "native-coalesced"
+    }
+  ],
+  "configs": {
+    "matched-full": {
+      "minimal": false,
+      "instrumentation": "full",
+      "cdpTracing": true,
+      "policy": "hybrid",
+      "streamPolicy": "hybrid",
+      "requestedBatchLimitByEngine": {
+        "geopulse-current": 8192,
+        "deck": 8192,
+        "maplibre": 8192
+      },
+      "actualMaxBatchByEngine": {
+        "geopulse-current": 8192,
+        "deck": 8192,
+        "maplibre": 8192
+      },
+      "headless": false,
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "dpr": 1,
+      "cameraMs": 4000,
+      "streamBatch": 2048,
+      "hybridBatch": 8192,
+      "onePendingBatch": true,
+      "workerCount": 2,
+      "pointDiameter": 3.2,
+      "adaptiveLod": false
+    },
+    "matched-minimal": {
+      "minimal": true,
+      "instrumentation": "minimal",
+      "cdpTracing": false,
+      "policy": "hybrid",
+      "streamPolicy": "hybrid",
+      "requestedBatchLimitByEngine": {
+        "geopulse-current": 8192,
+        "deck": 8192,
+        "maplibre": 8192
+      },
+      "actualMaxBatchByEngine": {
+        "geopulse-current": 8192,
+        "deck": 8192,
+        "maplibre": 8192
+      },
+      "headless": false,
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "dpr": 1,
+      "cameraMs": 4000,
+      "streamBatch": 2048,
+      "hybridBatch": 8192,
+      "onePendingBatch": true,
+      "workerCount": 2,
+      "pointDiameter": 3.2,
+      "adaptiveLod": false
+    },
+    "native-coalesced": {
+      "minimal": false,
+      "instrumentation": "full",
+      "cdpTracing": true,
+      "nativeCoalesce": true,
+      "nativeStreamCommitPolicy": "coalesced-final-render",
+      "confirmationContract": {
+        "batchACK": "maplibre enqueue only; other business adapters actual native commit",
+        "streamEnd": "worker done plus native final geometry render drain",
+        "firstBusiness": "only actual native business draw evidence; never enqueue ACK"
+      },
+      "policy": "hybrid",
+      "streamPolicy": "hybrid",
+      "requestedBatchLimitByEngine": {
+        "maplibre": 8192
+      },
+      "actualMaxBatchByEngine": {
+        "maplibre": 8192
+      },
+      "headless": false,
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "dpr": 1,
+      "cameraMs": 4000,
+      "streamBatch": 2048,
+      "hybridBatch": 8192,
+      "onePendingBatch": true,
+      "workerCount": 2,
+      "pointDiameter": 3.2,
+      "adaptiveLod": false
+    }
+  },
+  "trials": [
+    {
+      "engine": "geopulse-current",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 0,
+      "seed": 20261014,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 132.89999999850988,
+      "firstConfirmedBusinessMs": 26.899999998509884,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 502.599853515625,
+      "commonPreCameraWholeMapWallMs": 506.5,
+      "poseIntervalsMs": {
+        "n": 959,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.400000000000091,
+        "min": 3.800000000000182,
+        "max": 8.299999999999955,
+        "mean": 4.1711157455683
+      },
+      "poseCount": 960,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 960,
+        "p50": 0.7999999988824129,
+        "p95": 1.305000000633295,
+        "p99": 1.800000000745058,
+        "min": 0.30000000074505806,
+        "max": 6.099999999627471,
+        "mean": 0.8409374999949554
+      },
+      "cameraGpuMs": {
+        "n": 960,
+        "p50": 2.636288,
+        "p95": 3.1940527999999997,
+        "p99": 3.40707008,
+        "min": 0.123456,
+        "max": 5.648512,
+        "mean": 2.4278267666666666
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "actual production renderer page positions"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "deck",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 0,
+      "seed": 20261014,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 267.40000000037253,
+      "firstConfirmedBusinessMs": 143.30000000074506,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 455.2998046875,
+      "commonPreCameraWholeMapWallMs": 458.0,
+      "poseIntervalsMs": {
+        "n": 959,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.300000000000182,
+        "min": 3.900000000000091,
+        "max": 8.299999999999955,
+        "mean": 4.171115745568301
+      },
+      "poseCount": 960,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 960,
+        "p50": 1.299999998882413,
+        "p95": 1.900000000372529,
+        "p99": 3.0,
+        "min": 0.599999999627471,
+        "max": 6.099999999627471,
+        "mean": 1.3312500000194025
+      },
+      "cameraGpuMs": {
+        "n": 960,
+        "p50": 2.5570399999999998,
+        "p95": 3.1788047999999995,
+        "p99": 3.51254784,
+        "min": 0.133696,
+        "max": 6.369568,
+        "mean": 2.3443540666666665
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "owned persistent GPU position buffer readAsync outside measured phases"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 0,
+      "seed": 20261014,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 3327,
+      "firstConfirmedBusinessMs": 62,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 3476.800048828125,
+      "commonPreCameraWholeMapWallMs": 3480.300048828125,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.399999999999636,
+        "min": 2.300000000000182,
+        "max": 6.099999999999909,
+        "mean": 4.166666666666667
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 961,
+        "p50": 0.8000000007450581,
+        "p95": 1.400000000372529,
+        "p99": 2.039999999850986,
+        "min": 0.2999999988824129,
+        "max": 3.400000000372529,
+        "mean": 0.8451612902888553
+      },
+      "cameraGpuMs": {
+        "n": 961,
+        "p50": 2.537568,
+        "p95": 3.130976,
+        "p99": 3.364703999999998,
+        "min": 0.08368,
+        "max": 7.087328,
+        "mean": 2.3422237169614983
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "deck",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 1,
+      "seed": 20261015,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 153.39999999850988,
+      "firstConfirmedBusinessMs": 45.09999999962747,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 308.5,
+      "commonPreCameraWholeMapWallMs": 312.699951171875,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.400000000000091,
+        "min": 3.800000000000182,
+        "max": 4.5,
+        "mean": 4.166770833333333
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 961,
+        "p50": 1.099999999627471,
+        "p95": 1.799999998882413,
+        "p99": 2.239999999105928,
+        "min": 0.5,
+        "max": 5.5,
+        "mean": 1.144849115527166
+      },
+      "cameraGpuMs": {
+        "n": 961,
+        "p50": 2.587168,
+        "p95": 3.170208,
+        "p99": 3.362246399999999,
+        "min": 0.130496,
+        "max": 4.871456,
+        "mean": 2.330431067637877
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "owned persistent GPU position buffer readAsync outside measured phases"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 1,
+      "seed": 20261015,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 3440.5999999996275,
+      "firstConfirmedBusinessMs": 53.40000000037253,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 3588.10009765625,
+      "commonPreCameraWholeMapWallMs": 3591.5,
+      "poseIntervalsMs": {
+        "n": 959,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.400000000000546,
+        "min": 3.7999999999992724,
+        "max": 8.199999999999818,
+        "mean": 4.171115745568301
+      },
+      "poseCount": 960,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 960,
+        "p50": 0.7000000011175871,
+        "p95": 1.300000000745058,
+        "p99": 2.099999999627471,
+        "min": 0.2999999988824129,
+        "max": 6.800000000745058,
+        "mean": 0.7830208333344975
+      },
+      "cameraGpuMs": {
+        "n": 960,
+        "p50": 2.662304,
+        "p95": 3.2226079999999997,
+        "p99": 3.471722559999999,
+        "min": 0.085792,
+        "max": 7.24128,
+        "mean": 2.4306571333333333
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "geopulse-current",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 1,
+      "seed": 20261015,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 144.09999999962747,
+      "firstConfirmedBusinessMs": 28.90000000037253,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 293.599853515625,
+      "commonPreCameraWholeMapWallMs": 296.699951171875,
+      "poseIntervalsMs": {
+        "n": 959,
+        "p50": 4.199999999999818,
+        "p95": 4.2999999999999545,
+        "p99": 4.400000000000025,
+        "min": 3.699999999999818,
+        "max": 8.399999999999864,
+        "mean": 4.1710114702815435
+      },
+      "poseCount": 960,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 960,
+        "p50": 0.7000000011175871,
+        "p95": 1.200000001117587,
+        "p99": 1.599999999627471,
+        "min": 0.2999999988824129,
+        "max": 3.300000000745058,
+        "mean": 0.7586458333166471
+      },
+      "cameraGpuMs": {
+        "n": 960,
+        "p50": 2.6814400000000003,
+        "p95": 3.235816,
+        "p99": 3.4170048,
+        "min": 0.124224,
+        "max": 5.52096,
+        "mean": 2.459555
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "actual production renderer page positions"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 2,
+      "seed": 20261016,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 3166.800000000745,
+      "firstConfirmedBusinessMs": 54.09999999962747,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 3308,
+      "commonPreCameraWholeMapWallMs": 3312.10009765625,
+      "poseIntervalsMs": {
+        "n": 959,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.399999999999636,
+        "min": 3.5999999999994543,
+        "max": 8.399999999999636,
+        "mean": 4.171115745568301
+      },
+      "poseCount": 960,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 960,
+        "p50": 0.7000000011175871,
+        "p95": 1.300000000745058,
+        "p99": 2.54099999984726,
+        "min": 0.2999999988824129,
+        "max": 8.299999998882413,
+        "mean": 0.7979166666608459
+      },
+      "cameraGpuMs": {
+        "n": 960,
+        "p50": 2.603312,
+        "p95": 3.1910192,
+        "p99": 3.4049935999999996,
+        "min": 0.083808,
+        "max": 7.420928,
+        "mean": 2.3819811333333334
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "geopulse-current",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 2,
+      "seed": 20261016,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 145,
+      "firstConfirmedBusinessMs": 25.90000000037253,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 293.89990234375,
+      "commonPreCameraWholeMapWallMs": 297.199951171875,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.300000000000182,
+        "min": 3.7999999999992724,
+        "max": 4.599999999999909,
+        "mean": 4.166770833333333
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 961,
+        "p50": 0.6999999992549419,
+        "p95": 1.199999999254942,
+        "p99": 1.7,
+        "min": 0.19999999925494194,
+        "max": 3.5,
+        "mean": 0.7405827263472883
+      },
+      "cameraGpuMs": {
+        "n": 961,
+        "p50": 2.682272,
+        "p95": 3.27296,
+        "p99": 3.4834175999999992,
+        "min": 0.126432,
+        "max": 6.4328,
+        "mean": 2.473099821019771
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "actual production renderer page positions"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "deck",
+      "label": "matched-full",
+      "instrumentation": "full",
+      "rep": 2,
+      "seed": 20261016,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 172.09999999962747,
+      "firstConfirmedBusinessMs": 43.79999999888241,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": 327.800048828125,
+      "commonPreCameraWholeMapWallMs": 332.300048828125,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.399999999999864,
+        "min": 3.599999999999909,
+        "max": 4.800000000000182,
+        "mean": 4.166666666666667
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 961,
+        "p50": 1.099999999627471,
+        "p95": 1.799999998882413,
+        "p99": 2.640000001341102,
+        "min": 0.5,
+        "max": 6.400000000372529,
+        "mean": 1.1610822060264638
+      },
+      "cameraGpuMs": {
+        "n": 961,
+        "p50": 2.643936,
+        "p95": 3.171392,
+        "p99": 3.3628991999999998,
+        "min": 0.13248,
+        "max": 4.179456,
+        "mean": 2.4677244203954216
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "owned persistent GPU position buffer readAsync outside measured phases"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "geopulse-current",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 0,
+      "seed": 20261014,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 144.69999999925494,
+      "firstConfirmedBusinessMs": 24.699999999254942,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 491.0,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.400000000000091,
+        "min": 3.7999999999992724,
+        "max": 4.5,
+        "mean": 4.1667708333333335
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "actual production renderer page positions"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "deck",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 0,
+      "seed": 20261014,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 280.59999999962747,
+      "firstConfirmedBusinessMs": 165.2999999988824,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 447.599853515625,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.2999999999999545,
+        "p99": 4.399999999999823,
+        "min": 3.1000000000000227,
+        "max": 5.199999999999932,
+        "mean": 4.166666666666666
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "owned persistent GPU position buffer readAsync outside measured phases"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 0,
+      "seed": 20261014,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 3492.300000000745,
+      "firstConfirmedBusinessMs": 69.80000000074506,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 3639.89990234375,
+      "poseIntervalsMs": {
+        "n": 959,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.400000000000546,
+        "min": 3.300000000000182,
+        "max": 8.099999999999454,
+        "mean": 4.1710114702815435
+      },
+      "poseCount": 960,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "deck",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 1,
+      "seed": 20261015,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 167.80000000074506,
+      "firstConfirmedBusinessMs": 52,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 331.900146484375,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.400000000000091,
+        "min": 3.699999999999818,
+        "max": 4.600000000000364,
+        "mean": 4.166770833333333
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "owned persistent GPU position buffer readAsync outside measured phases"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 1,
+      "seed": 20261015,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 3497.0999999996275,
+      "firstConfirmedBusinessMs": 52.79999999888241,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 3644.699951171875,
+      "poseIntervalsMs": {
+        "n": 959,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.300000000000182,
+        "min": 3.800000000000182,
+        "max": 8.300000000000182,
+        "mean": 4.171115745568301
+      },
+      "poseCount": 960,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "geopulse-current",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 1,
+      "seed": 20261015,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 149.90000000037253,
+      "firstConfirmedBusinessMs": 31.300000000745058,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 313.7001953125,
+      "poseIntervalsMs": {
+        "n": 959,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.400000000000091,
+        "min": 3.7999999999999545,
+        "max": 8.299999999999955,
+        "mean": 4.171220020855058
+      },
+      "poseCount": 960,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "actual production renderer page positions"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 2,
+      "seed": 20261016,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 3796,
+      "firstConfirmedBusinessMs": 119,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 4050.39990234375,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.340999999999955,
+        "min": 3.800000000000182,
+        "max": 4.5,
+        "mean": 4.166770833333333
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "geopulse-current",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 2,
+      "seed": 20261016,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 141.59999999962747,
+      "firstConfirmedBusinessMs": 24.699999999254942,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 291.89990234375,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.2999999999999545,
+        "p99": 4.300000000000182,
+        "min": 3.899999999999636,
+        "max": 8.399999999999864,
+        "mean": 4.171145833333333
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "actual production renderer page positions"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "deck",
+      "label": "matched-minimal",
+      "instrumentation": "minimal",
+      "rep": 2,
+      "seed": 20261016,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "per-batch-native-render-confirmation",
+      "enqueueAckBatchCount": 0,
+      "coalescedFinalRenderProof": null,
+      "streamDrain": null,
+      "streamMs": 161.80000000074506,
+      "firstConfirmedBusinessMs": 47,
+      "firstConfirmedBusinessEvidence": "matching per-batch adapter confirmation",
+      "wholeMapAndBusinessReadyWallMs": null,
+      "commonPreCameraWholeMapWallMs": 326.5,
+      "poseIntervalsMs": {
+        "n": 958,
+        "p50": 4.199999999999818,
+        "p95": 4.2999999999999545,
+        "p99": 4.400000000000091,
+        "min": 1.400000000000091,
+        "max": 12.5,
+        "mean": 4.175469728601253
+      },
+      "poseCount": 959,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "cameraGpuMs": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "min": null,
+        "max": null,
+        "mean": null
+      },
+      "minimalGpuCoverage": false,
+      "nativeRenderedCount": null,
+      "verification": {
+        "checked": 4051,
+        "passed": true,
+        "source": "owned persistent GPU position buffer readAsync outside measured phases"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "native-coalesced",
+      "instrumentation": "full",
+      "rep": 0,
+      "seed": 20261014,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "coalesced-final-render",
+      "enqueueAckBatchCount": 13,
+      "coalescedFinalRenderProof": true,
+      "streamDrain": {
+        "confirmation": "native-source-idle-after-final-render",
+        "queuedOnly": false,
+        "received": 100000,
+        "revision": 13,
+        "committedRevision": 13,
+        "renderedAtMs": 1819,
+        "nativeBusinessDraw": true,
+        "nativeBusinessDrawCalls": 138,
+        "proof": "all native update promises; map/source idle; visible tiles loaded; circle buckets uploaded; nonempty native circle draw in final map render",
+        "firstNativeBusinessFrameAtMs": 609.1999999992549,
+        "firstConfirmedBusinessAtMs": 609.1999999992549,
+        "firstNativeBusinessFrameMs": 51.5,
+        "firstNativeBusinessFrameOrigin": "performance.now; native nonempty circle GL submission followed by map render event; excludes physical presentation",
+        "wallMs": 983.2000000011176,
+        "startedEpochMs": 1791987136652.9001
+      },
+      "streamMs": 1291.4000000003725,
+      "firstConfirmedBusinessMs": 81.09999999962747,
+      "firstConfirmedBusinessEvidence": "adapter-proof-native-business-draw",
+      "wholeMapAndBusinessReadyWallMs": 1606.39990234375,
+      "commonPreCameraWholeMapWallMs": 1609.39990234375,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.400000000000091,
+        "min": 3.699999999999818,
+        "max": 4.599999999999909,
+        "mean": 4.166875
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 961,
+        "p50": 0.900000000372529,
+        "p95": 1.699999999254942,
+        "p99": 2.339999999478457,
+        "min": 0.3999999985098839,
+        "max": 5.200000001117587,
+        "mean": 1.008428720090612
+      },
+      "cameraGpuMs": {
+        "n": 961,
+        "p50": 2.465312,
+        "p95": 3.044864,
+        "p99": 3.2713664,
+        "min": 0.079552,
+        "max": 7.157888,
+        "mean": 2.2396102060353797
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "native-coalesced",
+      "instrumentation": "full",
+      "rep": 1,
+      "seed": 20261015,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "coalesced-final-render",
+      "enqueueAckBatchCount": 13,
+      "coalescedFinalRenderProof": true,
+      "streamDrain": {
+        "confirmation": "native-source-idle-after-final-render",
+        "queuedOnly": false,
+        "received": 100000,
+        "revision": 13,
+        "committedRevision": 13,
+        "renderedAtMs": 1718.199999999255,
+        "nativeBusinessDraw": true,
+        "nativeBusinessDrawCalls": 150,
+        "proof": "all native update promises; map/source idle; visible tiles loaded; circle buckets uploaded; nonempty native circle draw in final map render",
+        "firstNativeBusinessFrameAtMs": 403.69999999925494,
+        "firstConfirmedBusinessAtMs": 403.69999999925494,
+        "firstNativeBusinessFrameMs": 37.79999999888241,
+        "firstNativeBusinessFrameOrigin": "performance.now; native nonempty circle GL submission followed by map render event; excludes physical presentation",
+        "wallMs": 1075.800000000745,
+        "startedEpochMs": 1791987158080.8
+      },
+      "streamMs": 1378,
+      "firstConfirmedBusinessMs": 63.19999999925494,
+      "firstConfirmedBusinessEvidence": "adapter-proof-native-business-draw",
+      "wholeMapAndBusinessReadyWallMs": 1535.89990234375,
+      "commonPreCameraWholeMapWallMs": 1540.7998046875,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.300000000000182,
+        "min": 3.899999999999636,
+        "max": 4.5,
+        "mean": 4.1667708333333335
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 961,
+        "p50": 0.900000000372529,
+        "p95": 1.599999999627471,
+        "p99": 2.4799999989569144,
+        "min": 0.40000000037252903,
+        "max": 4.400000000372529,
+        "mean": 0.9616024973904026
+      },
+      "cameraGpuMs": {
+        "n": 961,
+        "p50": 2.470208,
+        "p95": 3.011488,
+        "p99": 3.3165247999999994,
+        "min": 0.082368,
+        "max": 6.34384,
+        "mean": 2.3623015359001043
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    },
+    {
+      "engine": "maplibre",
+      "label": "native-coalesced",
+      "instrumentation": "full",
+      "rep": 2,
+      "seed": 20261016,
+      "count": 100000,
+      "eligible": true,
+      "streamPolicy": "hybrid",
+      "actualMaxBatch": 8192,
+      "initialBatchPoints": 2048,
+      "batchCount": 13,
+      "streamCommitPolicy": "coalesced-final-render",
+      "enqueueAckBatchCount": 13,
+      "coalescedFinalRenderProof": true,
+      "streamDrain": {
+        "confirmation": "native-source-idle-after-final-render",
+        "queuedOnly": false,
+        "received": 100000,
+        "revision": 13,
+        "committedRevision": 13,
+        "renderedAtMs": 1675.7999999988824,
+        "nativeBusinessDraw": true,
+        "nativeBusinessDrawCalls": 153,
+        "proof": "all native update promises; map/source idle; visible tiles loaded; circle buckets uploaded; nonempty native circle draw in final map render",
+        "firstNativeBusinessFrameAtMs": 411,
+        "firstConfirmedBusinessAtMs": 411,
+        "firstNativeBusinessFrameMs": 39.90000000037253,
+        "firstNativeBusinessFrameOrigin": "performance.now; native nonempty circle GL submission followed by map render event; excludes physical presentation",
+        "wallMs": 1007.6999999992549,
+        "startedEpochMs": 1791987179820.9
+      },
+      "streamMs": 1330.199999999255,
+      "firstConfirmedBusinessMs": 65.09999999962747,
+      "firstConfirmedBusinessEvidence": "adapter-proof-native-business-draw",
+      "wholeMapAndBusinessReadyWallMs": 1497.10009765625,
+      "commonPreCameraWholeMapWallMs": 1500.300048828125,
+      "poseIntervalsMs": {
+        "n": 960,
+        "p50": 4.199999999999818,
+        "p95": 4.300000000000182,
+        "p99": 4.300000000000182,
+        "min": 3.7000000000007276,
+        "max": 4.599999999999909,
+        "mean": 4.1667708333333335
+      },
+      "poseCount": 961,
+      "poseCommandsAllVisible": true,
+      "poseScope": "native rAF camera command callback intervals; not native map or physical presentation FPS",
+      "cameraCpuMs": {
+        "n": 961,
+        "p50": 0.8000000007450581,
+        "p95": 1.5,
+        "p99": 2.400000000372529,
+        "min": 0.3999999985098839,
+        "max": 5.5,
+        "mean": 0.900416233050603
+      },
+      "cameraGpuMs": {
+        "n": 961,
+        "p50": 2.555328,
+        "p95": 3.100608,
+        "p99": 3.3040703999999996,
+        "min": 0.087776,
+        "max": 6.784224,
+        "mean": 2.3338004578563996
+      },
+      "minimalGpuCoverage": null,
+      "nativeRenderedCount": 100000,
+      "verification": {
+        "passed": true,
+        "checked": 4051,
+        "sourceFeatureCount": 100000,
+        "method": "native source mirror, not independent Worker storage"
+      },
+      "actualGPUContextShared": true,
+      "measurement": {
+        "exactReady": "load-real-basemap mark -> actual streaming window end; prior bundle load excluded",
+        "preCameraReady": "load mark -> camera phase mark; includes post-stream idle; same endpoint used for full/minimal because minimal has no windows",
+        "ack": "enqueue ACK is never counted as actual business draw; coalesced completion uses final-render proof"
+      }
+    }
+  ],
+  "aggregates": [
+    {
+      "label": "matched-full",
+      "engine": "deck",
+      "instrumentation": "full",
+      "n": 3,
+      "actualMaxBatch": [
+        8192
+      ],
+      "contracts": [
+        "per-batch-native-render-confirmation"
+      ],
+      "streamMs": {
+        "n": 3,
+        "median": 172.09999999962747,
+        "min": 153.39999999850988,
+        "max": 267.40000000037253,
+        "rawPerTrialValues": [
+          267.40000000037253,
+          153.39999999850988,
+          172.09999999962747
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "firstConfirmedBusinessMs": {
+        "n": 3,
+        "median": 45.09999999962747,
+        "min": 43.79999999888241,
+        "max": 143.30000000074506,
+        "rawPerTrialValues": [
+          143.30000000074506,
+          45.09999999962747,
+          43.79999999888241
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "wholeMapAndBusinessReadyWallMs": {
+        "n": 3,
+        "median": 327.800048828125,
+        "min": 308.5,
+        "max": 455.2998046875,
+        "rawPerTrialValues": [
+          455.2998046875,
+          308.5,
+          327.800048828125
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "commonPreCameraWholeMapWallMs": {
+        "n": 3,
+        "median": 332.300048828125,
+        "min": 312.699951171875,
+        "max": 458.0,
+        "rawPerTrialValues": [
+          458.0,
+          312.699951171875,
+          332.300048828125
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseCount": {
+        "n": 3,
+        "median": 961,
+        "min": 960,
+        "max": 961,
+        "rawPerTrialValues": [
+          960,
+          961,
+          961
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseIntervalsMs": {
+        "p50": {
+          "n": 3,
+          "median": 4.199999999999818,
+          "min": 4.199999999999818,
+          "max": 4.199999999999818,
+          "rawPerTrialValues": [
+            4.199999999999818,
+            4.199999999999818,
+            4.199999999999818
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 4.300000000000182,
+          "min": 4.300000000000182,
+          "max": 4.300000000000182,
+          "rawPerTrialValues": [
+            4.300000000000182,
+            4.300000000000182,
+            4.300000000000182
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 4.399999999999864,
+          "min": 4.300000000000182,
+          "max": 4.400000000000091,
+          "rawPerTrialValues": [
+            4.300000000000182,
+            4.400000000000091,
+            4.399999999999864
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 4.166770833333333,
+          "min": 4.166666666666667,
+          "max": 4.171115745568301,
+          "rawPerTrialValues": [
+            4.171115745568301,
+            4.166770833333333,
+            4.166666666666667
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraCpuMs": {
+        "p50": {
+          "n": 3,
+          "median": 1.099999999627471,
+          "min": 1.099999999627471,
+          "max": 1.299999998882413,
+          "rawPerTrialValues": [
+            1.299999998882413,
+            1.099999999627471,
+            1.099999999627471
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 1.799999998882413,
+          "min": 1.799999998882413,
+          "max": 1.900000000372529,
+          "rawPerTrialValues": [
+            1.900000000372529,
+            1.799999998882413,
+            1.799999998882413
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 2.640000001341102,
+          "min": 2.239999999105928,
+          "max": 3.0,
+          "rawPerTrialValues": [
+            3.0,
+            2.239999999105928,
+            2.640000001341102
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 1.1610822060264638,
+          "min": 1.144849115527166,
+          "max": 1.3312500000194025,
+          "rawPerTrialValues": [
+            1.3312500000194025,
+            1.144849115527166,
+            1.1610822060264638
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraGpuMs": {
+        "p50": {
+          "n": 3,
+          "median": 2.587168,
+          "min": 2.5570399999999998,
+          "max": 2.643936,
+          "rawPerTrialValues": [
+            2.5570399999999998,
+            2.587168,
+            2.643936
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 3.171392,
+          "min": 3.170208,
+          "max": 3.1788047999999995,
+          "rawPerTrialValues": [
+            3.1788047999999995,
+            3.170208,
+            3.171392
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 3.3628991999999998,
+          "min": 3.362246399999999,
+          "max": 3.51254784,
+          "rawPerTrialValues": [
+            3.51254784,
+            3.362246399999999,
+            3.3628991999999998
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 2.3443540666666665,
+          "min": 2.330431067637877,
+          "max": 2.4677244203954216,
+          "rawPerTrialValues": [
+            2.3443540666666665,
+            2.330431067637877,
+            2.4677244203954216
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      }
+    },
+    {
+      "label": "matched-full",
+      "engine": "geopulse-current",
+      "instrumentation": "full",
+      "n": 3,
+      "actualMaxBatch": [
+        8192
+      ],
+      "contracts": [
+        "per-batch-native-render-confirmation"
+      ],
+      "streamMs": {
+        "n": 3,
+        "median": 144.09999999962747,
+        "min": 132.89999999850988,
+        "max": 145,
+        "rawPerTrialValues": [
+          132.89999999850988,
+          144.09999999962747,
+          145
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "firstConfirmedBusinessMs": {
+        "n": 3,
+        "median": 26.899999998509884,
+        "min": 25.90000000037253,
+        "max": 28.90000000037253,
+        "rawPerTrialValues": [
+          26.899999998509884,
+          28.90000000037253,
+          25.90000000037253
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "wholeMapAndBusinessReadyWallMs": {
+        "n": 3,
+        "median": 293.89990234375,
+        "min": 293.599853515625,
+        "max": 502.599853515625,
+        "rawPerTrialValues": [
+          502.599853515625,
+          293.599853515625,
+          293.89990234375
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "commonPreCameraWholeMapWallMs": {
+        "n": 3,
+        "median": 297.199951171875,
+        "min": 296.699951171875,
+        "max": 506.5,
+        "rawPerTrialValues": [
+          506.5,
+          296.699951171875,
+          297.199951171875
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseCount": {
+        "n": 3,
+        "median": 960,
+        "min": 960,
+        "max": 961,
+        "rawPerTrialValues": [
+          960,
+          960,
+          961
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseIntervalsMs": {
+        "p50": {
+          "n": 3,
+          "median": 4.199999999999818,
+          "min": 4.199999999999818,
+          "max": 4.199999999999818,
+          "rawPerTrialValues": [
+            4.199999999999818,
+            4.199999999999818,
+            4.199999999999818
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 4.300000000000182,
+          "min": 4.2999999999999545,
+          "max": 4.300000000000182,
+          "rawPerTrialValues": [
+            4.300000000000182,
+            4.2999999999999545,
+            4.300000000000182
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 4.400000000000025,
+          "min": 4.300000000000182,
+          "max": 4.400000000000091,
+          "rawPerTrialValues": [
+            4.400000000000091,
+            4.400000000000025,
+            4.300000000000182
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 4.1710114702815435,
+          "min": 4.166770833333333,
+          "max": 4.1711157455683,
+          "rawPerTrialValues": [
+            4.1711157455683,
+            4.1710114702815435,
+            4.166770833333333
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraCpuMs": {
+        "p50": {
+          "n": 3,
+          "median": 0.7000000011175871,
+          "min": 0.6999999992549419,
+          "max": 0.7999999988824129,
+          "rawPerTrialValues": [
+            0.7999999988824129,
+            0.7000000011175871,
+            0.6999999992549419
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 1.200000001117587,
+          "min": 1.199999999254942,
+          "max": 1.305000000633295,
+          "rawPerTrialValues": [
+            1.305000000633295,
+            1.200000001117587,
+            1.199999999254942
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 1.7,
+          "min": 1.599999999627471,
+          "max": 1.800000000745058,
+          "rawPerTrialValues": [
+            1.800000000745058,
+            1.599999999627471,
+            1.7
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 0.7586458333166471,
+          "min": 0.7405827263472883,
+          "max": 0.8409374999949554,
+          "rawPerTrialValues": [
+            0.8409374999949554,
+            0.7586458333166471,
+            0.7405827263472883
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraGpuMs": {
+        "p50": {
+          "n": 3,
+          "median": 2.6814400000000003,
+          "min": 2.636288,
+          "max": 2.682272,
+          "rawPerTrialValues": [
+            2.636288,
+            2.6814400000000003,
+            2.682272
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 3.235816,
+          "min": 3.1940527999999997,
+          "max": 3.27296,
+          "rawPerTrialValues": [
+            3.1940527999999997,
+            3.235816,
+            3.27296
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 3.4170048,
+          "min": 3.40707008,
+          "max": 3.4834175999999992,
+          "rawPerTrialValues": [
+            3.40707008,
+            3.4170048,
+            3.4834175999999992
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 2.459555,
+          "min": 2.4278267666666666,
+          "max": 2.473099821019771,
+          "rawPerTrialValues": [
+            2.4278267666666666,
+            2.459555,
+            2.473099821019771
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      }
+    },
+    {
+      "label": "matched-full",
+      "engine": "maplibre",
+      "instrumentation": "full",
+      "n": 3,
+      "actualMaxBatch": [
+        8192
+      ],
+      "contracts": [
+        "per-batch-native-render-confirmation"
+      ],
+      "streamMs": {
+        "n": 3,
+        "median": 3327,
+        "min": 3166.800000000745,
+        "max": 3440.5999999996275,
+        "rawPerTrialValues": [
+          3327,
+          3440.5999999996275,
+          3166.800000000745
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "firstConfirmedBusinessMs": {
+        "n": 3,
+        "median": 54.09999999962747,
+        "min": 53.40000000037253,
+        "max": 62,
+        "rawPerTrialValues": [
+          62,
+          53.40000000037253,
+          54.09999999962747
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "wholeMapAndBusinessReadyWallMs": {
+        "n": 3,
+        "median": 3476.800048828125,
+        "min": 3308,
+        "max": 3588.10009765625,
+        "rawPerTrialValues": [
+          3476.800048828125,
+          3588.10009765625,
+          3308
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "commonPreCameraWholeMapWallMs": {
+        "n": 3,
+        "median": 3480.300048828125,
+        "min": 3312.10009765625,
+        "max": 3591.5,
+        "rawPerTrialValues": [
+          3480.300048828125,
+          3591.5,
+          3312.10009765625
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseCount": {
+        "n": 3,
+        "median": 960,
+        "min": 960,
+        "max": 961,
+        "rawPerTrialValues": [
+          961,
+          960,
+          960
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseIntervalsMs": {
+        "p50": {
+          "n": 3,
+          "median": 4.199999999999818,
+          "min": 4.199999999999818,
+          "max": 4.199999999999818,
+          "rawPerTrialValues": [
+            4.199999999999818,
+            4.199999999999818,
+            4.199999999999818
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 4.300000000000182,
+          "min": 4.300000000000182,
+          "max": 4.300000000000182,
+          "rawPerTrialValues": [
+            4.300000000000182,
+            4.300000000000182,
+            4.300000000000182
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 4.399999999999636,
+          "min": 4.399999999999636,
+          "max": 4.400000000000546,
+          "rawPerTrialValues": [
+            4.399999999999636,
+            4.400000000000546,
+            4.399999999999636
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 4.171115745568301,
+          "min": 4.166666666666667,
+          "max": 4.171115745568301,
+          "rawPerTrialValues": [
+            4.166666666666667,
+            4.171115745568301,
+            4.171115745568301
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraCpuMs": {
+        "p50": {
+          "n": 3,
+          "median": 0.7000000011175871,
+          "min": 0.7000000011175871,
+          "max": 0.8000000007450581,
+          "rawPerTrialValues": [
+            0.8000000007450581,
+            0.7000000011175871,
+            0.7000000011175871
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 1.300000000745058,
+          "min": 1.300000000745058,
+          "max": 1.400000000372529,
+          "rawPerTrialValues": [
+            1.400000000372529,
+            1.300000000745058,
+            1.300000000745058
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 2.099999999627471,
+          "min": 2.039999999850986,
+          "max": 2.54099999984726,
+          "rawPerTrialValues": [
+            2.039999999850986,
+            2.099999999627471,
+            2.54099999984726
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 0.7979166666608459,
+          "min": 0.7830208333344975,
+          "max": 0.8451612902888553,
+          "rawPerTrialValues": [
+            0.8451612902888553,
+            0.7830208333344975,
+            0.7979166666608459
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraGpuMs": {
+        "p50": {
+          "n": 3,
+          "median": 2.603312,
+          "min": 2.537568,
+          "max": 2.662304,
+          "rawPerTrialValues": [
+            2.537568,
+            2.662304,
+            2.603312
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 3.1910192,
+          "min": 3.130976,
+          "max": 3.2226079999999997,
+          "rawPerTrialValues": [
+            3.130976,
+            3.2226079999999997,
+            3.1910192
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 3.4049935999999996,
+          "min": 3.364703999999998,
+          "max": 3.471722559999999,
+          "rawPerTrialValues": [
+            3.364703999999998,
+            3.471722559999999,
+            3.4049935999999996
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 2.3819811333333334,
+          "min": 2.3422237169614983,
+          "max": 2.4306571333333333,
+          "rawPerTrialValues": [
+            2.3422237169614983,
+            2.4306571333333333,
+            2.3819811333333334
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      }
+    },
+    {
+      "label": "matched-minimal",
+      "engine": "deck",
+      "instrumentation": "minimal",
+      "n": 3,
+      "actualMaxBatch": [
+        8192
+      ],
+      "contracts": [
+        "per-batch-native-render-confirmation"
+      ],
+      "streamMs": {
+        "n": 3,
+        "median": 167.80000000074506,
+        "min": 161.80000000074506,
+        "max": 280.59999999962747,
+        "rawPerTrialValues": [
+          280.59999999962747,
+          167.80000000074506,
+          161.80000000074506
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "firstConfirmedBusinessMs": {
+        "n": 3,
+        "median": 52,
+        "min": 47,
+        "max": 165.2999999988824,
+        "rawPerTrialValues": [
+          165.2999999988824,
+          52,
+          47
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "wholeMapAndBusinessReadyWallMs": {
+        "n": 0,
+        "median": null,
+        "min": null,
+        "max": null,
+        "rawPerTrialValues": [],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "commonPreCameraWholeMapWallMs": {
+        "n": 3,
+        "median": 331.900146484375,
+        "min": 326.5,
+        "max": 447.599853515625,
+        "rawPerTrialValues": [
+          447.599853515625,
+          331.900146484375,
+          326.5
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseCount": {
+        "n": 3,
+        "median": 961,
+        "min": 959,
+        "max": 961,
+        "rawPerTrialValues": [
+          961,
+          961,
+          959
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseIntervalsMs": {
+        "p50": {
+          "n": 3,
+          "median": 4.199999999999818,
+          "min": 4.199999999999818,
+          "max": 4.199999999999818,
+          "rawPerTrialValues": [
+            4.199999999999818,
+            4.199999999999818,
+            4.199999999999818
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 4.2999999999999545,
+          "min": 4.2999999999999545,
+          "max": 4.300000000000182,
+          "rawPerTrialValues": [
+            4.2999999999999545,
+            4.300000000000182,
+            4.2999999999999545
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 4.400000000000091,
+          "min": 4.399999999999823,
+          "max": 4.400000000000091,
+          "rawPerTrialValues": [
+            4.399999999999823,
+            4.400000000000091,
+            4.400000000000091
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 4.166770833333333,
+          "min": 4.166666666666666,
+          "max": 4.175469728601253,
+          "rawPerTrialValues": [
+            4.166666666666666,
+            4.166770833333333,
+            4.175469728601253
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraCpuMs": {
+        "p50": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraGpuMs": {
+        "p50": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      }
+    },
+    {
+      "label": "matched-minimal",
+      "engine": "geopulse-current",
+      "instrumentation": "minimal",
+      "n": 3,
+      "actualMaxBatch": [
+        8192
+      ],
+      "contracts": [
+        "per-batch-native-render-confirmation"
+      ],
+      "streamMs": {
+        "n": 3,
+        "median": 144.69999999925494,
+        "min": 141.59999999962747,
+        "max": 149.90000000037253,
+        "rawPerTrialValues": [
+          144.69999999925494,
+          149.90000000037253,
+          141.59999999962747
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "firstConfirmedBusinessMs": {
+        "n": 3,
+        "median": 24.699999999254942,
+        "min": 24.699999999254942,
+        "max": 31.300000000745058,
+        "rawPerTrialValues": [
+          24.699999999254942,
+          31.300000000745058,
+          24.699999999254942
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "wholeMapAndBusinessReadyWallMs": {
+        "n": 0,
+        "median": null,
+        "min": null,
+        "max": null,
+        "rawPerTrialValues": [],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "commonPreCameraWholeMapWallMs": {
+        "n": 3,
+        "median": 313.7001953125,
+        "min": 291.89990234375,
+        "max": 491.0,
+        "rawPerTrialValues": [
+          491.0,
+          313.7001953125,
+          291.89990234375
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseCount": {
+        "n": 3,
+        "median": 961,
+        "min": 960,
+        "max": 961,
+        "rawPerTrialValues": [
+          961,
+          960,
+          961
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseIntervalsMs": {
+        "p50": {
+          "n": 3,
+          "median": 4.199999999999818,
+          "min": 4.199999999999818,
+          "max": 4.199999999999818,
+          "rawPerTrialValues": [
+            4.199999999999818,
+            4.199999999999818,
+            4.199999999999818
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 4.300000000000182,
+          "min": 4.2999999999999545,
+          "max": 4.300000000000182,
+          "rawPerTrialValues": [
+            4.300000000000182,
+            4.300000000000182,
+            4.2999999999999545
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 4.400000000000091,
+          "min": 4.300000000000182,
+          "max": 4.400000000000091,
+          "rawPerTrialValues": [
+            4.400000000000091,
+            4.400000000000091,
+            4.300000000000182
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 4.171145833333333,
+          "min": 4.1667708333333335,
+          "max": 4.171220020855058,
+          "rawPerTrialValues": [
+            4.1667708333333335,
+            4.171220020855058,
+            4.171145833333333
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraCpuMs": {
+        "p50": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraGpuMs": {
+        "p50": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      }
+    },
+    {
+      "label": "matched-minimal",
+      "engine": "maplibre",
+      "instrumentation": "minimal",
+      "n": 3,
+      "actualMaxBatch": [
+        8192
+      ],
+      "contracts": [
+        "per-batch-native-render-confirmation"
+      ],
+      "streamMs": {
+        "n": 3,
+        "median": 3497.0999999996275,
+        "min": 3492.300000000745,
+        "max": 3796,
+        "rawPerTrialValues": [
+          3492.300000000745,
+          3497.0999999996275,
+          3796
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "firstConfirmedBusinessMs": {
+        "n": 3,
+        "median": 69.80000000074506,
+        "min": 52.79999999888241,
+        "max": 119,
+        "rawPerTrialValues": [
+          69.80000000074506,
+          52.79999999888241,
+          119
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "wholeMapAndBusinessReadyWallMs": {
+        "n": 0,
+        "median": null,
+        "min": null,
+        "max": null,
+        "rawPerTrialValues": [],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "commonPreCameraWholeMapWallMs": {
+        "n": 3,
+        "median": 3644.699951171875,
+        "min": 3639.89990234375,
+        "max": 4050.39990234375,
+        "rawPerTrialValues": [
+          3639.89990234375,
+          3644.699951171875,
+          4050.39990234375
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseCount": {
+        "n": 3,
+        "median": 960,
+        "min": 960,
+        "max": 961,
+        "rawPerTrialValues": [
+          960,
+          960,
+          961
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseIntervalsMs": {
+        "p50": {
+          "n": 3,
+          "median": 4.199999999999818,
+          "min": 4.199999999999818,
+          "max": 4.199999999999818,
+          "rawPerTrialValues": [
+            4.199999999999818,
+            4.199999999999818,
+            4.199999999999818
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 4.300000000000182,
+          "min": 4.300000000000182,
+          "max": 4.300000000000182,
+          "rawPerTrialValues": [
+            4.300000000000182,
+            4.300000000000182,
+            4.300000000000182
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 4.340999999999955,
+          "min": 4.300000000000182,
+          "max": 4.400000000000546,
+          "rawPerTrialValues": [
+            4.400000000000546,
+            4.300000000000182,
+            4.340999999999955
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 4.1710114702815435,
+          "min": 4.166770833333333,
+          "max": 4.171115745568301,
+          "rawPerTrialValues": [
+            4.1710114702815435,
+            4.171115745568301,
+            4.166770833333333
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraCpuMs": {
+        "p50": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraGpuMs": {
+        "p50": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "rawPerTrialValues": [],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      }
+    },
+    {
+      "label": "native-coalesced",
+      "engine": "maplibre",
+      "instrumentation": "full",
+      "n": 3,
+      "actualMaxBatch": [
+        8192
+      ],
+      "contracts": [
+        "coalesced-final-render"
+      ],
+      "streamMs": {
+        "n": 3,
+        "median": 1330.199999999255,
+        "min": 1291.4000000003725,
+        "max": 1378,
+        "rawPerTrialValues": [
+          1291.4000000003725,
+          1378,
+          1330.199999999255
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "firstConfirmedBusinessMs": {
+        "n": 3,
+        "median": 65.09999999962747,
+        "min": 63.19999999925494,
+        "max": 81.09999999962747,
+        "rawPerTrialValues": [
+          81.09999999962747,
+          63.19999999925494,
+          65.09999999962747
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "wholeMapAndBusinessReadyWallMs": {
+        "n": 3,
+        "median": 1535.89990234375,
+        "min": 1497.10009765625,
+        "max": 1606.39990234375,
+        "rawPerTrialValues": [
+          1606.39990234375,
+          1535.89990234375,
+          1497.10009765625
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "commonPreCameraWholeMapWallMs": {
+        "n": 3,
+        "median": 1540.7998046875,
+        "min": 1500.300048828125,
+        "max": 1609.39990234375,
+        "rawPerTrialValues": [
+          1609.39990234375,
+          1540.7998046875,
+          1500.300048828125
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseCount": {
+        "n": 3,
+        "median": 961,
+        "min": 961,
+        "max": 961,
+        "rawPerTrialValues": [
+          961,
+          961,
+          961
+        ],
+        "aggregation": "one scalar per trial; repeat median and full range"
+      },
+      "poseIntervalsMs": {
+        "p50": {
+          "n": 3,
+          "median": 4.199999999999818,
+          "min": 4.199999999999818,
+          "max": 4.199999999999818,
+          "rawPerTrialValues": [
+            4.199999999999818,
+            4.199999999999818,
+            4.199999999999818
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 4.300000000000182,
+          "min": 4.300000000000182,
+          "max": 4.300000000000182,
+          "rawPerTrialValues": [
+            4.300000000000182,
+            4.300000000000182,
+            4.300000000000182
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 4.300000000000182,
+          "min": 4.300000000000182,
+          "max": 4.400000000000091,
+          "rawPerTrialValues": [
+            4.400000000000091,
+            4.300000000000182,
+            4.300000000000182
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 4.1667708333333335,
+          "min": 4.1667708333333335,
+          "max": 4.166875,
+          "rawPerTrialValues": [
+            4.166875,
+            4.1667708333333335,
+            4.1667708333333335
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraCpuMs": {
+        "p50": {
+          "n": 3,
+          "median": 0.900000000372529,
+          "min": 0.8000000007450581,
+          "max": 0.900000000372529,
+          "rawPerTrialValues": [
+            0.900000000372529,
+            0.900000000372529,
+            0.8000000007450581
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 1.599999999627471,
+          "min": 1.5,
+          "max": 1.699999999254942,
+          "rawPerTrialValues": [
+            1.699999999254942,
+            1.599999999627471,
+            1.5
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 2.400000000372529,
+          "min": 2.339999999478457,
+          "max": 2.4799999989569144,
+          "rawPerTrialValues": [
+            2.339999999478457,
+            2.4799999989569144,
+            2.400000000372529
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 0.9616024973904026,
+          "min": 0.900416233050603,
+          "max": 1.008428720090612,
+          "rawPerTrialValues": [
+            1.008428720090612,
+            0.9616024973904026,
+            0.900416233050603
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      },
+      "cameraGpuMs": {
+        "p50": {
+          "n": 3,
+          "median": 2.470208,
+          "min": 2.465312,
+          "max": 2.555328,
+          "rawPerTrialValues": [
+            2.465312,
+            2.470208,
+            2.555328
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p95": {
+          "n": 3,
+          "median": 3.044864,
+          "min": 3.011488,
+          "max": 3.100608,
+          "rawPerTrialValues": [
+            3.044864,
+            3.011488,
+            3.100608
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "p99": {
+          "n": 3,
+          "median": 3.3040703999999996,
+          "min": 3.2713664,
+          "max": 3.3165247999999994,
+          "rawPerTrialValues": [
+            3.2713664,
+            3.3165247999999994,
+            3.3040703999999996
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        },
+        "mean": {
+          "n": 3,
+          "median": 2.3338004578563996,
+          "min": 2.2396102060353797,
+          "max": 2.3623015359001043,
+          "rawPerTrialValues": [
+            2.2396102060353797,
+            2.3623015359001043,
+            2.3338004578563996
+          ],
+          "aggregation": "one scalar per trial; repeat median and full range"
+        }
+      }
+    }
+  ],
+  "figures": [
+    "matched-optimized-overview.png",
+    "matched-optimized-overview.svg",
+    "instrumentation-observed-control.png",
+    "instrumentation-observed-control.svg",
+    "matched-steady-camera.png",
+    "matched-steady-camera.svg",
+    "native-contract-comparison.png",
+    "native-contract-comparison.svg"
+  ],
+  "policy": "first 2048 then8192; actual max checked; per-batch/native-coalesced contracts separated",
+  "fullMinimalCausalOverheadMs": null,
+  "overheadUnavailableReason": "independent launch order/OS/frequency/cold-warm uncontrolled",
+  "physicalPresentationFps": null,
+  "analysisComplete": true,
+  "publicDerivation": {
+    "schema": "geo-pulse/public-report-derivation-1.0",
+    "originalAnalysisLogicalPath": "results/analysis-matched1/data.json",
+    "originalAnalysisSha256": "3225bf356fa45137a3e7fbac172ccde5492e8ac958a4d522fab56676b9d1ebd5",
+    "publicFile": "data/matched.json",
+    "numericAggregatesUnchanged": true,
+    "rawTraceIncluded": false,
+    "presentationPointsInThisAggregate": false,
+    "numericRawEvidenceDirectory": "measurements/",
+    "changes": "Local paths replaced with logical archive identifiers; all URL strings removed; long presentation-point arrays omitted from these derived aggregates and supplied separately by the numeric evidence extract. Original SHA identifies original private bytes, not this rewritten public JSON."
+  }
+}

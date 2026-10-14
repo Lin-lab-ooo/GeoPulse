@@ -23,3 +23,7 @@ Thumbs.db
 
 # Reviewed local sandbox screenshot; all other generated images remain ignored.
 !docs/assets/workspace.png
+
+# Reviewed whole-map report, figures and sanitized measurement extracts.
+!reports/whole-map-2026-10-14/
+!reports/whole-map-2026-10-14/**
