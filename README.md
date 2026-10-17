@@ -1,80 +1,82 @@
 # GeoPulse
 
-面向园区点、线和区域数据的流式 WebGL 地图原型。HTTP NDJSON 持续读取，Worker 按批解析，主线程分段写入，上传确认后才继续下一批。默认固定2048条批次和按需绘制；本地沙盒可直接运行，百度底图需要自己的浏览器端AK。
+**English** · [简体中文](README.zh-CN.md)
 
-![本地 WebGL 工作台](docs/assets/workspace.png)
+A streaming WebGL map prototype for campus and industrial-park point, line, and area data. It continuously reads HTTP NDJSON, parses batches in a Worker, stages data incrementally on the main thread, and waits for an upload acknowledgment before proceeding to the next batch. The defaults are fixed batches of 2,048 features and demand-driven rendering. The local sandbox runs without an account; the Baidu basemap requires your own browser API key (AK).
 
-截图来自无账号、无外网的本地沙盒冷启动验证；其中 rAF 回调指标不等同于屏幕呈现帧率。
+![Local WebGL workspace](docs/assets/workspace.png)
 
-## 开始运行
+The screenshot comes from a cold-start check of the local sandbox without an account or external network access. Its requestAnimationFrame (rAF) callback metrics are not screen presentation frame rates.
 
-安装 Node.js 20 或更新版本，然后在仓库根目录运行：
+## Quick start
+
+Install Node.js 20 or later, then run this command from the repository root:
 
 ```sh
 npm start
 ```
 
-打开 http://127.0.0.1:4173/ 。应用无需安装npm依赖。Windows也可双击 `start.cmd`。首次先用本地沙盒，不需要地图账号；若连接百度，在“地图接入”填入自己的浏览器端AK并配置来源白名单，不要提交AK到仓库。
+Open http://127.0.0.1:4173/ . There are no npm dependencies to install. On Windows, you can also double-click `start.cmd`. Start with the local sandbox, which does not require a map account. To connect to Baidu, enter your own browser AK under “地图接入” (Map connection) and configure its referrer allowlist. Do not commit an AK to this repository.
 
-点击开始加载，可切换点/线/区域图层、平移缩放、查看告警与运行记录；支持停止后重新加载。导出按钮把报告保存在本机 `reports`，该目录默认不进入Git。
+Start loading to explore the point, line, and area layers, pan and zoom the map, and inspect alerts and run logs. You can stop the stream and start a new load. The export buttons save reports to the local `reports` directory; exported files are excluded from Git by default.
 
-## 实现要点
+## Implementation highlights
 
-- **持续取流与背压**：按当前批次剩余容量解析；完整批上传确认后发送ACK，一次只允许一个未确认批次。ACK不是GPU执行完成或屏幕呈现。
-- **增量更新**：同ID的连续顶点绑定合并脏范围，避免重复全页统计；可选简要提交回执。位置更新作用于当前绑定槽位，后续同ID追加保留新输入坐标。
-- **空间拾取**：复用完整空间树缩小候选，再计算精确最近顶点；树未完成时回退全扫描。移动对象、删除与透明状态单独处理。
-- **按需绘制**：数据、交互、动画与建树工作驱动绘制。告警脉冲等活动存在时仍会绘制，不能把demand理解为永远零帧。
-- **可核对实验**：位置、上传、候选、图元完整性、失败状态及实际导出分别验证；保留负结果，不将局部CPU提速换算为整张地图FPS。
+- **Continuous streaming and backpressure:** parsing respects the remaining capacity of the current batch. The main thread sends an ACK after issuing all geometry-upload commands for the complete batch, with at most one unacknowledged batch in flight. An ACK does not mean GPU execution or screen presentation has completed.
+- **Incremental updates:** dirty ranges are merged for contiguous vertices bound to the same ID, avoiding repeated full-page statistics. A compact submission receipt is optional. Position updates affect the currently bound slots; later appends with the same ID retain their newly supplied coordinates.
+- **Spatial picking:** the complete spatial tree narrows the candidate set before an exact nearest-vertex calculation. Picking falls back to a full scan while the tree is incomplete. Moved objects, deletion, and transparency are handled separately.
+- **Demand-driven rendering:** data changes, interaction, animation, and tree-building work trigger rendering. Active effects such as alert pulses continue to draw; “demand” does not mean permanently zero frames.
+- **Auditable experiments:** positions, uploads, candidates, primitive completeness, failure states, and actual exports are validated separately. Negative results are retained, and component CPU speedups are not converted into whole-map FPS claims.
 
-动态包围盒维护与“首批2048、后续8192”目前是研究候选，没有替换正式默认。本轮五组合比较包含246项质量断言、72次完整RGBA对照，以及54次性能加载；材料、采用状态和负结果见[测试报告](docs/TEST-REPORT.md)。
+Dynamic bounding-box maintenance and the “first batch 2,048, subsequent batches 8,192” policy remain research candidates; neither has replaced the production defaults. The five-combination evaluation includes 246 quality assertions, 72 complete RGBA comparisons, and 54 performance loads. See the [test report](docs/TEST-REPORT.md) for the evidence, adoption status, and negative results.
 
-## 整图性能报告与曲线
+## Whole-map performance reports and charts
 
-[按主题阅读新版性能图](reports/whole-map-2026-10-15-design/README.md)：每张图单独展示一个主题，保留实测散点、中位数与范围；加载、更新、CPU、GPU 和百度验证分别组织。下载仓库后可打开其中的 `index.html`，一次浏览一张图。本次只是图表重排，原始数据和报告保留。
+[Browse the redesigned charts by topic](reports/whole-map-2026-10-15-design/README.md). Each chart covers one topic and retains individual measurements, medians, and ranges. Loading, updates, CPU, GPU, and Baidu validation are presented separately. After downloading the repository, open that report's `index.html` to view one chart at a time. This update only reorganizes the charts; the original data and reports are preserved.
 
-[2026-10-14 整图报告](reports/whole-map-2026-10-14/README.md)比较真实城市底图上的流式加载、地图交互和位置更新，分别记录 CPU、GPU 与浏览器呈现反馈。下表为本机 10 万合成点、相同批量策略、各三次重复的中位数；MapLibre 使用原生更新合并。各库的完成条件和重复范围在报告中单列。
+The [2026-10-14 whole-map report](reports/whole-map-2026-10-14/README.md) compares streaming ingestion, camera interaction, and position updates on a real city basemap, with separate CPU, GPU, and browser presentation feedback. The table below shows medians from three local runs with 100,000 synthetic points and matched batch settings. MapLibre uses its native update coalescing. The report lists each library's completion contract and repeat ranges separately.
 
-| 指标 | GeoPulse | deck.gl | MapLibre |
+| Metric | GeoPulse | deck.gl | MapLibre |
 | --- | ---: | ---: | ---: |
-| 底图＋业务准备完成 | 293.9 ms | 327.8 ms | 1535.9 ms |
-| 两点位置更新至实际绘制确认 | 3.7 ms | 4.2 ms | 504.3 ms |
+| Basemap + business overlay ready | 293.9 ms | 327.8 ms | 1535.9 ms |
+| Two-point position update to actual draw confirmation | 3.7 ms | 4.2 ms | 504.3 ms |
 
-准备时间包含底图资源与业务链路，排除运行前已加载的 JS 包。优势集中在这些场景的数据接入和位置更新；整图稳态 GPU 绘制没有 GeoPulse 领先证据，不能把加载收益换算为 FPS 提升。与 deck.gl 的准备时间重复范围存在重叠，不据中位数小差异宣称普遍优势。
+Readiness includes basemap resources and the business-data pipeline, but excludes JavaScript bundles loaded before the run. The observed strengths are data ingestion and position updates in these workloads. There is no evidence that GeoPulse leads in steady-state whole-map GPU rendering, and loading gains cannot be converted into FPS improvements. The readiness-time ranges overlap with deck.gl, so the small difference between medians does not establish a general advantage.
 
-![整图与业务准备完成：三次实测、中位数与范围](reports/whole-map-2026-10-15-design/figures/matched/whole-map-ready.png)
+![Basemap and business overlay readiness: three measurements, median, and range](reports/whole-map-2026-10-15-design/figures/matched/whole-map-ready.png)
 
-[单独查看两点更新图](reports/whole-map-2026-10-15-design/charts/updates/two-point-update-wall.md) · [单独查看整图 CPU](reports/whole-map-2026-10-15-design/charts/matched/camera-whole-map-cpu.md) · [单独查看整图 GPU](reports/whole-map-2026-10-15-design/charts/matched/camera-whole-map-gpu.md)。
+[Two-point update chart](reports/whole-map-2026-10-15-design/charts/updates/two-point-update-wall.md) · [Whole-map CPU chart](reports/whole-map-2026-10-15-design/charts/matched/camera-whole-map-cpu.md) · [Whole-map GPU chart](reports/whole-map-2026-10-15-design/charts/matched/camera-whole-map-gpu.md).
 
-百度生产路径另测真实上海底图上的 10 万合成点、线、矩形（12 万顶点）。底图准备后的业务加载中位数由 454.3 ms 降到 254.3 ms；SDK 连接和底图网络准备时间另记。这是固定批次与 hybrid 的本机对照，不能当作整张地图冷启动或帧率提升。
+The Baidu product path was tested separately with 100,000 synthetic points, lines, and rectangles (120,000 vertices) on a real Shanghai basemap. Median business-data loading time after the basemap was ready decreased from 454.3 ms to 254.3 ms. SDK connection and basemap network readiness were recorded separately. This is a local comparison of fixed batching and hybrid batching; it is not a whole-map cold-start measurement or a frame-rate improvement.
 
-本版默认百度接入使用 SDK 标准底图，避免可选自定义样式加载失败时出现空白底图。今后的主要性能结论遵循[整图测试协议](docs/WHOLE-MAP-BENCHMARK-PROTOCOL.md)：先验证底图有效，再测完整链路，保留缺失值、失败和不同确认合同。
+The default Baidu integration uses the SDK's standard basemap to avoid a blank map if an optional custom style fails to load. Future primary performance conclusions follow the [whole-map benchmark protocol](docs/WHOLE-MAP-BENCHMARK-PROTOCOL.md): validate the basemap first, measure the complete pipeline, and retain missing values, failures, and differences in confirmation contracts.
 
-## 测试与复现
+## Tests and reproduction
 
 ```sh
 npm test
 ```
 
-默认执行仓库包含的核心Node测试，不需要AK、浏览器或外部服务。2026年10月14日在此公开副本实跑 **594/594通过，0失败、0跳过**；重新执行时以当次输出为准。不要把历史完整研究中的612项等同于本精简仓库的默认测试数。
+This runs the core Node tests included in this repository and requires no AK, browser, or external service. On October 14, 2026, this public copy was tested with **594/594 passing, 0 failures, and 0 skipped tests**. For a new run, use that run's output. Do not equate the 612 tests in the historical full research workspace with the default test count in this smaller public repository.
 
-本次上传前再次执行核心测试，仍为 **594/594 通过**。本次测试回执、源码身份与测量证据范围见[发布核验记录](docs/WHOLE-MAP-PUBLICATION-CHECKS.json)。
+The core tests were run again before this upload, with **594/594 passing**. See the [publication verification record](docs/WHOLE-MAP-PUBLICATION-CHECKS.json) for the test receipt, source identity, and scope of the measurement evidence.
 
-图表源码和从公开聚合数据重画的命令见[图表复现](tools/whole-map-report-analysis/README.md)，不需要地图 AK。
+See [chart reproduction](tools/whole-map-report-analysis/README.md) for the chart source and commands to redraw the published aggregate data. No map AK is needed.
 
-新版独立图与画廊的生成命令见[新版图表复现](tools/whole-map-report-design/README.md)。
+See [redesigned-chart reproduction](tools/whole-map-report-design/README.md) for the commands that generate the individual charts and gallery.
 
-需要验证真实取流、Worker、完整图元上传、像素、更新、取消和导出时，按[可选浏览器复现](docs/BROWSER-REPRODUCTION.md)运行独立链路工具。它不包含在默认CI中，研究组合也没有改写生产默认。
+To validate actual streaming, Workers, complete primitive uploads, pixels, updates, cancellation, and exports, use the independent pipeline tools described in [optional browser reproduction](docs/BROWSER-REPRODUCTION.md). They are not part of the default CI, and the research combinations have not changed the production defaults.
 
-一个依赖约69.23MiB历史JSON的归档证据审计测试被单列为 `npm run test:archive`。历史报告原件没有复制到公开仓库；缺少输入时该命令明确退出2，不静默跳过。详情见[归档测试](docs/ARCHIVE-TESTS.md)。GitHub Actions只运行核心Node测试，不能替代原生WebGL、真实SDK或性能测试。
+An archived-evidence audit that depends on approximately 69.23 MiB of historical JSON is available separately through `npm run test:archive`. The historical original reports are not copied into this public repository. If its inputs are missing, the command explicitly exits with code 2 rather than silently skipping. See [archive tests](docs/ARCHIVE-TESTS.md). GitHub Actions runs only the core Node tests; it does not replace native WebGL, real SDK, or performance testing.
 
-## 当前边界
+## Current limitations
 
-百万压力材料是固定种子合成点、折线与轴对齐矩形，不是真实百万设备。当前未支持任意凹多边形、孔洞和完整GeoJSON编辑；线/面的点击仍采用最近顶点语义。
+The million-feature stress workload consists of fixed-seed synthetic points, polylines, and axis-aligned rectangles, not a million real devices. Arbitrary concave polygons, holes, and full GeoJSON editing are not supported. Line and area picking still uses nearest-vertex semantics.
 
-真实百度SDK强制context loss曾触发整页reload，原地图实例恢复未证实；普通加载通过不能覆盖这个失败。神经网络演示保留误报和负收益结果，不是可靠工业告警系统。详见[已知限制](docs/KNOWN-LIMITATIONS.md)。
+Forcing context loss in the real Baidu SDK has triggered a full-page reload; recovery of the original map instance has not been demonstrated. Successful normal loading does not cover that failure. The neural-network demonstration retains false positives and negative-benefit results and is not a reliable industrial alerting system. See [known limitations](docs/KNOWN-LIMITATIONS.md).
 
-## 许可证与来源
+## License and provenance
 
-自有源码采用[MIT](LICENSE)。SKAB数据及其重排文件有单独GPL-3.0文本和作者说明，不受项目MIT声明替代。见[第三方材料](THIRD_PARTY_NOTICES.md)与[模型实验](ml/README.md)。百度SDK在线加载，用户自行配置服务账号。
+Original project source is licensed under [MIT](LICENSE). The SKAB data and its reordered files have separate GPL-3.0 license text and author attribution; the project's MIT declaration does not replace those terms. See [third-party notices](THIRD_PARTY_NOTICES.md) and the [model experiments](ml/README.md). The Baidu SDK is loaded online, and users must configure their own service accounts.
 
-GitHub：[Lin-lab-ooo/GeoPulse](https://github.com/Lin-lab-ooo/GeoPulse) · Gitee：[lin-lab/GeoPulse](https://gitee.com/lin-lab/GeoPulse)。两边使用同一条发布历史；历史创建时点清单保留原始状态，不作为当前发布状态。
+GitHub: [Lin-lab-ooo/GeoPulse](https://github.com/Lin-lab-ooo/GeoPulse) · Gitee: [lin-lab/GeoPulse](https://gitee.com/lin-lab/GeoPulse). Both repositories use the same release history. Historical creation-time manifests retain their original status and do not describe the current publication state.
