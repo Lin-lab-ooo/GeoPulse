@@ -59,7 +59,7 @@ npm test
 
 This runs the core Node tests included in this repository and requires no AK, browser, or external service. On October 14, 2026, this public copy was tested with **594/594 passing, 0 failures, and 0 skipped tests**. For a new run, use that run's output. Do not equate the 612 tests in the historical full research workspace with the default test count in this smaller public repository.
 
-The core tests were run again before this upload, with **594/594 passing**. See the [publication verification record](docs/WHOLE-MAP-PUBLICATION-CHECKS.json) for the test receipt, source identity, and scope of the measurement evidence.
+The archived pre-publication verification also records **594/594 passing**. See the [publication verification record](docs/WHOLE-MAP-PUBLICATION-CHECKS.json) for the test receipt, source identity, and scope of the measurement evidence.
 
 See [chart reproduction](tools/whole-map-report-analysis/README.md) for the chart source and commands to redraw the published aggregate data. No map AK is needed.
 
